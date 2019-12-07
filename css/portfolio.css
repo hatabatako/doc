@@ -11,8 +11,12 @@ section{
 	height:100vh;
 }
 
+#works{
+	height:auto;
+}
+
 h2{
-	padding:80px;
+	padding:10px;
 	text-align:center;
 }
 
@@ -76,13 +80,26 @@ nav{ /*ページの設定*/
 	position:fixed;
 	background-color:rgba(255,255,255);
 	transition:all 0.5s ease;
+	z-index:5000;
 }
 nav.active{ /*アクティブ時の位置*/
 	transform:translateY(0);
 }
+
+#menu_list{
+	display:flex;
+}
+#menu_list div:nth-of-type(1){
+
+
+}
+#menu_list div:nth-of-type(2){
+}
+
 .menu_img{
 	height:100%;
 }
+
 nav h2{
 	padding:0px;
 	position:absolute;
@@ -114,6 +131,8 @@ ul{
 	align-items:center;*/
 }
 
+
+
 li{
 	padding:10px;
 	text-align:left;
@@ -137,7 +156,11 @@ a{
 	width:100vw;
 	height:100vh;
 	z-index:-100;	
-	/*filter: blur(3.5px)*/
+	transition:all 1.0s ease;
+}
+
+.background-image.active{
+	filter:blur(3.5px);
 }
 
 /*＝＝＝＝＝＝Top＝＝＝＝＝＝*/
@@ -145,9 +168,7 @@ a{
 	display: table-cell;
   	vertical-align: middle;
   	text-align:center;
-/*	background-image: url(../img/Top3.jpg);	*/
 	background-size:cover;
-
 }
 
 #top h1{
@@ -189,7 +210,6 @@ a{
 	text-align: center;
 }
 
-
 /*＝＝＝＝＝＝Works＝＝＝＝＝＝*/
 #works{
 	width:90%;
@@ -206,17 +226,41 @@ a{
 }
 
 .works_box{
-	padding:30px 0;
-	width:30%;
+	padding:10px 0;
+	width:40%;
 }
+
 .works_img{
-	text-align: center
+	display:block;
+	text-align: center;
+	position:relative;
+	width:100%;
 }
-.works_box img{
-	width:200px;
-	height:200px;
-	border-radius:50%;
+
+.works_img img{
+	width:500px;
+	height:285px;
+/*	position: absolute;*/
 }
+.hoverBlack{
+	display:none;
+	background-color:rgba(113, 114, 114, 0);
+	font-weight: bold;
+}
+.works_img:hover > .hoverBlack{
+	position:absolute;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:480px;
+	height:265px;
+	background-color:rgba(113, 114, 114, 0.6);
+	font-size:20px;
+}
+
 .works_box p{
 	text-align: center;
 }
@@ -226,8 +270,10 @@ a{
 }
 .works_btn {
   display: inline-block;
-/*  position:absolute;
-  bottom:0px;*/
+  /*
+  position:absolute;
+  bottom:0px;
+  */
   padding: 3px 10px;
   font-size: 16px;
   text-decoration: none;
@@ -240,4 +286,70 @@ a{
 .works_btn:hover {
   background: #67c5ff;
   color: white;
+}
+
+
+/*＝＝＝＝＝＝Contact＝＝＝＝＝＝*/
+form{
+	width:80%;
+	margin:0 auto;
+}
+.cp_iptxt {
+	position: relative;
+	width: 40%;
+	margin: 10px auto;
+}
+.cp_iptxt input,.cp_iptxt textarea{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+	padding: 5px;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+.cp_iptxt input[name="subj"],.cp_iptxt textarea{
+	padding-left:10px;
+}
+.cp_iptxt textarea{
+	height:150px;
+	resize:none;
+}
+
+.cp_iptxt input:focus,.cp_iptxt textarea:focus {
+	border-color: #da3c41;
+}
+.cp_iptxt input[name=name],input[name=email],input[name=tel] {
+	padding-left: 40px;
+}
+.cp_iptxt i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	padding: 9px 8px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+/*.cp_iptxt input:focus,.cp_iptxt textarea:focus + i {
+	color: #da3c41;
+}*/
+
+.contact_btn{
+	text-align:center;
+}
+
+.contact_btn input{
+	font: 15px/24px sans-serif;
+	border:1px solid #333;
+	width:20%;
+	margin:8px 0px;
+	padding:5px;
+}
+
+.contact_btn input:hover{
+	background-color:black;
+	color:white;
+
 }

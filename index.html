@@ -9,8 +9,10 @@
 	<!--JQuery-->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
+	<!-- Font Awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-</head> 
+	</head> 
 <body>
 	<header>
 	</header>
@@ -22,17 +24,18 @@
 		</div>
 
 		<nav id="menu_list">
-
 			<img src="./img/Menu.jpg" class="menu_img">
-			<h2>MENU</h2>
-			<div class="menu_back">
-				<ul>
-					<li><a href="#">Top</a></li>
-					<li><a href="#">Profile</a></li>
-					<li><a href="#">Works</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
+			<div>
+				<h2>MENU</h2>
+				<div class="menu_back">
+					<ul>
+						<li><a href="#">Top</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 
@@ -40,8 +43,8 @@
 
 	<main>
 		<section id="top">
-			<h1>I AM ...</h1>
-			<p>DESIGNER/PHOTOGRAP</p>
+			<h1>I AM</h1>
+			<p>DESIGNER/PHOTOGRAPER</p>
 		</section>
 		
 		<section id="about">
@@ -79,54 +82,85 @@
 		<section id="works">
 			<h2>Works</h2>
 			<div class="works_list">
-				<div class="works_box">
-					<div class="works_img">
+ 				<div class="works_box">
+					<a class="works_img" href="#">
 						<img src="./img/Works1.jpg">
-					</div>	
-					<p>aaaaaaaaaaaa</p>
+  						<div class="hoverBlack"><p>More</p></div>
+					</a>
+<!-- 					<div>
+						<h3>xxxx</h3>
+						<p>aaaaaaaaaaaa</p>
+					</div> -->
 				</div>
-				<div class="works_box">
-					<div class="works_img">
-						<img src="./img/Works2.jpg">
-					</div>
-					<p>aaaaaaaaaaaa</p>
-				</div>
-				<div class="works_box">
-					<div class="works_img">
-						<img src="./img/Works3.jpg">
-					</div>
-					<p>aaaaaaaaaaaa</p>
-				</div>
-				<div class="works_box">
-					<div class="works_img">
+ 				<div class="works_box">
+					<a class="works_img" href="#">
 						<img src="./img/Works1.jpg">
-					</div>	
-					<p>aaaaaaaaaaaa</p>
-				</div>
-				<div class="works_box">
-					<div class="works_img">
-						<img src="./img/Works2.jpg">
+  						<div class="hoverBlack"><p>More</p></div>
+					</a>
+<!-- 					<div>
+						<h3>xxxx</h3>
+						<p>aaaaaaaaaaaa</p>
 					</div>
-					<p>aaaaaaaaaaaa</p>
-				</div>
-				<div class="works_box">
-					<div class="works_img">
-						<img src="./img/Works3.jpg">
+ -->			</div>
+ 				<div class="works_box">
+					<a class="works_img" href="#">
+						<img src="./img/Works1.jpg">
+  						<div class="hoverBlack"><p>More</p></div>
+					</a>
+<!-- 					<div>
+						<h3>xxxx</h3>
+						<p>aaaaaaaaaaaa</p>
 					</div>
-					<p>aaaaaaaaaaaa</p>
+ -->			</div>
+				 <div class="works_box">
+					<a class="works_img" href="#">
+						<img src="./img/Works1.jpg">
+  						<div class="hoverBlack"><p>More</p></div>
+					</a>
+<!-- 					<div>
+						<h3>xxxx</h3>
+						<p>aaaaaaaaaaaa</p>
+					</div> -->
 				</div>
 			</div>
 			<div class="more">
 				<a href="#" class="works_btn">more</a>
-			</div>			
+			</div>
 		</section>
 
-		<section>
+		<section id="blog">
 			<h2>Blog</h2>
 		</section>
 		
-		<section>
+		<section id="contact">
 			<h2>Contact</h2>
+			<form action="" method="get" autocomplete="off">
+
+				<div class="cp_iptxt">
+					<input type="text" name="name" placeholder="Name">
+					<i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+				<div class="cp_iptxt">
+					<input type="email" name="email" placeholder="E-Mail">
+					<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+				<div class="cp_iptxt">
+					<input type="telephone" name="tel" placeholder="Tel">
+					<i class="fas fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+				</div>
+				<div class="cp_iptxt">
+					<input type="text" name="subj" placeholder="Subject">
+				</div>
+				<div class="cp_iptxt">
+					<textarea name="msg" placeholder="Message"></textarea>
+				</div>
+
+				<div class="contact_btn">
+					<input type="submit" name="submit" value="Send">
+				</div>
+				
+			</form>
+			
 		</section>		
 		
 	</main>
@@ -135,5 +169,3 @@
 	</footer>
 </body>
 </html>
-
-<!-- sectionってなんだ -->
