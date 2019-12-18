@@ -3,6 +3,8 @@
 *{
 	margin:0px;
 	padding:0px;
+	font-family: 'Noto Sans JP', sans-serif;
+	letter-spacing: 2px;
 }
 
 /*＝＝＝＝＝セクション　統一＝＝＝＝＝*/
@@ -11,13 +13,15 @@ section{
 	height:100vh;
 }
 
-#works{
+#works,#blog{
 	height:auto;
 }
 
 h2{
-	padding:10px;
+	padding:50px;
 	text-align:center;
+	font-family: 'Pontano Sans', sans-serif;
+	letter-spacing: 4px;
 }
 
 /*＝＝＝＝＝＝ハンバーガーメニュー＝＝＝＝＝＝*/
@@ -82,6 +86,7 @@ nav{ /*ページの設定*/
 	transition:all 0.5s ease;
 	z-index:5000;
 }
+
 nav.active{ /*アクティブ時の位置*/
 	transform:translateY(0);
 }
@@ -90,8 +95,6 @@ nav.active{ /*アクティブ時の位置*/
 	display:flex;
 }
 #menu_list div:nth-of-type(1){
-
-
 }
 #menu_list div:nth-of-type(2){
 }
@@ -125,10 +128,6 @@ ul{
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-/*	height:40px;
-	display:flex;
-	justify-content:flex-end;
-	align-items:center;*/
 }
 
 
@@ -138,7 +137,7 @@ li{
 	text-align:left;
 }
 
-a{
+nav a{
 	color:#000000;
 	text-decoration:none;
 	padding:20px 10px;
@@ -173,9 +172,11 @@ a{
 
 #top h1{
 	font-size:64px;
+	font-family: 'Poiret One', cursive;
 }
 #top p{
 	font-size:20px;
+	font-family: 'Poiret One', cursive;
 }
 
 
@@ -210,6 +211,30 @@ a{
 	text-align: center;
 }
 
+.sns_back{
+	background-color:white;
+	border-radius:50%;
+	width:30px;
+	height:30px;
+	position:relative;
+}
+.a_sns{
+	text-align:right;
+}
+
+.fa-twitter{
+	position:absolute;
+	display:flex;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:transparent;
+}
+
+.fa-instagram{
+	color:#CF2E92;
+}
+
 /*＝＝＝＝＝＝Works＝＝＝＝＝＝*/
 #works{
 	width:90%;
@@ -226,28 +251,28 @@ a{
 }
 
 .works_box{
-	padding:10px 0;
 	width:40%;
+	padding:8px;
 }
 
 .works_img{
 	display:block;
 	text-align: center;
 	position:relative;
-	width:100%;
 }
 
-.works_img img{
-	width:500px;
-	height:285px;
-/*	position: absolute;*/
+.img{
+	background-size: cover;
+  	background-position: center center;/*上下左右の中央で抜き出し*/
+  	padding-top: 62.5%;
+  	width: 100%;
 }
+
 .hoverBlack{
 	display:none;
-	background-color:rgba(113, 114, 114, 0);
-	font-weight: bold;
 }
 .works_img:hover > .hoverBlack{
+	/*中央揃え*/
 	position:absolute;
 	display:flex;
 	justify-content: center;
@@ -255,38 +280,35 @@ a{
 	top:50%;
 	left:50%;
 	transform:translate(-50%,-50%);
-	width:480px;
-	height:265px;
-	background-color:rgba(113, 114, 114, 0.6);
+    /*画像サイズ*/
+	width:95%;
+	height:95%;
+	background-color:rgba(255, 255, 255, 0.7);
+	/*文字*/
 	font-size:20px;
+	color:black;
 }
 
 .works_box p{
 	text-align: center;
 }
 
-.more{
-	width:100%;
-}
-.works_btn {
-  display: inline-block;
-  /*
-  position:absolute;
-  bottom:0px;
-  */
-  padding: 3px 10px;
-  font-size: 16px;
-  text-decoration: none;
-  color: #67c5ff;
-  border: solid 2px #67c5ff;
-  border-radius: 3px;
-  transition: 0.4s;
+/*＝＝＝＝＝＝blog＝＝＝＝＝＝*/
+.blog_list{
+	display:flex;
+	flex-direction: column;
+  	align-items: center;
 }
 
-.works_btn:hover {
-  background: #67c5ff;
-  color: white;
+.blog_block{
+	height:150px;
+	width:70%;
+	background-color:white;
+
+	margin:15px;
+
 }
+
 
 
 /*＝＝＝＝＝＝Contact＝＝＝＝＝＝*/
@@ -332,9 +354,6 @@ form{
 	transition: 0.3s;
 	color: #aaaaaa;
 }
-/*.cp_iptxt input:focus,.cp_iptxt textarea:focus + i {
-	color: #da3c41;
-}*/
 
 .contact_btn{
 	text-align:center;
@@ -352,4 +371,13 @@ form{
 	background-color:black;
 	color:white;
 
+}
+
+
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 786px){
+	.works_list{
+		flex-flow: column;
+	}
 }
