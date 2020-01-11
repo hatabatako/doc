@@ -10,7 +10,8 @@
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
 	<!-- Font Awesome-->
-	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+<!-- 	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
 	<!-- フォント -->
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap" rel="stylesheet">
@@ -34,14 +35,14 @@
 	<nav id="menu_list">
 		<img src="./img/Menu.jpg" class="menu_img">
 		<div>
-			<h2>MENU</h2>
+<!-- 			<h2>MENU</h2> -->
 			<div class="menu_back">
 				<ul>
-					<li><a href="#">Top</a></li>
-					<li><a href="#">Profile</a></li>
-					<li><a href="#">Works</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#"><span class="menu_left">Top</span><span class="menu_right">トップ</span></a></li>
+					<li><a href="#"><span class="menu_left">Profile</span><span class="menu_right">プロフィール</span></a></li>
+ 					<li><a href="#"><span class="menu_left">Works</span><span class="menu_right">実績</span></a></li>
+					<li><a href="#"><span class="menu_left">Blog</span><span class="menu_right">ブログ</span></a></li>
+					<li><a href="#"><span class="menu_left">Contact</span><span class="menu_right">お問い合わせ</span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -60,16 +61,10 @@
 			<h2>About</h2>
 			<div class="about_box">
 				<div class="a_box1">
-					<div class="polaroid">
-						<img src="./img/Profile.jpg">
- 						<p>おおはた　なおみ</br>
- 						　　　　　　　</p>
- 						<p></p>
-					</div>
-				</div>
-				<div class="a_box2">
-					<p>1990年 広島生まれ。関東在住。</br>
-						愛称「ばたこ」</br></br>
+					<p>
+					1990年広島生まれ</br>
+					愛称「ばたこ」</br></br>
+						
 					2013年</br>
 					広島市立大学情報科学部知能工学科卒業</br>
 					東京のIT企業にシステムエンジニアとして就職</br></br>
@@ -86,15 +81,17 @@
 					</p>
 					<div class="a_sns">
 						<div class="sns_back">
-							<a href="https://twitter.com/btbtbtk3" target="_blank"><i class="fab fa-lg fa-twitter"></i></a>
+							<a href="https://twitter.com/btbtbtk3" target="_blank"><i class="fab fa-lg fa-twitter" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i></a>
 						</div>
-						
-						<a href="https://www.instagram.com/btbtk3" target="_blank"><i class="fab fa-lg fa-instagram"></i></a>
+						<div class="sns_back">
+							<a href="https://www.instagram.com/btbtk3" target="_blank"><i class="fab fa-lg fa-instagram" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i></a>
+						</div>
 					</div>
-					
-
 				</div>
-			</div>
+				<div class="a_box2">
+					<div class="about_img" style="background-image:url(./img/Profile.jpg)"></div>
+				</div>
+			</div>			
 		</section>
 
 		<section id="works">
@@ -125,17 +122,61 @@
   						<div class="hoverBlack"><p>More</p></div>
 					</a>
 				</div>
+ 				<div class="works_box">
+					<a class="works_img" href="#">
+						<div class="img" style="background-image:url(./img/Works2.jpg)"></div>
+  						<div class="hoverBlack"><p>
+  							More</p></div>
+					</a>
+				</div>
+				<div class="works_box">
+					<a class="works_img" href="#">
+						<div class="img" style="background-image:url(./img/Works3.jpg)"></div>
+  						<div class="hoverBlack"><p>More</p></div>
+					</a>
+				</div>
 			</div>
 		</section>
 
 		<section id="blog">
 			<h2>Blog</h2>
 
-			<div class="blog_list">
-				<div class="blog_block"></div>
-				<div class="blog_block"></div>
-				<div class="blog_block"></div>
-				<div class="blog_block"></div>
+			<div class="blg_list">
+				<div class="blg_block">
+					<a href="#"></a>
+					<div class="blg_img" style="background-image:url(./img/Works1.jpg)"></div>
+ 					<div class="blg_text">
+						<p class="blg_title">Title</p>
+						<p class="blg_more">more</p>
+ 					</div>
+				</div>
+				<div class="blg_block">
+					<a href="#"></a>
+					<div class="blg_img" style="background-image:url(./img/Works2.jpg)"></div>
+					
+ 					<div class="blg_text">
+						<p class="blg_title">Title</p>
+						<p class="blg_more">more</p>
+ 					</div>
+				</div>
+				<div class="blg_block">
+					<a href="#"></a>
+					<div class="blg_img" style="background-image:url(./img/Works3.jpg)"></div>
+					
+ 					<div class="blg_text">
+						<p class="blg_title">Title</p>
+						<p class="blg_more">more</p>
+ 					</div>
+				</div>
+				<div class="blg_block">
+					<a href="#"></a>
+					<div class="blg_img" style="background-image:url(./img/Works3.jpg)"></div>
+					
+ 					<div class="blg_text">
+						<p class="blg_title">Title</p>
+						<p class="blg_more">more</p>
+ 					</div>
+				</div>
 			</div>
 		</section>
 		
@@ -143,25 +184,40 @@
 			<h2>Contact</h2>
 			<form action="" method="get" autocomplete="off">
 
-				<div class="cp_iptxt">
-					<input type="text" name="name" placeholder="Name">
-					<i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
-				</div>
-				<div class="cp_iptxt">
-					<input type="email" name="email" placeholder="E-Mail">
-					<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
-				</div>
-				<div class="cp_iptxt">
-					<input type="telephone" name="tel" placeholder="Tel">
-					<i class="fas fa-phone fa-lg fa-fw" aria-hidden="true"></i>
-				</div>
-				<div class="cp_iptxt">
-					<input type="text" name="subj" placeholder="Subject">
-				</div>
-				<div class="cp_iptxt">
-					<textarea name="msg" placeholder="Message"></textarea>
+				<div class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="text" name="name" placeholder="Name">
+						<i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+					</div>
 				</div>
 
+				<div class="contact_box">				
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="email" name="email" placeholder="E-Mail">
+						<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="telephone" name="tel" placeholder="Tel">
+						<i class="fas fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="text" name="subj" placeholder="Subject">
+					</div>
+				</div>
+				<div class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<textarea name="msg" placeholder="Message"></textarea>
+					</div>
+				</div>
 				<div class="contact_btn">
 					<input type="submit" name="submit" value="Send">
 				</div>

@@ -20,12 +20,9 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 
 
 	//scroll
-	var section = $('main > section');
+	 var section = $('main > section');
 
-	//windowロード
-
-
-
+	
 	//window(表示されているところ)がscroll
 	//検索キーワード「onイベント jquery」
 	$(window).on('scroll',function(){
