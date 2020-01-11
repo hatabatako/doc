@@ -1,21 +1,6 @@
 $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 	$('#menu').on('click',function(){
-		if($('#menu').hasClass('open')){
-			//openのとき
-			$('#menu').removeClass('open');
-			$('#menu').addClass('close');
-
-			$('#menu_list').addClass('active');
-
-			$('body').css('overflow','hidden');/*今表示されてる画面のみ認識*/
-		}else{
-			//closeのとき
-			$('#menu').removeClass('close');
-			$('#menu').addClass('open');
-
-			$('#menu_list').removeClass('active');
-			$('body').css('overflow','visible');/*デフォルトの状態*/
-		}
+		menu();
 	});
 
 
@@ -110,11 +95,41 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 	});
 
 
+	//メニュー画面飛ばす
+	$('a[href^="#"]').on('click',function(){
+		var speed=400;
+		var href=$(this).attr("href")//属性値の取得　attr('属性') name,typeとか
+		//(念のための)移動先を取得
+		var target = $(href == "#" || href == "" ? 'html' :href);
+		//移動先を数値を取得(セクションのトップの位置を取得)
+		var position = target.offset().top;
+
+		$('body,html').animate({scrollTop:position}, speed, 'swing');
 
 
+		menu();
 
-
-
-	
+		return false;
+	});
 
 })
+
+
+function menu(){
+	if($('#menu').hasClass('open')){
+		//openのとき
+		$('#menu').removeClass('open');
+		$('#menu').addClass('close');
+
+		$('#menu_list').addClass('active');
+
+		$('body').css('overflow','hidden');/*今表示されてる画面のみ認識*/
+	}else{
+		//closeのとき
+		$('#menu').removeClass('close');
+		$('#menu').addClass('open');
+
+		$('#menu_list').removeClass('active');
+		$('body').css('overflow','visible');/*デフォルトの状態*/
+	}	
+}

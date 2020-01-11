@@ -11,18 +11,16 @@
 section{
 	width:80%;
 /*	width:100vw;*/
-	height:auto;
-/*	height:100vh;*/
+	height:100vh;
 	margin:0 auto;
 }
 
-#contact,#top{
+#top{
 	height:100vh;
 }
 
 h2{
 /*	padding:50px;*/
-	padding-top:40px;
 	padding-bottom:32px;
 	text-align:center;
 	font-family: 'Pontano Sans', sans-serif;
@@ -162,24 +160,26 @@ li{
 }
 
 
-li::before{
+nav a::before{
 	position:absolute;
 	content:'';
-	top:0;
+	top:50%;
 	left:0;
 	width:100%;
 	height:1px;
 	background-color:rgba(200, 200, 200, 0.5);
+	transform:translateY(-50%);
 }
-li:hover::before{
+nav a:hover::before{
 	position:absolute;
 	content:'';
-	top:0;
+	top:50%;
 	left:0;
 	width:100%;
 	height:3px;
 	background-color:rgba(246, 240, 99, 1);
-	z-index:10;
+	transform:translateY(-50%);
+	z-index: 10;
 }
 
 nav a{
@@ -188,9 +188,10 @@ nav a{
 	color:black;
 	font-size:16px;
 	position:relative;
-	top:-13px;
+	top:0px;
 	display:block;
 	height:20px;
+	line-height:20px;
 }
 
 .menu_left{
@@ -255,13 +256,15 @@ nav a{
 .about_box{
 	display:flex;
 	width:100%;
+	justify-content:space-between;
 }
 .a_box1{
 	width:60%;
+	width:calc(100%-300px);
 }
 .a_box2{
 	position:relative;
-	width:40%;
+	width:300px;
 }
 .Name{
 	font-weight: bold;	
@@ -517,6 +520,9 @@ nav a{
 		width:80%;
 		padding:8px;
 	}
+	#works{
+		height:auto;
+	}
 }
 
 @media screen and (max-width: 749px){ /*スマホサイズ*/
@@ -524,5 +530,22 @@ nav a{
 		display:flex;
 		width:100%;
 		flex-direction:column-reverse;	
+	}
+}
+
+@media screen and (max-height: 783px){ /*スマホサイズ*/
+	#blog{
+		height:auto;
+	}
+}
+
+@media screen and (max-height: 534px){ /*スマホサイズ*/
+	#profile,#contact{
+		height:auto;
+	}
+}
+@media screen and (max-height: 410px){ /*スマホサイズ*/
+	#works{
+		height:auto;
 	}
 }
