@@ -118,18 +118,26 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 function menu(){
 	if($('#menu').hasClass('open')){
 		//openのとき
-		$('#menu').removeClass('open');
-		$('#menu').addClass('close');
+//		$.when(
+			$('#menu_list').removeClass('end');
+			// $('#menu_list').addClass('first');
+//		).done(
+			$('#menu').removeClass('open');
+			$('#menu').addClass('close');
 
-		$('#menu_list').addClass('active');
+			// $('#menu_list').removeClass('first');
+			$('#menu_list').addClass('active');
 
-		$('body').css('overflow','hidden');/*今表示されてる画面のみ認識*/
+			$('body').css('overflow','hidden');/*今表示されてる画面のみ認識*/
+	//	);
+
 	}else{
-		//closeのとき
 		$('#menu').removeClass('close');
 		$('#menu').addClass('open');
 
 		$('#menu_list').removeClass('active');
+		$('#menu_list').addClass('end');
 		$('body').css('overflow','visible');/*デフォルトの状態*/
-	}	
+
+	}
 }

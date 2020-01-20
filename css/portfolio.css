@@ -10,18 +10,19 @@
 /*＝＝＝＝＝セクション　統一＝＝＝＝＝*/
 section{
 	width:80%;
-/*	width:100vw;*/
 	height:100vh;
 	margin:0 auto;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;	
 }
 
-#top{
-	height:100vh;
+#blog{
+	height:auto;
 }
 
 h2{
-/*	padding:50px;*/
-	padding-bottom:32px;
+	padding:32px 0px 40px;
 	text-align:center;
 	font-family: 'Pontano Sans', sans-serif;
 	letter-spacing: 4px;
@@ -100,15 +101,21 @@ h2{
 nav{ /*ページの設定*/
 	width:100vw;
 	height:100vh;
-	transform:translateY(100%);
 	position:fixed;
 	background-color:rgba(255,255,255);
 	transition:all 0.5s ease;
 	z-index:5000;
 }
 
+nav.first{
+	transform:translateY(100%);
+}
 nav.active{ /*アクティブ時の位置*/
 	transform:translateY(0);
+}
+
+nav.end{ /*アクティブ時の位置*/
+	transform:translateY(-100%);
 }
 
 #menu_list{
@@ -259,27 +266,30 @@ nav a{
 	justify-content:space-between;
 }
 .a_box1{
-	width:60%;
 	width:calc(100%-300px);
 }
-.a_box2{
+/*.a_box2{
 	position:relative;
-	width:300px;
-}
+	width:500px;
+}*/
 .Name{
 	font-weight: bold;	
 }
 
 .about_img{
-	position:absolute;
+/*	position:absolute;
 	top:50%;
 	right:0;
-	transform:translateY(-50%);
+	transform:translateY(-50%);*/
+
 
 	background-size: cover;
   	background-position: center center;/*上下左右の中央で抜き出し*/
-  	padding-top: 100%;
-  	width: 80%;
+  	width:300px;
+  	height:400px;
+  	object-fit: cover;
+  /*  	padding-top: 100%;*/
+/*  	height: 80%;*/
 	border-radius: 4px;
 	box-shadow: 0px 0px 16px rgba(0,0,0,0.8);
 }
@@ -512,6 +522,9 @@ nav a{
  スマホ　それ以下*/
 
 @media screen and (max-width: 1023px){ /*タブレットサイズ*/
+	#works{
+		height:auto;
+	}
 	.works_list{
 		flex-flow: column;
 		align-items:center;
@@ -529,23 +542,39 @@ nav a{
 	.about_box{
 		display:flex;
 		width:100%;
-		flex-direction:column-reverse;	
+		flex-direction:column-reverse;
+		align-items:center;
+		text-align:center;
+	}
+	.about_img{
+		width:400px;
+		height:300px;
+	}
+
+	.menu_img{
+		filter:blur(3.5px);		
+	}
+
+	.menu_left,.menu_right{
+		background-color:rgba(0,0,0,0);
+		color:white;
 	}
 }
 
-@media screen and (max-height: 783px){ /*スマホサイズ*/
-	#blog{
+@media screen and (max-height: 590px){
+	#contact{
 		height:auto;
 	}
 }
 
-@media screen and (max-height: 534px){ /*スマホサイズ*/
-	#profile,#contact{
-		height:auto;
-	}
-}
-@media screen and (max-height: 410px){ /*スマホサイズ*/
+@media screen and (max-height: 555px){
 	#works{
+		height:auto;
+	}
+}
+
+@media screen and (max-height: 530px){
+	#profile{
 		height:auto;
 	}
 }
