@@ -106,13 +106,38 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 
 		$('body,html').animate({scrollTop:position}, speed, 'swing');
 
-
-		menu();
-
+		if(href!='#profile'){
+			menu();
+		}
 		return false;
 	});
 
+	//読み込み、リサイズしたら
+	$(window).on('load resize',function(){
+		//レスポンシブ　高さ
+		$('section').each(function(i,e){
+			//var height = e.height;
+			var height = $(this).height();
+			var windowHeight = $(window).outerHeight();
+			console.log(height);
+			console.log(windowHeight);
+        	console.log('tttttt');
+        	// console.log(windowHeight);
+
+
+			if(height <= windowHeight){
+				$('#'+ e.id).css('height','100vh');
+			}else{
+				$('#'+ e.id).css('height','auto');
+			}
+		});
+	});
+
 })
+
+
+
+
 
 
 function menu(){

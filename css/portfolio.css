@@ -10,15 +10,11 @@
 /*＝＝＝＝＝セクション　統一＝＝＝＝＝*/
 section{
 	width:80%;
-	height:100vh;
+/*	height:100vh;*/
 	margin:0 auto;
 	display:flex;
 	flex-direction: column;
 	justify-content:center;	
-}
-
-#blog{
-	height:auto;
 }
 
 h2{
@@ -216,11 +212,12 @@ nav a{
 
 /*＝＝＝＝＝＝Top＝＝＝＝＝＝*/
 #top{
-	height:100vh;
-	display:flex;
+/*	height:100vh;
+*/	display:flex;
 	flex-direction: column;
   	align-items: center;
   	justify-content:center;
+  	position:relative;
 
 	/*display: table-cell;
   	vertical-align: middle;
@@ -241,6 +238,7 @@ nav a{
 	animation: fadeIn 2.5s cubic-bezier(0.54, 0.13, 0.15, 0.92);
 	animation-fill-mode: forwards;
 }
+
 @keyframes fadeIn{
 	0%{
 		opacity: 0;
@@ -258,6 +256,43 @@ nav a{
 	}
 }
 
+.scroll{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	display: flex;
+	text-decoration: none;
+	transform:translate(-50%,-50%);
+	padding-top: 60px;
+	color:#000000;
+}
+.scroll span{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+	animation: sdb 1.5s infinite;
+}
+
+@keyframes sdb {
+  0% {
+    transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
 
 /*＝＝＝＝＝＝Profile＝＝＝＝＝＝*/
 .about_box{
@@ -561,7 +596,7 @@ nav a{
 	}
 }
 
-@media screen and (max-height: 590px){
+/*@media screen and (max-height: 590px){
 	#contact{
 		height:auto;
 	}
@@ -577,4 +612,4 @@ nav a{
 	#profile{
 		height:auto;
 	}
-}
+}*/
