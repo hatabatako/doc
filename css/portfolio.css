@@ -10,6 +10,7 @@
 /*＝＝＝＝＝セクション　統一＝＝＝＝＝*/
 section{
 	width:80%;
+	min-height:100vh;
 /*	height:100vh;*/
 	margin:0 auto;
 	display:flex;
@@ -212,8 +213,7 @@ nav a{
 
 /*＝＝＝＝＝＝Top＝＝＝＝＝＝*/
 #top{
-/*	height:100vh;
-*/	display:flex;
+	display:flex;
 	flex-direction: column;
   	align-items: center;
   	justify-content:center;
@@ -499,7 +499,7 @@ nav a{
 	margin: 1px auto 10px;
 }
 .contact_iptxt input,.contact_iptxt textarea{
-	font: 15px/24px sans-serif;
+	font: 16px/24px sans-serif;
 	box-sizing: border-box;
 	width: 100%;
 	margin: 1px 0;
@@ -557,6 +557,9 @@ nav a{
  スマホ　それ以下*/
 
 @media screen and (max-width: 1023px){ /*タブレットサイズ*/
+	section{
+		width:90%;
+	}
 	#works{
 		height:auto;
 	}
@@ -565,7 +568,6 @@ nav a{
 		align-items:center;
 	}
 	.works_box{
-		width:80%;
 		padding:8px;
 	}
 	#works{
@@ -574,9 +576,11 @@ nav a{
 }
 
 @media screen and (max-width: 749px){ /*スマホサイズ*/
+	section{
+		width:90%;
+	}
 	.about_box{
 		display:flex;
-		width:100%;
 		flex-direction:column-reverse;
 		align-items:center;
 		text-align:center;
@@ -593,6 +597,18 @@ nav a{
 	.menu_left,.menu_right{
 		background-color:rgba(0,0,0,0);
 		color:white;
+	}
+
+	.works_box{
+		width:90%;
+	}
+
+	.blg_block{
+		width:90%;
+	}
+
+	.contact_box{
+		width:90%;
 	}
 }
 
