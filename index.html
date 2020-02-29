@@ -16,7 +16,7 @@
 	<!-- フォント -->
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:350&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300&display=swap" rel="stylesheet">
 
 </head> 
 <body>
@@ -50,7 +50,9 @@
 	</nav>
 
 	<!-- 背景画像 -->
-	<div class="background-image"></div>
+	<div id="background-image">
+	<!-- 	<img src="img/Top.jpg"> -->
+	</div>
 
 	<main>
 		<section id="top">
@@ -183,9 +185,9 @@
 		
 		<section id="contact">
 			<h2>Contact</h2>
-			<form action="" method="get" autocomplete="off">
+			<form action="" method="post" autocomplete="off">
 
-				<div class="contact_box">
+				<div id="name" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
 						<input type="text" name="name" placeholder="Name" required>
@@ -193,34 +195,34 @@
 					</div>
 				</div>
 
-				<div class="contact_box">				
+				<div id="email" class="contact_box">				
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
 						<input type="email" name="email" placeholder="E-Mail" required>
 						<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
 					</div>
 				</div>
-				<div class="contact_box">
+				<div id="tel" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
 						<input type="telephone" name="tel" placeholder="Tel" required>
 						<i class="fas fa-phone fa-lg fa-fw" aria-hidden="true"></i>
 					</div>
 				</div>
-				<div class="contact_box">
+				<div id="subj" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
 						<input type="text" name="subj" placeholder="Subject" required>
 					</div>
 				</div>
-				<div class="contact_box">
+				<div id="msg" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
 						<textarea name="msg" placeholder="Message" required></textarea>
 					</div>
 				</div>
 				<div class="contact_btn">
-					<input type="submit" name="submit" value="Send">
+					<input type="submit" name="submit" value="Send" disabled>
 				</div>
 				
 			</form>

@@ -1,4 +1,5 @@
 $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
+
 	$('#menu').on('click',function(){
 		menu();
 	});
@@ -39,7 +40,7 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 					case 'top':
 						$(this).addClass('active');
 						break;
-					case 'about':
+					case 'profile':
 						$(this).addClass('active');
 						break;
 					case 'works':
@@ -60,16 +61,14 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 
 			//セクション#topがアクティブクラスが付与されてなかったら、付与する
 			if(!$('section#top').hasClass('active')){
-				$('.background-image').addClass('active');
+				$('#background-image').addClass('active');
 			}else{
-				$('.background-image').removeClass('active');
+				$('#background-image').removeClass('active');
 			}
-
 		});
 
 
 	});
-
 
 
 	// ページ全体の読込完了後、またはリサイズ後の処理
@@ -98,7 +97,9 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 	//メニュー画面飛ばす
 	$('a[href^="#"]').on('click',function(){
 		var speed=400;
-		var href=$(this).attr("href")//属性値の取得　attr('属性') name,typeとか
+		var href=$(this).attr("href");//属性値の取得　attr('属性') name,typeとか
+		var cl=$(this).attr("class");
+		console.log(cl);
 		//(念のための)移動先を取得
 		var target = $(href == "#" || href == "" ? 'html' :href);
 		//移動先を数値を取得(セクションのトップの位置を取得)
@@ -106,7 +107,7 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 
 		$('body,html').animate({scrollTop:position}, speed, 'swing');
 
-		if(href!='#profile'){
+		if(href!='#' && cl !="scroll"){
 			menu();
 		}
 		return false;
@@ -119,10 +120,6 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 			//var height = e.height;
 			var height = $(this).height();
 			var windowHeight = $(window).outerHeight();
-			console.log(height);
-			console.log(windowHeight);
-        	console.log('tttttt');
-        	// console.log(windowHeight);
 
 
 			if(height <= windowHeight){
@@ -133,36 +130,120 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 		});
 	});
 
+
+
+	//バリエーションチェック
+	//activeが外れた状態がblur onイベントで調べよう
+	$('input, textarea').on('blur' ,function(){
+		//入力値の確認 ログ出力
+		//console.log($(this).val());
+		var val =$(this).val();
+		var name =$(this).attr('name');
+		var id = '#' + name;
+
+		//NullCheck
+		if(nullChk(val)){
+			errMsg(id, '');
+		}else{
+			errMsg(id, '必須項目です');
+			return false; //処理中断
+		}
+
+		if(name == 'tel'){ //電話形式チェック
+			if(telChk(val)){
+				errMsg(id,'');
+			}else{
+				errMsg(id,'電話番号の形式が異なります');
+			}
+		}else if(name == 'email'){ //メール形式チェック
+			if(mailChk(val)){
+			 	errMsg(id,'');
+			}else{
+			 	errMsg(id,'メールの形式が異なります');
+			}
+		}else{ //半角記号チェック
+			if(hlfChk(val)){
+				errMsg(id,'半角記号は使用できません');
+			}else{
+				errMsg(id,'');
+			}
+		}
+
+
+		//エラーメッセージチェック
+		if(errorAllChek()==0){
+			// $('input[type="submit"]').attr('disabled',false);
+			$('input[type="submit"]').attr('disabled',false);
+		}else{
+			$('input[type="submit"]').attr('disabled',true);
+		}
+	});
+
 })
-
-
-
-
 
 
 function menu(){
 	if($('#menu').hasClass('open')){
 		//openのとき
-//		$.when(
-			$('#menu_list').removeClass('end');
-			// $('#menu_list').addClass('first');
-//		).done(
-			$('#menu').removeClass('open');
-			$('#menu').addClass('close');
-
-			// $('#menu_list').removeClass('first');
-			$('#menu_list').addClass('active');
-
-			$('body').css('overflow','hidden');/*今表示されてる画面のみ認識*/
-	//	);
-
+		$('#menu_list').removeClass('first');
+		$('#menu').removeClass('open');
+		$('#menu_list').addClass('active');
+		$('#menu').addClass('close');
+		$('body').css('overflow','hidden');/*今表示されてる画面のみ認識*/
 	}else{
 		$('#menu').removeClass('close');
-		$('#menu').addClass('open');
-
 		$('#menu_list').removeClass('active');
-		$('#menu_list').addClass('end');
+		$('#menu').addClass('open');
+		$('#menu_list').addClass('first');
 		$('body').css('overflow','visible');/*デフォルトの状態*/
-
 	}
 }
+
+function removeClass(){
+
+}
+
+//Null Check
+function nullChk(val){
+	//参考演算子 (条件式) ? 真の場合 : 偽の場合;
+	return (val == null || val == '' || val == undefined) ? false :true;
+}
+
+//Output Error Message
+function errMsg(id, msg){
+	//#name > p
+	//name > pをmsgに書き換える
+	$(id + ' > p').text(msg);
+}
+
+// Telephone Number Check
+function telChk(val){
+	//\d{3,5}-\d{3,4}-\d{3,5}
+	/*
+	console.log(val.match(/^\d{10,11}$/)); //配列で値が返ってくる
+	*/
+	return (val.match(/^\d{10,11}$/)) ? true : false;
+}
+
+// E-mail Check
+function mailChk(val){
+	return (val.match(/^[A-Za-z0-9]+[\w-]+@\w{1}[\w.-]+\w{2,}$/)) ? true : false;
+}
+
+//半角記号チェック
+function hlfChk(val){
+	return (val.match(/[!"#$%&'()\*\+\-\.,\/:;<=>?@\[\\\]^_`{|}~]/g)) ? true : false;
+}
+
+//エラーメッセージチェック
+function errorAllChek(){
+	var cnt = 0;
+	$('form p').each(function(i,e){
+		var txt = $(this).text(); //カッコの中身が記載されてない場合、その中身が取り出される
+		if(txt !=''){
+			cnt++;
+		}
+	});
+	return cnt;
+}
+

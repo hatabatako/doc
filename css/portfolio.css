@@ -27,8 +27,8 @@ h2{
 }
 
 /*＝＝＝＝＝＝背景画像＝＝＝＝＝＝*/
-.background-image{
-	background-image: url(../img/Top.jpg);	
+#background-image{
+	background-image: url(../img/Top.jpg);
 	background-size:cover;
 	opacity:0.9;
 	position:fixed;
@@ -37,8 +37,7 @@ h2{
 	z-index:-100;
 	transition:all 1.0s ease;
 }
-
-.background-image.active{
+#background-image.active{
 	filter:blur(3.5px);
 }
 
@@ -111,9 +110,9 @@ nav.active{ /*アクティブ時の位置*/
 	transform:translateY(0);
 }
 
-nav.end{ /*アクティブ時の位置*/
-	transform:translateY(-100%);
-}
+/*nav.end{ /*アクティブ時の位置*/
+/*	transform:translateY(-100%);
+}*/
 
 #menu_list{
 	display:flex;
@@ -301,30 +300,18 @@ nav a{
 	justify-content:space-between;
 }
 .a_box1{
-	width:calc(100%-300px);
+	width:calc(100%-400px);
 }
-/*.a_box2{
-	position:relative;
-	width:500px;
-}*/
 .Name{
 	font-weight: bold;	
 }
 
 .about_img{
-/*	position:absolute;
-	top:50%;
-	right:0;
-	transform:translateY(-50%);*/
-
-
 	background-size: cover;
   	background-position: center center;/*上下左右の中央で抜き出し*/
-  	width:300px;
+  	width:400px;
   	height:400px;
   	object-fit: cover;
-  /*  	padding-top: 100%;*/
-/*  	height: 80%;*/
 	border-radius: 4px;
 	box-shadow: 0px 0px 16px rgba(0,0,0,0.8);
 }
@@ -433,7 +420,7 @@ nav a{
 .blg_block{
 	position:relative;
 	display:flex;
-	width:80%;
+	width:100%;
 	height:150px;
 
 	background-color:white;
@@ -491,6 +478,8 @@ nav a{
 	font-size:8px;
 	text-align: right;
 	color:red;
+	height:15px;
+	line-height:15px;
 }
 
 .contact_iptxt {
@@ -560,9 +549,9 @@ nav a{
 	section{
 		width:90%;
 	}
-	#works{
+/*	#works{
 		height:auto;
-	}
+	}*/
 	.works_list{
 		flex-flow: column;
 		align-items:center;
@@ -610,22 +599,15 @@ nav a{
 	.contact_box{
 		width:90%;
 	}
-}
 
-/*@media screen and (max-height: 590px){
-	#contact{
-		height:auto;
-	}
-}
+	.blg_block{
+		flex-direction: column;
+		height:250px;
 
-@media screen and (max-height: 555px){
-	#works{
-		height:auto;
 	}
+	.blg_img{
+		height:50%;
+		width:100%;
+	}
+	
 }
-
-@media screen and (max-height: 530px){
-	#profile{
-		height:auto;
-	}
-}*/
