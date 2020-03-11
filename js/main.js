@@ -179,7 +179,48 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 		}
 	});
 
-})
+	//Ajax
+
+	//$('.blg_list').html('') //HTMLの中身をクリア
+	//for文で回す。記事数制限したほうがよいかも
+	//HTML上のblg_list内を全て削除
+	//HTML関数で、基盤を作って書いていく。
+	$.getJSON('http://localhost:8888/portfolio/wordpress/wp-json/wp/v2/posts?_embed',{
+		format:"json"
+	})
+	.done(function(data){
+		console.log(data);
+
+		$('.blg_list').html('');
+		for(var i=0; i < data.length; i++){
+			//Title
+			console.log("i="+i);
+			console.log("datalength="+data.length);
+			//console.log(data[i].title.rendered);
+			$('.blg_list').html('<div class="blg_block"></div>');
+			$('.blg_block').html('<a href="#"></a>');
+			$('.blg_block').html('<div class="blg_img" style="background-image:url('+data[i]['_embedded']['wp:featuredmedia'][0]['source_url']+')"></div>');
+			$('.blg_block').append('<div class="blg_text"></div>');
+			$('.blg_text').append('<p class="blg_title">'+data[i].title.rendered+'</p>');
+			console.log(i+"Title="+data[i].title.rendered);
+
+			//$('.blg_block > .blg_text > .blg_title').append(data[i].title.rendered);
+
+			//内容
+			//console.log(data[i].excerpt.rendered);
+			//$('.blg_block > .blg_text > .blg_more').append(data[i].title.rendered);
+			//アイキャッチ画像ID
+			//console.log(data[i]['_embedded']['wp:featuredmedia'][0]['source_url']);
+		}
+
+	})
+	//通信が失敗したとき
+	.fail(function(){
+		alert('通信障害が発生しました。');
+	});
+
+
+});
 
 
 function menu(){
