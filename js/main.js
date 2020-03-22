@@ -31,7 +31,7 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 			if(cur_pos >= top - offset && cur_pos <= bottom - offset){
 
 				//activeクラスを全て除去
-				section.removeClass('active');
+				$('section#top').removeClass('active');
 				//現在地のセクションのIDを取得
 				var this_id = $(this).attr('id');
 
@@ -194,15 +194,17 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 		$('.blg_list').html('');
 		for(var i=0; i < data.length; i++){
 			//Title
-			console.log("i="+i);
-			console.log("datalength="+data.length);
+			//console.log("i="+i);
+			//console.log("datalength="+data.length);
 			//console.log(data[i].title.rendered);
-			$('.blg_list').html('<div class="blg_block"></div>');
-			$('.blg_block').html('<a href="#"></a>');
-			$('.blg_block').html('<div class="blg_img" style="background-image:url('+data[i]['_embedded']['wp:featuredmedia'][0]['source_url']+')"></div>');
-			$('.blg_block').append('<div class="blg_text"></div>');
-			$('.blg_text').append('<p class="blg_title">'+data[i].title.rendered+'</p>');
-			console.log(i+"Title="+data[i].title.rendered);
+			$('.blg_list').append('<div class="blg_block"></div>');
+			var num = i + 1;
+			$('.blg_block:nth-of-type('+ num +')').append('<a href="#"></a>');
+			$('.blg_block:nth-of-type('+ num +')').append('<div class="blg_img" style="background-image:url('+data[i]['_embedded']['wp:featuredmedia'][0]['source_url']+')"></div>');
+			$('.blg_block:nth-of-type('+ num +')').append('<div class="blg_text"></div>');
+			$('.blg_block:nth-of-type('+ num +') > .blg_text').append('<p class="blg_title">'+data[i].title.rendered+'</p>');
+			$('.blg_block:nth-of-type('+ num +') > .blg_text').append('<p class="blg_more">more</p>');
+			//console.log(i+"Title="+data[i].title.rendered);
 
 			//$('.blg_block > .blg_text > .blg_title').append(data[i].title.rendered);
 

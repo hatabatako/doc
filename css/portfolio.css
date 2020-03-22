@@ -294,10 +294,25 @@ nav a{
 }
 
 /*＝＝＝＝＝＝Profile＝＝＝＝＝＝*/
+#profile h2,#profile .about_box{
+	opacity:0;
+	transform:translateY(100px);
+	transition: all 1s ease;
+}
+#profile.active h2,#profile.active .about_box{
+	opacity:1;
+	transform:translateY(0px);
+}
+#profile .about_box{
+	transition-delay: 0.5s;
+}
+
 .about_box{
 	display:flex;
 	width:100%;
 	justify-content:space-between;
+	transition-delay:0.5s;
+
 }
 .a_box1{
 	width:calc(100%-400px);
@@ -347,6 +362,23 @@ nav a{
 }
 
 /*＝＝＝＝＝＝Works＝＝＝＝＝＝*/
+#works h2,#works .works_box{
+	opacity:0;
+	transform:translateY(100px);
+	transition: all 1s ease;
+}
+#works.active h2,#works.active .works_box{
+	opacity:1;
+	transform:translateY(0px);
+}
+
+#works.active .works_box:nth-of-type(n+1):nth-of-type(-n+3){
+	transition-delay: 0.5s;
+}
+#works.active .works_box:nth-of-type(n+4):nth-of-type(-n+6){
+	transition-delay: 1s;
+}
+
 #works{
 	text-align: center;
 	position:relative;
@@ -412,6 +444,26 @@ nav a{
 }
 
 /*＝＝＝＝＝＝blog＝＝＝＝＝＝*/
+#blog h2,#blog .blg_block{
+	opacity:0;
+	transform:translateY(100px);
+	transition: all 1s ease;
+}
+#blog.active h2,#blog.active .blg_block{
+	opacity:1;
+	transform:translateY(0px);
+}
+
+#blog.active .blg_block:nth-of-type(1){
+	transition-delay: 0.5s;
+}
+#blog.active .blg_block:nth-of-type(2){
+	transition-delay: 1s;
+}
+#blog.active .blg_block:nth-of-type(3){
+	transition-delay: 1.5s;
+}
+
 .blg_list{
 	display:flex;
 	flex-direction: column;
@@ -469,6 +521,36 @@ nav a{
 
 
 /*＝＝＝＝＝＝Contact＝＝＝＝＝＝*/
+#contact h2,#contact .contact_box,#contact .contact_btn{
+	opacity:0;
+	transform:translateY(100px);
+	transition: all 1s ease;
+}
+#contact.active h2,#contact.active .contact_box,#contact .contact_btn{
+	opacity:1;
+	transform:translateY(0px);
+}
+
+#contact.active .contact_box:nth-of-type(1){
+	transition-delay: 0.5s;
+}
+#contact.active .contact_box:nth-of-type(2){
+	transition-delay: 1s;
+}
+#contact.active .contact_box:nth-of-type(3){
+	transition-delay: 1.5s;
+}
+#contact.active .contact_box:nth-of-type(4){
+	transition-delay: 2s;
+}
+#contact.active .contact_box:nth-of-type(5){
+	transition-delay: 2.5s;
+}
+#contact.active .contact_btn{
+	transition-delay: 3s;
+}
+
+
 .contact_box {
 	width:40%;
 	margin: 0 auto;
