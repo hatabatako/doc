@@ -131,6 +131,10 @@ ul,li{
 	list-style: none;
 }
 
+li{
+	padding:8px;
+}
+
 ul{
 	height:100%;
 	display: flex;
@@ -139,33 +143,48 @@ ul{
 	align-items: center;
 }
 
+#menu_list li a:hover{
+	color:red;
+
+}
+
 
 /*======== 背景画像　========*/
 #background-image{
 	/* 全画面 */
 	background-size: cover;
-	opacity: 1;
-	filter:blur(6px);
+	opacity: 0;
 	position: fixed;
 	width:100vw;
 	height: 100vh;
 	z-index: -100;
 	transition:all 1s ease;
 }
+#background-image.active{
+	opacity:1;
+}
+
 .bg_tp{
-	background-image:url(../img/Top.jpg);
+	background-image:url(../img/background14.jpg);
+	background-position:center;
 }
 .bg_pf{
-	background-image:url(../img/Works1.jpg);
+	background-image:url(../img/background17.jpg);
+	background-position:center;
+	filter:blur(3px);
 }
 .bg_wk{
-	background-image:url(../img/Works2.jpg);
+	background-image:url(../img/background23.jpg);
+	filter:blur(3px);
 }
 .bg_bg{
-	background-image:url(../img/Works3.jpg);
+	background-image:url(../img/background6.jpg);
+	filter:blur(3px);
 }
 .bg_ct{
-	background-image:url(../img/Works4.jpg);
+	background-image:url(../img/background12.jpg);
+	background-position:center;
+	filter:blur(3px);
 }
 
 /*白枠*/
