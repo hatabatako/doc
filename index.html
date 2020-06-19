@@ -1,71 +1,83 @@
 <html>
 <head> <!-- 検索時（Titleや説明文）や表示のための情報(meta charset、Title、css、JS)-->
 	<meta charset="utf-8">
+	<!-- キャッシュクリア -->
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Cache-Control" content="no-cache">
+	<!-- 表示サイズ -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- タイトル -->
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 	<!--JQuery-->
 	<script src="./js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
 	<!-- Font Awesome-->
 	<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
-<!-- 	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
 	<!-- フォント -->
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300&display=swap" rel="stylesheet">
+	<!-- Sriracha -->
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<!-- Balsamiq Sans -->
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+	<!-- Roboto -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<!-- Lato -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+	<!-- M Plus 1p -->
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+	<!-- Balow -->
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
 
 </head> 
 <body>
 	<header>
+
 	</header>
 
-
 	<!-- ハンバーガー -->
-	<div id="menu" class="open"> <!-- open/close -->
+	<div id="menu" class="close"> <!-- open/close -->
 		<div></div>
 		<div></div>
 		<div></div>
 	</div>
-
 
 	<!-- メニュー画面 -->
-	<nav id="menu_list" class="first">
-		<img src="./img/Menu.jpg" class="menu_img">
-		<div>
-<!-- 			<h2>MENU</h2> -->
-			<div class="menu_back">
+	<nav id="menu_list" class="close">
 				<ul>
-					<li><a href="#top"><span class="menu_left">Top</span><span class="menu_right">トップ</span></a></li>
-					<li><a href="#profile"><span class="menu_left">Profile</span><span class="menu_right">プロフィール</span></a></li>
- 					<li><a href="#works"><span class="menu_left">Works</span><span class="menu_right">実績</span></a></li>
-					<li><a href="#blog"><span class="menu_left">Blog</span><span class="menu_right">ブログ</span></a></li>
-					<li><a href="#contact"><span class="menu_left">Contact</span><span class="menu_right">お問い合わせ</span></a></li>
-				</ul>
-			</div>
-		</div>
+					<li><a href="#top" data-text="Top">Top</a></li>
+					<li><a href="#profile"data-text="Profile">Profile</li>
+	 				<li><a href="#work">Work</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
 	</nav>
 
-	<!-- 背景画像 -->
-	<div id="background-image">
-	<!-- 	<img src="img/Top.jpg"> -->
-	</div>
+	<!-- 背景 -->
+	<div id="background-image" class="bg_tp"></div>
+	<div id="background-image" class="bg_pf"></div>
+	<div id="background-image" class="bg_wk"></div>
+	<div id="background-image" class="bg_bg"></div>
+	<div id="background-image" class="bg_ct"></div>
 
 	<main>
+		<!-- TOPページ -->
 		<section id="top">
 			<h1>I AM</h1>
-			<p>DESIGNER/PHOTOGRAPER</p>
-
-			<a class="scroll" href="#profile"><span></span>Scroll</a>
+			<p>Web Designer<span class="slash">/</span>
+			<br class="top_br">
+			FrontEnd Engineer<span class="slash">/</span><br class="top_br">
+			Photographer</p>
 		</section>
-		
+
+		<!-- プロフィール -->
 		<section id="profile">
-			<h2>Profile</h2>
-			<div class="about_box">
-				<div class="a_box1">
+			<h2 data-text="Profile">Profile</h2>
+			<div class="prof_div box">
+				<div class="prof_text">
 					<p>
 					1990年広島生まれ</br>
 					愛称「ばたこ」</br></br>
@@ -82,111 +94,146 @@
 					システムエンジニアとして独立</br>
 					2月から独学でWebデザイン・写真の勉強を開始し、</br>
 					Webデザイナー・フォトグラファーとしての活動もスタート</br></br>
-
 					</p>
-					<div class="a_sns">
-						<div class="sns_back">
-							<a href="https://twitter.com/btbtbtk3" target="_blank"><i class="fab fa-lg fa-twitter" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i></a>
-						</div>
-						<div class="sns_back">
-							<a href="https://www.instagram.com/btbtk3" target="_blank"><i class="fab fa-lg fa-instagram" data-fa-transform="shrink-6" data-fa-mask="fas fa-circle"></i></a>
-						</div>
-					</div>
 				</div>
-					<div class="about_img" style="background-image:url(./img/Profile.jpg)"></div>
-			</div>			
+				<div class="prof_img">
+					<img src="./img/Profile.jpg">
+				</div>				
+			</div>
 		</section>
 
-		<section id="works">
-			<h2>Works</h2>
-			<div class="works_list">
- 				<div class="works_box">
-					<a class="works_img" href="#">
-						<div class="img" style="background-image:url(./img/Works4.jpg)"></div>
-  						<div class="hoverBlack"><p>HP制作</br>『La Vie Claire』</p></div>
+		<!-- 仕事 -->
+		<section id="work">
+			<h2 data-text="Works">Works</h2>
+			<div class="work_list">
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/Works3.jpg">
+						</div>
+						<div class="work_text">
+							<p>Design/Cording</p>
+						</div>
 					</a>
-				</div>
- 				<div class="works_box">
-					<a class="works_img" href="#">
-						<div class="img" style="background-image:url(./img/Works2.jpg)"></div>
-  						<div class="hoverBlack"><p>
-  							More</p></div>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/Works3.jpg">
+						</div>
+						<div class="work_text">
+							<p>Design/Cording</p>
+						</div>
 					</a>
-				</div>
-				<div class="works_box">
-					<a class="works_img" href="#">
-						<div class="img" style="background-image:url(./img/Works3.jpg)"></div>
-  						<div class="hoverBlack"><p>More</p></div>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/Works3.jpg">
+						</div>
+						<div class="work_text">
+							<p>Design/Cording</p>
+						</div>
 					</a>
-				</div>
-				 <div class="works_box">
-					<a class="works_img" href="#">
-						<div class="img" style="background-image:url(./img/Works1.jpg)"></div>
-  						<div class="hoverBlack"><p>More</p></div>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/Works3.jpg">
+						</div>
+						<div class="work_text">
+							<p>Design/Cording</p>
+						</div>
 					</a>
-				</div>
- 				<div class="works_box">
-					<a class="works_img" href="#">
-						<div class="img" style="background-image:url(./img/Works2.jpg)"></div>
-  						<div class="hoverBlack"><p>
-  							More</p></div>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/Works3.jpg">
+						</div>
+						<div class="work_text">
+							<p>Design/Cording</p>
+						</div>
 					</a>
-				</div>
-				<div class="works_box">
-					<a class="works_img" href="#">
-						<div class="img" style="background-image:url(./img/Works3.jpg)"></div>
-  						<div class="hoverBlack"><p>More</p></div>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/Works3.jpg">
+						</div>
+						<div class="work_text">
+							<p>Design/Cording</p>
+						</div>
 					</a>
 				</div>
 			</div>
 		</section>
 
+		<!-- ブログ -->
 		<section id="blog">
-			<h2>Blog</h2>
+			<h2 data-text="Blog">Blog</h2>
+			<div class="blog_list">
+			<!-- ブログ記事 -->
+<!-- 				<div class="blog_box">
+					<a class="blog_link" href="#">
+						<div class="blog_img">
+ 							<img src="./img/Works3.jpg">
+						</div>
+						<div class="blog_text">
+							<div class="blog_title">
+								<p>Title</p>
+							</div>
+							<div class="blog_memo">
+								<p>内容メモメモ</p>
+							</div>
+						</div>
+					</a>
+				</div>	
+				<div class="blog_box">
+					<a class="blog_link" href="#">
+						<div class="blog_img">
+ 							<img src="./img/Works3.jpg">
+						</div>
+						<div class="blog_text">
+							<div class="blog_title">
+								<p>Title</p>
+							</div>
+							<div class="blog_memo">
+								<p>内容メモメモ</p>
+							</div>
+						</div>
+					</a>
+				</div>	
+				<div class="blog_box">
+					<a class="blog_link" href="#">
+						<div class="blog_img">
+ 							<img src="./img/Works3.jpg">
+						</div>
+						<div class="blog_text">
+							<div class="blog_title">
+								<p>Title</p>
+							</div>
+							<div class="blog_memo">
+								<p>内容メモメモ</p>
+							</div>
+						</div>
+					</a>
+				</div>	 -->
 
-			<div class="blg_list">
-<!--  				<div class="blg_block">
-					<a href="#"></a>
-					<div class="blg_img" style="background-image:url(./img/Works1.jpg)"></div>
- 					<div class="blg_text">
-						<p class="blg_title">Title</p>
-						<p class="blg_more">more</p>
- 					</div>
-				</div>
-				<div class="blg_block">
-					<a href="#"></a>
-					<div class="blg_img" style="background-image:url(./img/Works2.jpg)"></div>
-					
- 					<div class="blg_text">
-						<p class="blg_title">Title</p>
-						<p class="blg_more">more</p>
- 					</div>
-				</div>
-				<div class="blg_block">
-					<a href="#"></a>
-					<div class="blg_img" style="background-image:url(./img/Works3.jpg)"></div>
-					
- 					<div class="blg_text">
-						<p class="blg_title">Title</p>
-						<p class="blg_more">more</p>
- 					</div>
-				</div>
-				<div class="blg_block">
-					<a href="#"></a>
-					<div class="blg_img" style="background-image:url(./img/Works3.jpg)"></div>
-					
- 					<div class="blg_text">
-						<p class="blg_title">Title</p>
-						<p class="blg_more">more</p>
- 					</div>
-				</div> -->
 			</div>
 		</section>
-		
-		<section id="contact">
-			<h2>Contact</h2>
-			<form action="" method="post" autocomplete="off">
 
+		<!-- コンタクト -->
+		<section id="contact">
+			<h2 data-text="Contact">Contact</h2>
+			<form action="" method="post" autocomplete="off">
+				<!-- 名前 -->
 				<div id="name" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
@@ -194,7 +241,7 @@
 						<i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
 					</div>
 				</div>
-
+				<!-- メールアドレス -->
 				<div id="email" class="contact_box">				
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
@@ -202,6 +249,7 @@
 						<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
 					</div>
 				</div>
+				<!-- 電話番号 -->
 				<div id="tel" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
@@ -209,29 +257,31 @@
 						<i class="fas fa-phone fa-lg fa-fw" aria-hidden="true"></i>
 					</div>
 				</div>
+				<!-- 件名 -->
 				<div id="subj" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
 						<input type="text" name="subj" placeholder="Subject" required>
 					</div>
 				</div>
+				<!-- メッセージ -->
 				<div id="msg" class="contact_box">
 					<p>必須項目です</p>
 					<div class="contact_iptxt">
 						<textarea name="msg" placeholder="Message" required></textarea>
 					</div>
 				</div>
+				<!-- 送信ボタン -->
 				<div class="contact_btn">
 					<input type="submit" name="submit" value="Send" disabled>
 				</div>
 				
 			</form>
-			
-		</section>		
-		
+		</section>
 	</main>
 
 	<footer>
+		<small>© Batako</small>
 	</footer>
 </body>
 </html>
