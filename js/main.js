@@ -136,6 +136,13 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 		alert('通信障害が発生しました。');
 	});
 
+	slick();
+
+
+});
+
+
+function slick(){
 	$('.Works_photoSlider').slick({
 		dots:true,
 		variableWidth:true,//スライド幅の自動計算
@@ -147,9 +154,7 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 		infinite: true,
 		adaptiveHeight:true,
 	});
-
-});
-
+}
 
 // メニュー画面表示非表示
 function menu(){
@@ -277,15 +282,29 @@ function errorAllChek(){
 //==========
 //  Vue.js
 //==========
-// var WorksView = new Vue({
-// 	el:'#WorkTop',
-// 	data:{
-// 		Works:'Maki',
-// 	},
-// 	methods:{
-// 		swithWorks(Value){
-// 			this.Works = Value;
-// 		}
-// 	}
+var WorksView = new Vue({
+	el:'#WorkTop',
+	data:{
+		Works:'Maki',
+	},
+	methods:{
+		swithWorks(Value){
+			this.Works = Value;
+		},
+		Loading(){
+			console.log('Loading display');
 
-// });
+		},
+		removeLoading(){
+			console.log('RemoveLoading display');
+		}
+	},
+	updated(){
+		var _self= this;
+		this.Loading();
+		$(window).on('load',function(){
+			slick();
+			_self.removeLoading();
+		});
+	}
+});
