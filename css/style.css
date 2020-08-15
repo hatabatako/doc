@@ -101,12 +101,19 @@ footer{
 	left:0;
  	height: 2px;
   	width: 23px;
-  	background-color: #000000;
   	border-radius: 10px;
   	display: inline-block;
   	box-sizing: border-box;
   	transition:all 0.5s ease;
+}
 
+.close div{
+	background-color: #ffffff;
+
+}
+
+.open div{
+	background-color: #000000;
 }
 
 /*クローズ時の形*/
@@ -156,11 +163,11 @@ ul,li{
 	list-style: none;
 }
 
-li{
+nav li{
 	padding:8px;
 }
 
-ul{
+nav > ul{
 	height:100%;
 	display: flex;
 	flex-direction: column;
@@ -173,11 +180,11 @@ ul{
 
 }*/
 
-li a{
+nav li a{
 	position:relative;
 /*	color:black;*/
 }
-li a::after{
+nav li a::after{
 	content:attr(data-text);
 	position:absolute;
 	top:0;
@@ -186,15 +193,15 @@ li a::after{
 	height:100%;
 	color:red;
 	clip: rect(0,0,100px,0);
-    transition: clip 1s linear;
+    transition: clip 2s linear;
 
 }
-li a:hover::after{
+nav li a:hover::after{
     clip: rect(0,300px,100px,0);
 }
 
 /*======== 背景画像　========*/
-#background-image{
+div.bgImg{
 	/* 全画面 */
 	background-size: cover;
 	opacity: 0;
@@ -204,7 +211,8 @@ li a:hover::after{
 	z-index: -100;
 	transition:all 0.5s ease;
 }
-#background-image.active{
+
+.bgImg.active{
 	opacity:1;
 }
 
@@ -379,14 +387,34 @@ body::after{
 	padding:10px;
 	margin:16px 0px;
 	background-color: rgba(255,255,255,1);
+	box-shadow:0 5px 10px 0 rgba(102, 68, 0, 0.5);
+	transition: all 0.5s cubic-bezier(0.58, -0.93, 0.46, 2.38);
 }
 
-#work img{
-	width:100%;
+.work_box:hover{
+	transform:translateY(-15px);
+	box-shadow:0 15px 20px 0 rgba(102, 68, 0, 0.5);
 }
+
+
 .work_text{
 	padding:10px 0px;
 	text-align: center;
+}
+
+.work_img{
+	position:relative;
+	overflow:hidden;
+	padding-top:60%;
+}
+.work_img img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 /*======== ブログ　========*/
@@ -406,7 +434,15 @@ body::after{
 	width:100%;
 	background-color:rgba(255,255,255,1);
 	margin:16px 0px;
+	box-shadow:0 5px 10px 0 rgba(102, 68, 0, 0.5);
+	transition: all 0.5s cubic-bezier(0.58, -0.93, 0.46, 2.38);
 }
+
+.blog_box:hover{
+	transform:translateY(-15px);
+	box-shadow:0 15px 20px 0 rgba(102, 68, 0, 0.5);
+}
+
 .blog_link{
 	display:flex;
 }
@@ -432,6 +468,7 @@ body::after{
 #contact{
 /*	background-image: url(../img/Works2.jpg);*/
 	height: 100vh;
+	padding-bottom:0px;
 /*	position:relative;
 	z-index:0;*/
 }
@@ -521,6 +558,56 @@ form{
 	color:white;
 
 }
+
+
+/*======== Worksページ　========*/
+#WorkTop{
+/*	background-color:#FDE594;*/
+
+	display:block;
+	text-align: center;
+}
+
+.Works_workBox{
+	display:flex;
+	width:100%;
+	padding:48px 0px;
+}
+.Works_workList{
+	width:30%;
+	text-align: left;
+}
+
+.Works_workListGroup{
+	margin-bottom:16px;
+}
+
+.Works_workListGroup svg{
+	padding:0 8px;
+}
+
+.Works_ViewList{
+	width:70%;
+	flex-direction: column;
+}
+
+
+/*.work_b div{
+	width:100vw;
+}*/
+.Works_photoSlider {
+	width:700px;
+	margin:0 auto;
+}
+.Works_photoSlider li{
+	width:700px;
+	height:auto;
+}
+.Works_photoSlider img{
+	width:100%;
+	height:auto;
+}
+
 
 
 /*======== レスポンシブ　========*/

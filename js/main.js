@@ -1,84 +1,39 @@
 $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 
-	// ＝＝＝＝　メニュー画面表示非表示設定　＝＝＝＝
-	$('#menu,#menu_list a').on('click',function(){
-		menu();
+
+	//＝＝＝＝背景のActive化＝＝＝＝＝
+	//Dom読み込み時（初期表示）
+	active();
+	//window(表示されている画面)がscrollしたら
+	$(window).on('scroll',function(){
+		active();
 	});
 
+	// ＝＝＝＝　メニュー画面表示非表示設定　＝＝＝＝
+	$('#menu,#menu_list a').on('click',function(e){
+		menu();
+	 });
+
+	$(document).on('click',function(e){
+		if($('#menu').hasClass('open')){
+			//メニューリストかハンバーガーメニューを押下しなかったら、以下を実行
+			if(!$(e.target).closest('#menu_list').length && !$(e.target).closest('#menu').length){
+				$('#menu').removeClass('open');
+				$('#menu_list').removeClass('open');
+				$('#menu').addClass('close');
+				$('#menu_list').addClass('close');
+			}
+		}
+	});
 
 	//メニュースクロール表示
 	$('a[href^="#"]').on('click',function(){
 		var speed = 400;//速度
 	    var href = $(this).attr("href");//場所
-    	var target = $(href == "#" || href == "" ? 'html' : href);
-    	var position = target.offset().top;
-    	$('html, body').animate({scrollTop:position}, speed, "swing");
-    	return false;
-	});
-
-
-	//各sectionの情報を取得
-	var section = $('main > section');
-	// console.log(section);
-
-	//window(表示されている画面)がscrollしたら
-	$(window).on('scroll',function(){
-
-		//現在地の取得(Topからscrollした距離)
-		var cur_pos = $(this).scrollTop();
-
-		//section全てに対して実施(each)
-		section.each(function(){
-
-			//各sectionのTopとBottomのy座標を取得
-			var top = $(this).offset().top;
-			//TopにSectionの高さを足す
-			var bottom = top + $(this).outerHeight();
-
-			//ずらし
-			var offset = 175;
-
-			//現在地が各セクションのTopからBottom(+offset)の間にいるとき
-			if(cur_pos >= top - offset && cur_pos <= bottom - offset){
-
-				//activeクラスを全て除去
-				$('section').removeClass('active');
-				$('div#background-image').removeClass('active');
-
-				//現在地のセクションIDを取得
-				var this_id = $(this).attr('id');
-
-				//対象セクションIDに対して、activeクラスをつける
-				switch(this_id){
-					case 'top':
-						$(this).addClass('active');
-						$('.bg_tp').addClass('active');
-						break;
-					case 'profile':
-						$(this).addClass('active');
-						$('.bg_pf').addClass('active');
-						break;
-					case 'work':
-						$(this).addClass('active');
-						$('.bg_wk').addClass('active');
-						break;
-					case 'blog':
-						$(this).addClass('active');
-						$('.bg_bg').addClass('active');
-						break;
-					case 'contact':
-						$(this).addClass('active');
-						$('.bg_ct').addClass('active');
-						break;
-					default:
-						break;
-				}
-
-			}
-
-
-		});
-
+	    var target = $(href == "#" || href == "" ? 'html' : href);
+	    var position = target.offset().top;
+	    $('html, body').animate({scrollTop:position}, speed, "swing");
+	    return false;
 	});
 
 
@@ -132,12 +87,23 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 		}else{
 			$('input[type="submit"]').attr('disabled',true);
 		}
+
+		//Workポップアップ
+		$('#work a').on('click',function(){
+			if($('#menu').hasClass('open')){
+				$('#menu').removeClass('open');
+				$('#menu').addClass('close');
+			}else{
+				$('#menu').removeClass('close');
+				$('#menu').addClass('open');
+			}
+		});
+
 	});
 
 
 
 	//Ajax
-
 	//$('.blg_list').html('') //HTMLの中身をクリア
 	//for文で回す。記事数制限したほうがよいかも
 	//HTML上のblg_list内を全て削除
@@ -162,7 +128,6 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 			$('.blog_box:nth-of-type('+ num_block +') > .blog_link > .blog_text > .blog_title').append('<p>'+data[i].title.rendered+'</p>');
 			$('.blog_box:nth-of-type('+ num_block +') > .blog_link > .blog_text > .blog_memo').append('<p>'+data[i].excerpt.rendered+'</p>');
 
-
 		}
 
 	})
@@ -171,8 +136,20 @@ $(function(){/*HTML&CSS(Dom)を読み込み完了後に実施*/
 		alert('通信障害が発生しました。');
 	});
 
+	$('.Works_photoSlider').slick({
+		dots:true,
+		variableWidth:true,//スライド幅の自動計算
+		arrows: false, //矢印の有無
+		autoplay:true,
+		autoplaySpeed:2000,
+		speed: 600,
+		pauseOnHover:true,
+		infinite: true,
+		adaptiveHeight:true,
+	});
 
 });
+
 
 // メニュー画面表示非表示
 function menu(){
@@ -188,6 +165,65 @@ function menu(){
 		$('#menu').addClass('open');
 		$('#menu_list').addClass('open');
 	}
+}
+
+//背景のActive化
+function active(){
+	//各sectionの情報を取得
+	var section = $('main > section');
+	//現在地の取得(Topからscrollした距離)
+	var cur_pos = $(this).scrollTop();
+
+	//section全てに対して実施(each)
+	section.each(function(){
+
+		//各sectionのTopとBottomのy座標を取得
+		var top = $(this).offset().top;
+		//TopにSectionの高さを足す
+		var bottom = top + $(this).outerHeight();
+
+		//ずらし
+		var offset = 175;
+
+		//現在地が各セクションのTopからBottom(+offset)の間にいるとき
+		if(cur_pos >= top - offset && cur_pos <= bottom - offset){
+
+			//activeクラスを全て除去
+			$('section').removeClass('active');
+			$('div.bgImg').removeClass('active');
+
+			//現在地のセクションIDを取得
+			var this_id = $(this).attr('id');
+
+			//対象セクションIDに対して、activeクラスをつける
+			switch(this_id){
+				case 'top':
+				$(this).addClass('active');
+				$('.bg_tp').addClass('active');
+				break;
+				case 'profile':
+				$(this).addClass('active');
+				$('.bg_pf').addClass('active');
+				break;
+				case 'work':
+				$(this).addClass('active');
+				$('.bg_wk').addClass('active');
+				break;
+				case 'blog':
+				$(this).addClass('active');
+				$('.bg_bg').addClass('active');
+				break;
+				case 'contact':
+				$(this).addClass('active');
+				$('.bg_ct').addClass('active');
+				break;
+				default:
+				break;
+			}
+
+		}
+	});
+
 }
 
 
@@ -236,3 +272,20 @@ function errorAllChek(){
 	});
 	return cnt;
 }
+
+
+//==========
+//  Vue.js
+//==========
+// var WorksView = new Vue({
+// 	el:'#WorkTop',
+// 	data:{
+// 		Works:'Maki',
+// 	},
+// 	methods:{
+// 		swithWorks(Value){
+// 			this.Works = Value;
+// 		}
+// 	}
+
+// });
