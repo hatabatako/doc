@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+section{
+	width: 100vw;
+	height: auto;
+	padding:72px 100px;
+	box-sizing:border-box;
+
+	display:flex;
+	justify-content: center;/*横中央*/
+	align-items: center;/*縦中央*/
+	width:100%;
+	flex-direction: column;
+}
+
+h1{
+	font-family: 'Sriracha', cursive;
+	font-size:72px;
+	letter-spacing: 3px;
+	color:white;
+}
+h2{
+	font-family: 'Balsamiq Sans', cursive;
+	/*font-family: 'Lato', sans-serif;*/
+	font-size:36px;
+	letter-spacing: 3px;
+	color:white;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a,p{
+	font-size:16px;
+/*	font-family: 'M PLUS 1p', sans-serif;*/
+	font-family: 'Barlow', sans-serif;
+	letter-spacing: 0.6px;
+}
+
+footer{
+	height:80px;
+	background-color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*======== ハンバーガーメニュー　========*/
+/*位置*/
+#menu{
+	position:fixed;
+	top:40px;
+	right: 40px;
+	z-index: 9999;
+}
+
+/*大きさ*/
+.close,.open{
+	position:relative;
+	height:24px;
+	width: 24px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+/*線の太さ*/
+.close div,.open div{
+	position: absolute;
+	left:0;
+ 	height: 2px;
+  	width: 23px;
+  	border-radius: 10px;
+  	display: inline-block;
+  	box-sizing: border-box;
+  	transition:all 0.5s ease;
+}
+
+.close div{
+	background-color: #ffffff;
+
+}
+
+.open div{
+	background-color: #000000;
+}
+
+/*クローズ時の形*/
+.close div:nth-of-type(1) {
+  	top: 0px;
+}
+.close div:nth-of-type(2) {
+  	top: 7px;
+}
+.close div:nth-of-type(3) {
+  	bottom: 7px;
+}
+
+/*オープン時の形*/
+.open div:nth-of-type(1) {
+  	top: 11px;
+  	transform:rotate(45deg);
+}
+.open div:nth-of-type(2) {
+	display:none;
+}
+.open div:nth-of-type(3) {
+  	bottom: 11px;
+  	transform:rotate(-45deg);
+}
+
+/*======== メニュー画面　========*/
+/*ページの設定*/
+#menu_list{
+	position:fixed;
+	top:0px;
+	right: 0px;
+	width: 300px;
+	height: 100vh;	
+	background-color: rgba(255, 255, 255, 1);
+	z-index:5000;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+nav.close{
+	transform:translateX(100%);
+}
+nav.open{
+	transform:translateX(0);	
+}
+ul,li{
+	list-style: none;
+}
+
+li{
+	padding:8px;
+}
+
+ul{
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*#menu_list li a:hover{
+	color:red;
+
+}*/
+
+li a{
+	position:relative;
+/*	color:black;*/
+}
+li a::after{
+	content:attr(data-text);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:red;
+	clip: rect(0,0,100px,0);
+    transition: clip 1s linear;
+
+}
+li a:hover::after{
+    clip: rect(0,300px,100px,0);
+}
+
+
+/*======== Works詳細ページ　========*/
+main{
+	background-color:#fedb65;
+}
+
+div{
+	height:100vh;
+}
+

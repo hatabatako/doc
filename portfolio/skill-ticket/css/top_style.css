@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+section{
+	width:100vw;
+}
+
+#Top{
+	background-image:url(../img/acoustic_guitar.jpg);
+	background-size: cover;
+	background-position: center;
+	height:calc(100vw * 0.331);
+	padding-bottom:43px;
+
+	display:flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#Top p{
+	text-align: center;
+	color:#ffffff;
+}
+
+#Search{
+	height:219px;
+}
+
+#History{
+	height:386px;
+	padding:89px 0px;
+}
+
+.History_Box{
+	width:1117.5px;
+	height:100%;
+	margin:0 auto;
+	color:#F1C076;
+	font-size:50px;
+}

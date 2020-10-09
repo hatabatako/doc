@@ -1,0 +1,329 @@
+<html lang="ja">
+<head> <!-- 検索時（Titleや説明文）や表示のための情報(meta charset、Title、css、JS)-->
+	<meta charset="utf-8">
+	<!-- キャッシュクリア -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<!-- 表示サイズ -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- タイトル -->
+	<title></title>
+
+	<!-- SEO -->
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="ポートフォリオ, 写真"><!-- MAX 5 keywords -->
+	<meta name="description" content="説明文＝＝＝＝">
+
+	<!-- OGP -->
+	<meta property="og:title" content="">
+	<meta property="og:keywords" content="">
+	<meta property="og:description" content="">
+	<meta property="og:locale" content="ja">
+	<!--JQuery-->
+	<script src="./js/jquery-3.4.1.min.js"></script>
+	<script src="https://unpkg.com/http-vue-loader"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+	<script type="text/javascript" src="./slick/slick.min.js"></script>
+
+
+	<!-- Font Awesome-->
+	<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+	<!-- フォント -->
+	<!-- Sriracha -->
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<!-- Balsamiq Sans -->
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+	<!-- Roboto -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<!-- Lato -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+	<!-- M Plus 1p -->
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+	<!-- Balow -->
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head> 
+<body>
+	<header>
+
+	</header>
+
+	<!-- ハンバーガー -->
+	<div id="menu" class="close"> <!-- open/close -->
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+
+	<!-- メニュー画面 -->
+	<nav id="menu_list" class="close">
+				<ul>
+					<li><a href="#top" data-text="Top">Top</a></li>
+					<li><a href="#profile" data-text="Profile">Profile</li>
+	 				<li><a href="#work" data-text="Work">Work</a></li>
+					<li><a href="#blog" data-text="Blog">Blog</a></li>
+					<li><a href="#contact" data-text="Contact">Contact</a></li>
+					</ul>
+				</div>
+	</nav>
+
+	<!-- 背景 -->
+	<div class="bgImg bg_tp"></div>
+	<div class="bgImg bg_pf"></div>
+	<div class="bgImg bg_wk"></div>
+	<div class="bgImg bg_bg"></div>
+	<div class="bgImg bg_ct"></div>
+<!-- 	<div id="background-image" class="bg_tp"></div>
+	<div id="background-image" class="bg_pf"></div>
+	<div id="background-image" class="bg_wk"></div>
+	<div id="background-image" class="bg_bg"></div>
+	<div id="background-image" class="bg_ct"></div> -->
+
+	<main>
+		<!-- TOPページ -->
+		<section id="top">
+			<h1>I AM</h1>
+			<p>Web Designer<span class="slash">/</span>
+			<br class="top_br">
+			FrontEnd Engineer<span class="slash">/</span><br class="top_br">
+			Photographer</p>
+		</section>
+
+		<!-- プロフィール -->
+		<section id="profile">
+			<h2 data-text="Profile">Profile</h2>
+			<div class="prof_div box">
+				<div class="prof_text">
+					<p>
+					1990年広島生まれ</br>
+					愛称「ばたこ」</br></br>
+						
+					2013年</br>
+					広島市立大学情報科学部知能工学科卒業</br>
+					東京のIT企業にシステムエンジニアとして就職</br></br>
+					
+					2015年</br>
+					残業100時間越えの激務の末、2年半で退職</br>
+					派遣に切り替え、システムエンジニアとして様々なプロジェクトに参画</br></br>
+
+					2019年</br>
+					システムエンジニアとして独立</br>
+					2月から独学でWebデザイン・写真の勉強を開始し、</br>
+					Webデザイナー・フォトグラファーとしての活動もスタート</br></br>
+					</p>
+				</div>
+				<div class="prof_img">
+					<img src="./img/Profile.jpg">
+				</div>				
+			</div>
+		</section>
+
+		<!-- 仕事 -->
+		<section id="work">
+			<h2 data-text="Works">Works</h2>
+			<div class="work_list">
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="Works.html#Emiri">
+						<div class="work_img">
+							<img src="./img/20200301_Photo/IMG1.JPG">
+						</div>
+						<div class="work_text">
+							<p>Photography</p>
+						</div>
+					</a>
+				</div>
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="Works.html#Maki">
+						<div class="work_img">
+							<img src="./img/20200211_Photo/IMG1.JPG">
+						</div>
+						<div class="work_text">
+							<p>Photography</p>
+						</div>
+					</a>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/20200111_Photo/IMG1.JPG">
+						</div>
+						<div class="work_text">
+							<p>Photography</p>
+						</div>
+					</a>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/20200105_Photo/IMG1.JPG">
+						</div>
+						<div class="work_text">
+							<p>Photography</p>
+						</div>
+					</a>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/20191229_Photo/IMG1.JPG">
+						</div>
+						<div class="work_text">
+							<p>Photography</p>
+						</div>
+					</a>
+				</div>	
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="#">
+						<div class="work_img">
+							<img src="./img/20191207_Photo/IMG1.JPG">
+						</div>
+						<div class="work_text">
+							<p>Photography</p>
+						</div>
+					</a>
+				</div>
+				<!-- 仕事内容 -->
+				<div class="work_box">
+					<a class="work_link" href="Works.html">
+						<div class="work_img">
+							<img src="./img/Works4.jpg">
+						</div>
+						<div class="work_text">
+							<p>Design/Cording</p>
+						</div>
+					</a>
+				</div>	
+
+
+			</div>
+		</section>
+
+		<!-- ブログ -->
+		<section id="blog">
+			<h2 data-text="Blog">Blog</h2>
+			<div class="blog_list">
+			<!-- ブログ記事 -->
+<!-- 				<div class="blog_box">
+					<a class="blog_link" href="#">
+						<div class="blog_img">
+ 							<img src="./img/Works3.jpg">
+						</div>
+						<div class="blog_text">
+							<div class="blog_title">
+								<p>Title</p>
+							</div>
+							<div class="blog_memo">
+								<p>内容メモメモ</p>
+							</div>
+						</div>
+					</a>
+				</div>	
+				<div class="blog_box">
+					<a class="blog_link" href="#">
+						<div class="blog_img">
+ 							<img src="./img/Works3.jpg">
+						</div>
+						<div class="blog_text">
+							<div class="blog_title">
+								<p>Title</p>
+							</div>
+							<div class="blog_memo">
+								<p>内容メモメモ</p>
+							</div>
+						</div>
+					</a>
+				</div>	
+				<div class="blog_box">
+					<a class="blog_link" href="#">
+						<div class="blog_img">
+ 							<img src="./img/Works3.jpg">
+						</div>
+						<div class="blog_text">
+							<div class="blog_title">
+								<p>Title</p>
+							</div>
+							<div class="blog_memo">
+								<p>内容メモメモ</p>
+							</div>
+						</div>
+					</a>
+				</div>	 -->
+
+			</div>
+		</section>
+
+		<!-- コンタクト -->
+		<section id="contact">
+			<h2 data-text="Contact">Contact</h2>
+			<form action="" method="post" autocomplete="off">
+				<!-- 名前 -->
+				<div id="name" class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="text" name="name" placeholder="Name" required>
+						<i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+					</div>
+				</div>
+				<!-- メールアドレス -->
+				<div id="email" class="contact_box">				
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="email" name="email" placeholder="E-Mail" required>
+						<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+					</div>
+				</div>
+				<!-- 電話番号 -->
+				<div id="tel" class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="telephone" name="tel" placeholder="Tel" required>
+						<i class="fas fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+					</div>
+				</div>
+				<!-- 件名 -->
+				<div id="subj" class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<input type="text" name="subj" placeholder="Subject" required>
+					</div>
+				</div>
+				<!-- メッセージ -->
+				<div id="msg" class="contact_box">
+					<p>必須項目です</p>
+					<div class="contact_iptxt">
+						<textarea name="msg" placeholder="Message" required></textarea>
+					</div>
+				</div>
+				<!-- 送信ボタン -->
+				<div class="contact_btn">
+					<input type="submit" name="submit" value="Send" disabled>
+				</div>
+				
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<small>© Batako</small>
+	</footer>
+	<!-- Vue.js 導入部 -->
+	<!-- IE対応 -->
+<!-- 	<script src="https://unpkg.com/es6-promise"></script>
+	<script src="https://unpkg.com/vue"></script> -->
+
+
+</body>
+</html>

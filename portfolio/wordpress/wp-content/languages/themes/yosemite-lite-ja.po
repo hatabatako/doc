@@ -1,0 +1,807 @@
+# Translation of Themes - Yosemite Lite in Japanese
+# This file is distributed under the same license as the Themes - Yosemite Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-02 16:45:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Yosemite Lite\n"
+
+#. Description of the theme
+msgid "Yosemite is a beautiful WordPress blog theme for personal blogs. Yosemite has a modern, clean and elegant look and lots of customization for bloggers. Built on the latest technology of WordPress, Yosemite is lightweight, fast and optimized for all mobile phones."
+msgstr "Yosemite は個人ブログのための美しい WordPress ブログテーマです。現代的で清潔、エレガントな外観と、ブロガーのための多くのカスタマイズがあります。WordPress 最新の技術をもとに構築されており、軽量で高速、すべてのスマートフォンに最適です。"
+
+#. Theme Name of the theme
+msgid "Yosemite Lite"
+msgstr "Yosemite Lite"
+
+#: inc/admin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "タイプ"
+
+#: inc/admin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "ステータス"
+
+#: inc/admin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "有効"
+
+#: inc/admin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/dashboard/sections/tabs.php:11
+msgid "Actions"
+msgstr "操作"
+
+#: inc/admin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "バージョン"
+
+#: inc/admin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "インストール"
+
+#: inc/admin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "更新"
+
+#: inc/admin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "プラグイン"
+
+#. translators: 1: number of plugins.
+#: inc/admin/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "利用可能な更新 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/admin/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインを更新中 (%2$d/%3$d)"
+
+#. translators: plugin name.
+#: inc/dashboard/class-yosemite-lite-dashboard.php:167
+msgid "Install %s"
+msgstr "%s のインストール"
+
+#. translators: %s: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "プラグインをインストール中: %s"
+
+#. translators: 1: number of plugins.
+#: inc/admin/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#: inc/admin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "この通知を非表示"
+
+#: inc/admin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "ソース"
+
+#: inc/admin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "必須"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/admin/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン %1$s をインストール中 (%2$d/%3$d)"
+
+#: inc/admin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s のインストールを完了しました。"
+
+#: inc/admin/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "更新プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/admin/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインをインストール、有効化中 (%2$d/%3$d)"
+
+#: inc/admin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:3509
+#: inc/admin/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#. translators: 1: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:3509
+#: inc/admin/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#. translators: 1: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s のインストールと有効化が完了しました。"
+
+#: inc/admin/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールと有効化プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#. translators: 1: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/admin/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s のインストール中にエラーが発生しました: <strong>%2$s</strong>。"
+
+#: inc/admin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "現時点で有効化できるプラグインはありません。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新できるプラグインはありません。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "現在インストールできるプラグインはありません。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "インストールするプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からの更新メッセージ:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/admin/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "%2$s 有効化"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/admin/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "%2$s 更新"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/admin/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "%2$s インストール"
+
+#: inc/admin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能なプラグインがありません。"
+
+#: inc/admin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: inc/admin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "最低必須バージョン:"
+
+#: inc/admin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "インストール済みバージョン:"
+
+#: inc/admin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#. translators: 1: number of plugins.
+#: inc/admin/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "未有効化 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/admin/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "未インストール <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/admin/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s、%2$s"
+
+#: inc/admin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "更新が推奨されています"
+
+#: inc/admin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "更新が必要です"
+
+#: inc/admin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "必要な更新が利用できません"
+
+#: inc/admin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "インストール済み、停止中"
+
+#: inc/admin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: inc/admin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "パッケージ化済み"
+
+#: inc/admin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "外部ソース"
+
+#: inc/admin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress リポジトリ"
+
+#: inc/admin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "推奨"
+
+#. translators: %s: version number
+#: inc/admin/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/admin/class-tgm-plugin-activation.php:1121
+#: inc/admin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: inc/admin/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "リモートプラグインパッケージは複数のファイルで構成されていますが、ファイルが1つのフォルダー内にパッケージされていません。"
+
+#: inc/admin/class-tgm-plugin-activation.php:934
+#: inc/admin/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "プラグイン開発者に連絡し、WordPress のガイドラインに従ってプラグインをパッケージ化するように依頼してください。"
+
+#: inc/admin/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "リモートプラグインパッケージには指定されたスラッグのフォルダーがないため、名前の変更ができませんでした。"
+
+#: inc/admin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "更新が必要です"
+
+#: inc/admin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "使用中のテーマとの互換性を保つため、このプラグインを更新する必要があります。"
+
+#: inc/admin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#: inc/admin/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能な必須・推奨プラグインがあります。"
+
+#. translators: 1: dashboard link.
+#: inc/admin/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインをインストールし、有効化しました。%1$s"
+
+#. translators: 1: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "プラグインを有効化できませんでした。このテーマには上位バージョンの %s が必要です。プラグインを更新してください。"
+
+#. translators: 1: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効です。"
+
+#: inc/admin/class-tgm-plugin-activation.php:388
+#: inc/admin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下のプラグインを有効化しました:"
+
+#: inc/admin/class-tgm-plugin-activation.php:387
+#: inc/admin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "プラグインを有効化しました。"
+
+#: inc/admin/class-tgm-plugin-activation.php:386
+#: inc/admin/class-tgm-plugin-activation.php:827
+#: inc/admin/class-tgm-plugin-activation.php:2533
+#: inc/admin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/admin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインのインストール画面に戻る"
+
+#: inc/admin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/admin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: inc/admin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#. translators: 1: plugin name(s).
+#: inc/admin/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ推奨プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/admin/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ必須プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/admin/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "利用可能な更新があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/admin/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "このテーマとの最大限の互換性を確保するため、以下のプラグインを最新バージョンに更新する必要があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/admin/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは以下のプラグインを推奨しています: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/admin/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマには以下のプラグインが必要です: %1$s。"
+
+#: inc/admin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#. translators: %s: plugin name.
+#: inc/admin/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新中: %s"
+
+#: inc/admin/class-tgm-plugin-activation.php:328
+#: inc/dashboard/class-yosemite-lite-dashboard.php:161
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: inc/admin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "必須プラグインをインストール"
+
+#: inc/admin/plugins.php:32
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: inc/admin/plugins.php:36
+msgid "Slim SEO"
+msgstr "Slim SEO"
+
+#: inc/dashboard/sections/actions.php:26
+msgid "Connect To Jetpack"
+msgstr "Jetpack と連携"
+
+#: inc/dashboard/sections/getting-started.php:21
+msgid "Recommended Actions"
+msgstr "おすすめのアクション"
+
+#: inc/dashboard/sections/actions.php:19
+msgid "Connect Your Site To Jetpack"
+msgstr "サイトを Jetpack と連携"
+
+#. translators: plugin name.
+#: inc/dashboard/class-yosemite-lite-dashboard.php:177
+msgid "<strong>%s has been installed and activated</strong>"
+msgstr "<strong>%s をインストールし、有効化しました</strong>"
+
+#: inc/dashboard/sections/welcome.php:29
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: inc/dashboard/sections/welcome.php:30
+msgid "Support"
+msgstr "サポート"
+
+#: inc/customizer-pro/class-yosemite-lite-customizer-pro.php:85
+msgid "Need Some Help?"
+msgstr "ヘルプが必要ですか ?"
+
+#. Translators: %1$s - Theme name, %2$s - Theme version.
+#: inc/dashboard/sections/welcome.php:12
+msgid "Welcome to %1$s"
+msgstr "%1$s へようこそ"
+
+#: inc/dashboard/sections/upgrade.php:10
+msgid "Upgrade to PRO Version"
+msgstr "プロ版へアップグレード"
+
+#: inc/customizer-pro/class-yosemite-lite-customizer-pro.php:72
+msgid "Upgrade To PRO"
+msgstr "プロ版へアップグレード"
+
+#: inc/dashboard/sections/getting-started.php:38
+msgid "screenshot"
+msgstr "スクリーンショット"
+
+#: inc/dashboard/sections/tabs.php:12
+msgid "Free vs. PRO"
+msgstr "無料版と有料版を比較"
+
+#: inc/dashboard/sections/pro.php:69
+msgid "Custom Colors"
+msgstr "カスタムカラー"
+
+#: inc/dashboard/sections/pro.php:37
+msgid "Custom Logo"
+msgstr "カスタムロゴ"
+
+#: inc/dashboard/sections/pro.php:29
+msgid "Featured Content"
+msgstr "おすすめコンテンツ"
+
+#: inc/dashboard/sections/pro.php:21
+msgid "Responsive Design"
+msgstr "レスポンシブデザイン"
+
+#: inc/dashboard/sections/getting-started.php:27
+msgid "Start Customize"
+msgstr "カスタマイズを開始"
+
+#: inc/dashboard/sections/pro.php:61
+msgid "Custom Google Fonts"
+msgstr "カスタム Google フォント"
+
+#: inc/dashboard/sections/pro.php:14
+msgid "Lite"
+msgstr "無料版"
+
+#: inc/dashboard/sections/getting-started.php:33
+msgid "Read Documentation"
+msgstr "ドキュメントを読む"
+
+#: inc/dashboard/sections/getting-started.php:24
+msgid "Customize The Theme"
+msgstr "テーマをカスタマイズ"
+
+#: inc/dashboard/sections/pro.php:94
+msgid "You will benefit of our full support for any issues you have with the theme."
+msgstr "テーマに関するあらゆる問題のすべてのサポートを提供します。"
+
+#: inc/dashboard/sections/pro.php:93
+msgid "Priority Support"
+msgstr "優先サポート"
+
+#: inc/dashboard/sections/pro.php:86
+msgid "Show related posts after posting to recommend previous posts from your blog to the visitors."
+msgstr "投稿後に関連投稿を表示し、訪問者にサイトの過去の投稿をおすすめします。"
+
+#: inc/dashboard/sections/pro.php:78
+msgid "Load more posts when to reach to the end of the page. Support auto mode and manual mode."
+msgstr "ページ末尾に到達すると、さらに投稿を読み込みます。自動モードと手動モード対応。"
+
+#: inc/dashboard/sections/pro.php:77
+msgid "Infinite Scroll"
+msgstr "無限スクロール"
+
+#: inc/dashboard/sections/pro.php:70
+msgid "Customize colors of any element on your website."
+msgstr "Web サイトのあらゆる要素の色をカスタマイズします。"
+
+#: inc/dashboard/sections/pro.php:62
+msgid "Integrated all Google Fonts with various options to customize for a beautiful typography."
+msgstr "すべての Google フォントと連携、バラエティ設定に対応し美しいタイポグラフィをカスタマイズします。"
+
+#: inc/dashboard/sections/pro.php:54
+msgid "Showing your Instagram images in the footer or sidebar in an attractive format."
+msgstr "フッターまたはサイドバーに魅力的な形式でインスタグラム画像を表示します。"
+
+#: inc/dashboard/sections/pro.php:53
+msgid "Instagram in Sidebar and Footer"
+msgstr "サイドバーとフッターの Instagram"
+
+#: inc/dashboard/sections/pro.php:46
+msgid "Save time setting up the theme and get exactly what you see in the demo."
+msgstr "テーマ設定の時間を節約し、デモで見たとおりのものを入手します。"
+
+#: inc/dashboard/sections/pro.php:45
+msgid "1-Click Demo Import"
+msgstr "1クリックデモインポート"
+
+#: inc/dashboard/sections/pro.php:38
+msgid "Supports custom logo in WordPress 4.5. Upload your logo has never been easier."
+msgstr "WordPress 4.5 のカスタムロゴに対応します。ロゴのアップロードはとても簡単になりました。"
+
+#: inc/dashboard/sections/pro.php:30
+msgid "Show your most important posts in a slider on the front page."
+msgstr "一番重要な投稿をフロントページのサイドバーに表示します。"
+
+#: inc/dashboard/sections/pro.php:22
+msgid "Works in any browsers on desktops, tablets and mobile devices and optimized for speed."
+msgstr "デスクトップ、タブレット、モバイル端末のあらゆるブラウザで動作し、速度を最適化します。"
+
+#: inc/dashboard/sections/getting-started.php:31
+msgid "Need any help to setup and configure the theme? Please check our full documentation for detailed information on how to use it."
+msgstr "テーマ設定についてお困りですか ? ドキュメントを参照し、詳しい情報と使用方法をご覧ください。"
+
+#: inc/dashboard/sections/tabs.php:10
+msgid "Getting Started"
+msgstr "はじめてみよう"
+
+#: inc/dashboard/sections/getting-started.php:30
+msgid "Read Full Documentation"
+msgstr "完全ドキュメンテーションを読む"
+
+#: inc/dashboard/sections/getting-started.php:25
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr "WordPress カスタマイザーを利用してテーマのあらゆる側面を簡単にカスタマイズ可能です。"
+
+#: inc/dashboard/sections/pro.php:85
+msgid "Related Posts"
+msgstr "関連投稿"
+
+#: inc/dashboard/sections/pro.php:15
+msgid "PRO"
+msgstr "PRO"
+
+#: searchform.php:17
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:13
+msgid "Search..."
+msgstr "検索…"
+
+#. translators: get the search query
+#: search.php:23
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/widgets/class-yosemite-recent-posts-widget.php:132
+msgid "Number of posts to show:"
+msgstr "表示する投稿数:"
+
+#: inc/widgets/class-yosemite-recent-posts-widget.php:128
+msgid "Title:"
+msgstr "タイトル:"
+
+#: inc/template-tags.php:56
+msgid "Categories"
+msgstr "カテゴリー"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:54
+msgid ", "
+msgstr "、"
+
+#. translators: get the titlte of the post
+#: inc/extras.php:48
+msgid "Continue reading &#10142; %s"
+msgstr "続きを読む &#10142; %s"
+
+#: header.php:62
+msgid "Menu"
+msgstr "メニュー"
+
+#: functions.php:213
+msgctxt "Libre Baskerville font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:210
+msgctxt "Josefin Slab font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:207
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:157
+msgid "Footer"
+msgstr "フッター"
+
+#: functions.php:147
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:64
+msgid "Header"
+msgstr "ヘッダー"
+
+#: footer.php:41
+msgid "https://gretathemes.com/"
+msgstr "https://gretathemes.com/"
+
+#. translators: %1$s is replaced with 'string', %2$s is replaced with 'string'
+#: footer.php:39
+msgid "Theme: %1$s by"
+msgstr "テーマ: %1$s 作者:"
+
+#. translators: %s is replaced with 'string'
+#: footer.php:33
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:30
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#. translators: number of comments
+#: comments.php:32
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s件のコメント"
+
+#: search.php:43 archive.php:41 index.php:50
+msgid "&laquo; Newer Posts"
+msgstr "&laquo; 新しい投稿"
+
+#: search.php:42 archive.php:40 index.php:49
+msgid "Older Posts &raquo;"
+msgstr "以前の投稿 &raquo;"
+
+#: 404.php:20
+msgid "OOPS! Page you're looking for doesn't exist. Please use search for help"
+msgstr "お探しのページは存在しません。検索をお試しください。"
+
+#: template-parts/featured-content.php:44
+#: template-parts/content-first-post.php:61
+#: template-parts/featured-content-amp.php:45
+msgid "Continue Reading"
+msgstr "続きを読む"
+
+#: single.php:23
+msgid "Previous Post &raquo;"
+msgstr "前の投稿 &raquo;"
+
+#: single.php:22
+msgid "&laquo; Next Post"
+msgstr "&laquo; 次の投稿"
+
+#: inc/widgets/class-yosemite-recent-posts-widget.php:33
+msgid "A widget that displays your recent posts from all categories or a category"
+msgstr "すべて、または特定のカテゴリーの最新の投稿を表示するウィジェット"
+
+#: inc/widgets/class-yosemite-recent-posts-widget.php:31
+msgid "yosemite: Recent Posts"
+msgstr "Yosemite: 最新の投稿"
+
+#: functions.php:149 functions.php:159
+msgid "Add widgets here."
+msgstr "ここにウィジェットを追加。"
+
+#: template-parts/content-media-first-post.php:53
+msgid "Featured"
+msgstr "注目"
+
+#: template-parts/content-none.php:40
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#. translators: go to the post creating page
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: inc/widgets/class-yosemite-recent-posts-widget.php:25
+msgid "Recent Posts"
+msgstr "最近の投稿"
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr "検索対象:"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:35 inc/template-tags.php:103
+msgid "Edit %s"
+msgstr "%sを編集"
+
+#: template-parts/content-page.php:23 template-parts/content.php:42
+#: template-parts/content-first-post.php:43
+#: template-parts/content-single.php:37
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: template-parts/content-none.php:34
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#. translators: get the title of the post
+#: inc/template-tags.php:40
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "コメントをどうぞ<span class=\"screen-reader-text\"> (%s)</span>"
+
+#: 404.php:23
+msgid "Back to Home Page"
+msgstr "ホームページに戻る"
+
+#. Author URI of the theme
+msgid "https://gretathemes.com"
+msgstr "https://gretathemes.com"
+
+#. Author of the theme
+#: inc/dashboard/sections/welcome.php:26
+msgid "GretaThemes"
+msgstr "GretaThemes"
+
+#. Theme URI of the theme
+msgid "https://gretathemes.com/wordpress-themes/yosemite/"
+msgstr "https://gretathemes.com/wordpress-themes/yosemite/"

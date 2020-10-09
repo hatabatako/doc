@@ -1,0 +1,239 @@
+<html>
+<head> <!-- 検索時（Titleや説明文）や表示のための情報(meta charset、Title、css、JS)-->
+	<meta charset="utf-8">
+	<!-- キャッシュクリア -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<!-- 表示サイズ -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- タイトル -->
+	<title></title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<!--JQuery-->
+	<script src="./js/jquery-3.4.1.min.js"></script>
+
+
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+	<script type="text/javascript" src="./slick/slick.min.js"></script>
+
+	<!-- Font Awesome-->
+	<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
+	<!-- フォント -->
+	<!-- Sriracha -->
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<!-- Balsamiq Sans -->
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+	<!-- Roboto -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<!-- Lato -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+	<!-- M Plus 1p -->
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+	<!-- Balow -->
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+
+</head> 
+<body>
+	<header>
+
+	</header>
+
+	<!-- ハンバーガー -->
+	<div id="menu" class="close"> <!-- open/close -->
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+
+	<div class="bgImg bg_wk active"></div>
+	<!-- メニュー画面 -->
+	<nav id="menu_list" class="close">
+		<ul>
+			<li><a href="index.html#top" data-text="Top">Top</a></li>
+			<li><a href="index.html#profile"data-text="Profile">Profile</li>
+				<li><a href="works.html#work">Work</a></li>
+				<li><a href="index.html#blog">Blog</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<section id="WorkTop">
+		<h2>Works</h2>
+
+		<div class="Works_workBox">
+			<div class="Works_workList">
+				<div class="Works_workListGroup">
+					<h3><i class="fas fa-desktop"></i>Design/Cording</h3>
+					<i class="fas fa-angle-right"></i><a href="#">Portfolio</a><br>
+					<i class="fas fa-angle-right"></i><a href="#">Business card</a><br>
+					<i class="fas fa-angle-right"></i><a href="#">La Vie Claire</a><br>	
+				</div>
+
+				<div class="Works_workListGroup">
+					<h3><i class="fas fa-camera"></i>Photography</h3>
+					<i class="fas fa-angle-right"></i><a href="#" @click="swithWorks('Emiri')">Emiri</a><br>
+					<i class="fas fa-angle-right"></i><a href="#" @click="swithWorks('Maki')">Maki's Lettering</a><br>
+					<i class="fas fa-angle-right"></i><a href="#" @click="swithWorks('Kie')">Kie</a><br>
+					<i class="fas fa-angle-right"></i><a href="#" @click="swithWorks('Risyo')">Risyo</a><br>
+					<i class="fas fa-angle-right"></i><a href="#" @click="swithWorks('Midori')">Midori</a><br>
+					<i class="fas fa-angle-right"></i><a href="#" @click="swithWorks('Ayaka')">Ayaka</a><br>
+				</div>
+			</div>
+
+			<div class="Works_ViewList">
+				<!-- ======= Emiri写真 ======= -->
+				<div v-if="Works === 'Emiri'">
+					<div class="ViewList">
+						<ul class="Works_photoSlider">
+							<li><img src="img/20200301_Photo/IMG1.JPG"></li>
+							<li><img src="img/20200301_Photo/IMG2.JPG"></li>
+							<li><img src="img/20200301_Photo/IMG3.JPG"></li>
+							<li><img src="img/20200301_Photo/IMG4.JPG"></li>
+							<li><img src="img/20200301_Photo/IMG5.JPG"></li>
+						</ul>
+						<p class="Works_Name">Emiri</p>
+						<p class="Works_Type">-photography-</p>
+						<p class="Works_Content">プロフィール写真撮影</p>
+						<p class="Works_Date">2020.03.01</p>
+					</div>
+				</div>
+
+				<!-- ======= Maki写真 ======= -->
+				<div v-else-if="Works === 'Maki'">
+					<div class="ViewList">
+						<ul class="Works_photoSlider">
+							<li><img src="img/20200211_Photo/IMG1.JPG"></li>
+							<li><img src="img/20200211_Photo/IMG2.JPG"></li>
+							<li><img src="img/20200211_Photo/IMG3.JPG"></li>
+							<li><img src="img/20200211_Photo/IMG4.JPG"></li>
+						</ul>
+						<p class="Works_Name">Maki's Lettering</p>
+						<p class="Works_Type">-photography-</p>
+						<p class="Works_Content">作品撮影</p>
+						<p class="Works_Date">2020.02.11</p>
+					</div>
+				</div>
+
+				<!-- ======= Kie写真 ======= -->
+				<div v-else-if="Works === 'Kie'">
+					<div class="ViewList">
+						<ul class="Works_photoSlider">
+							<li><img src="img/20200111_Photo/IMG1.JPG"></li>
+							<li><img src="img/20200111_Photo/IMG2.JPG"></li>
+							<li><img src="img/20200111_Photo/IMG3.JPG"></li>
+						</ul>
+						<p class="Works_Name">Kie</p>
+						<p class="Works_Type">-photography-</p>
+						<p class="Works_Content">プロフィール写真撮影</p>
+						<p class="Works_Date">2020.01.11</p>
+					</div>
+				</div>
+
+				<!-- ======= Risyo写真 ======= -->
+				<div v-else-if="Works === 'Risyo'">
+					<div class="ViewList">
+						<ul class="Works_photoSlider">
+							<li><img src="img/20200105_Photo/IMG1.JPG"></li>
+							<li><img src="img/20200105_Photo/IMG2.JPG"></li>
+							<li><img src="img/20200105_Photo/IMG3.JPG"></li>
+							<li><img src="img/20200105_Photo/IMG4.JPG"></li>
+							<li><img src="img/20200105_Photo/IMG5.JPG"></li>
+						</ul>
+						<p class="Works_Name">Risyo</p>
+						<p class="Works_Type">-photography-</p>
+						<p class="Works_Content">プロフィール写真撮影</p>
+						<p class="Works_Date">2020.01.05</p>
+					</div>
+				</div>
+
+				<!-- ======= Midori写真 ======= -->
+				<div v-else-if="Works === 'Midori'">
+					<div class="ViewList">
+						<ul class="Works_photoSlider">
+							<li><img src="img/20191229_Photo/IMG1.JPG"></li>
+							<li><img src="img/20191229_Photo/IMG2.JPG"></li>
+							<li><img src="img/20191229_Photo/IMG4.JPG"></li>
+						</ul>
+						<p class="Works_Name">Midori</p>
+						<p class="Works_Type">-photography-</p>
+						<p class="Works_Content">プロフィール写真撮影</p>
+						<p class="Works_Date">2020.12.29</p>
+					</div>
+				</div>
+
+				<!-- ======= Ayaka写真 ======= -->
+				<div v-else-if="Works === 'Ayaka'">
+					<div class="ViewList">
+						<ul class="Works_photoSlider">
+							<li><img src="img/20191207_Photo/IMG1.JPG"></li>
+							<li><img src="img/20191207_Photo/IMG2.JPG"></li>
+						</ul>
+						<p class="Works_Name">Ayaka</p>
+						<p class="Works_Type">-photography-</p>
+						<p class="Works_Content">インタビュー写真撮影</p>
+						<p class="Works_Date">2020.12.07</p>
+					</div>
+				</div>
+
+
+
+
+
+			</div>	
+		</div>
+	</section>
+
+
+	<footer>
+		<small>© Batako</small>
+	</footer>
+
+
+	<!-- Vue.js 導入部 -->
+	<!-- IE対応 -->
+	<script src="https://unpkg.com/es6-promise"></script>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://unpkg.com/http-vue-loader"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+
+	<script type="text/javascript">
+		//==========
+		//  Vue.js
+		//==========
+		var WorksView = new Vue({
+			el:'#WorkTop',
+			data:{
+				Works:'',
+			},
+			methods:{
+				swithWorks(Value){
+					this.Works = Value;
+				},
+			},
+			updated(){
+				slick();
+			},
+			created(){
+				var url = location.href;
+				var param = "";
+				console.log(url);
+				if(url.indexOf("#") != -1){
+					var arr = url.split('#');
+					param = arr[arr.length -1];
+				}else{
+					param = "Emiri";
+				}
+				this.Works = param;
+			}
+		});
+	</script>
+
+</body>
+</html>

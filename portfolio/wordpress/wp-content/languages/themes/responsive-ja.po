@@ -1,0 +1,2719 @@
+# Translation of Themes - Responsive in Japanese
+# This file is distributed under the same license as the Themes - Responsive package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-20 20:11:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Responsive\n"
+
+#. Theme Name of the theme
+#: core/includes/classes/class-responsive-admin-settings.php:92
+#: core/includes/customizer/settings/class-responsive-customizer-notices.php:77
+#: admin/templates/get-started.php:23
+msgid "Responsive"
+msgstr "レスポンシブ"
+
+#: core/includes/page-custom-meta.php:104
+msgid "Disable"
+msgstr "無効化"
+
+#: core/includes/page-custom-meta.php:103
+msgid "Enable"
+msgstr "有効化"
+
+#: core/includes/page-custom-meta.php:81
+msgid "Page Layout Style"
+msgstr "固定ページレイアウトスタイル"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:50
+msgid "Enable Retina Logo ?"
+msgstr "Retina ロゴを有効化しますか ?"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:96
+msgid "Hide Copyright Icon & Year"
+msgstr "著作権アイコンと年を非表示"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:110
+msgid "Mobile Header Alignment"
+msgstr "モバイルヘッダー配置"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:106
+msgid "Mobile Header Layout"
+msgstr "モバイルヘッダーレイアウト"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:127
+msgid "Transparent Header Menu"
+msgstr "透過ヘッダーメニュー"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:109
+msgid "Transparent Header Colors"
+msgstr "透過ヘッダー色"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:100
+msgid "Disable on Single Posts?"
+msgstr "個別投稿で無効化しますか ?"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:94
+msgid "Disable on Homepage?"
+msgstr "ホームページで無効化しますか ?"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:72
+msgid "Logo For Transparent Header"
+msgstr "透過ヘッダーのロゴ"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:49
+msgid "Transparent Header Layout"
+msgstr "透過ヘッダーレイアウト"
+
+#: core/includes/customizer/helper.php:1495
+msgctxt "color palette name"
+msgid "Lavender"
+msgstr "ラベンダー"
+
+#: core/includes/customizer/helper.php:1487
+msgctxt "color palette name"
+msgid "Mocha"
+msgstr "モカ"
+
+#: core/includes/customizer/helper.php:1479
+msgctxt "color palette name"
+msgid "Spruce"
+msgstr "スプルース"
+
+#: core/includes/customizer/helper.php:1471
+msgctxt "color palette name"
+msgid "Forest"
+msgstr "フォレスト"
+
+#: core/includes/customizer/helper.php:1468
+msgctxt "design style name"
+msgid "Welcoming"
+msgstr "歓迎"
+
+#: core/includes/customizer/helper.php:1453
+msgctxt "color palette name"
+msgid "Champagne"
+msgstr "シャンパン"
+
+#: core/includes/customizer/helper.php:1442
+msgctxt "color palette name"
+msgid "Avocado"
+msgstr "アボカド"
+
+#: core/includes/customizer/helper.php:1431
+msgctxt "color palette name"
+msgid "Steel"
+msgstr "スチール"
+
+#: core/includes/customizer/helper.php:1419
+msgctxt "color palette name"
+msgid "Plum"
+msgstr "プラム"
+
+#: core/includes/customizer/helper.php:1416
+msgctxt "design style name"
+msgid "Trendy"
+msgstr "トレンディ"
+
+#: core/includes/customizer/helper.php:1405
+msgctxt "color palette name"
+msgid "Pacific"
+msgstr "パシフィック"
+
+#: core/includes/customizer/helper.php:1391
+msgctxt "color palette name"
+msgid "Blush"
+msgstr "ブラッシュ"
+
+#: core/includes/customizer/helper.php:1384
+msgctxt "color palette name"
+msgid "Shade"
+msgstr "シェード"
+
+#: core/includes/customizer/helper.php:1381
+msgctxt "design style name"
+msgid "Modern"
+msgstr "モダン"
+
+#: core/includes/customizer/helper.php:1370
+msgctxt "color palette name"
+msgid "Bronze"
+msgstr "ブロンズ"
+
+#: core/includes/customizer/helper.php:1363
+msgctxt "color palette name"
+msgid "Brick"
+msgstr "レンガ"
+
+#: core/includes/customizer/helper.php:1356
+msgctxt "color palette name"
+msgid "Emerald"
+msgstr "エメラルド"
+
+#: core/includes/customizer/helper.php:1349
+msgctxt "color palette name"
+msgid "Apricot"
+msgstr "アプリコット"
+
+#: core/includes/customizer/helper.php:1346
+msgctxt "design style name"
+msgid "Traditional"
+msgstr "伝統的"
+
+#: core/includes/customizer/helper.php:1331
+msgctxt "color palette name"
+msgid "Berry"
+msgstr "ベリー"
+
+#: core/includes/customizer/helper.php:1320
+msgctxt "color palette name"
+msgid "Organic"
+msgstr "オーガニック"
+
+#: core/includes/customizer/helper.php:1309
+msgctxt "color palette name"
+msgid "Coral"
+msgstr "コーラル"
+
+#: core/includes/customizer/helper.php:1298
+msgctxt "color palette name"
+msgid "Frolic"
+msgstr "フロリック"
+
+#: core/includes/customizer/helper.php:1288
+msgctxt "color palette name"
+msgid "Default"
+msgstr "標準"
+
+#: core/includes/customizer/helper.php:1285
+msgctxt "design style name"
+msgid "Playful"
+msgstr "遊び心"
+
+#: core/includes/customizer/settings/class-responsive-site-color-palettes-scheme-customizer.php:44
+#: core/includes/customizer/settings/class-responsive-site-color-palettes-scheme-customizer.php:62
+msgid "Color Palettes Scheme"
+msgstr "カラーパレット配色"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:134
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:55
+msgid "Mobile Menu Background Color"
+msgstr "モバイルメニューの背景色"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:225
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:229
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:231
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:238
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:144
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:151
+msgid "Justify"
+msgstr "両端揃え"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-layout-customizer.php:60
+msgid "Disable Cart Fragments"
+msgstr "お買い物カゴフラグメントを無効化"
+
+#: admin/templates/free-vs-pro.php:51
+msgid "40+ Free & Pro"
+msgstr "40個以上の無料版とプロ版"
+
+#: admin/templates/free-vs-pro.php:50
+msgid "Free Only"
+msgstr "無料のみ"
+
+#. translators: %s: Page Number
+#: core/includes/functions-extensions.php:219
+msgctxt "Text for a page Breadcrumb"
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: core/includes/functions-extensions.php:67
+msgctxt "Text for a 404 page Breadcrumb"
+msgid "Error 404"
+msgstr "404エラー"
+
+#. translators: %s: Author pages
+#: core/includes/functions-extensions.php:66
+msgctxt "Text for an Author page Breadcrumb"
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#. translators: %s: Post Pages
+#: core/includes/functions-extensions.php:64
+msgctxt "Text for a Tag page Breadcrumb"
+msgid "Posts tagged %s"
+msgstr "「%s」タグのついた記事"
+
+#. translators: %s: Search result page
+#: core/includes/functions-extensions.php:62
+msgctxt "Text for a Serch Results Breadcrumb"
+msgid "Search results for: %s"
+msgstr "検索結果: %s"
+
+#. translators: %s: Categories
+#: core/includes/functions-extensions.php:60
+msgctxt "Text for a Category page Breadcrumb"
+msgid "Archive for %s"
+msgstr "%s のアーカイブ"
+
+#: core/includes/functions-extensions.php:58
+msgctxt "Text for Home link Breadcrumb"
+msgid "Home"
+msgstr "ホーム"
+
+#: core/includes/starter-content.php:243
+msgid "Primary"
+msgstr "メイン"
+
+#: core/includes/hooks.php:394
+msgid "Enroll &raquo;"
+msgstr "登録 &raquo;"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:254
+msgid "Featured Content Area image"
+msgstr "特集コンテンツエリア画像"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:97
+msgid "Disable Hero Area"
+msgstr "ヒーローエリアを無効化"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:73
+msgid "Site Title/Logo URL"
+msgstr "サイトタイトル/ロゴ URL"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:103
+msgid "Disable on WooCommerce Pages?"
+msgstr "WooCommerce ページで無効化しますか ?"
+
+#: core/includes/customizer/settings/class-responsive-sidebar-colors-customizer.php:46
+msgid "Headings Color"
+msgstr "見出しの色"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:87
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:88
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:86
+msgid "Image Width Size (px)"
+msgstr "画像幅サイズ (px)"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:42
+msgid "Scroll To Top"
+msgstr "先頭にスクロール"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:81
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:55
+msgid "All Headings (H1 - H6)"
+msgstr "すべての見出し (H1 - H6)"
+
+#: core/includes/compatibility/sensei/customizer/settings/class-responsive-sensei-content-customizer.php:62
+msgid "Enroll Text"
+msgstr "登録テキスト"
+
+#: core/includes/compatibility/sensei/customizer/settings/class-responsive-sensei-panel.php:41
+msgid "Sensei Settings"
+msgstr "Sensei 設定"
+
+#: core/includes/compatibility/sensei/customizer/settings/class-responsive-sensei-panel.php:40
+msgid "Sensei LMS"
+msgstr "Sensei LMS"
+
+#: admin/templates/free-vs-pro.php:82
+msgid "Upgrade to Pro"
+msgstr "プロ版にアップグレード"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:110
+msgid "Hide Powered By Responsive Theme"
+msgstr "Powered By Responsive Theme を非表示"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:63
+msgid "Box Background Color"
+msgstr "ボックスの背景色"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-layout-customizer.php:81
+msgid "Disabled On All Devices"
+msgstr "すべてのデバイスで無効"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-layout-customizer.php:80
+msgid "Display On All Devices"
+msgstr "すべてのデバイスで表示"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-layout-customizer.php:74
+msgid "Cart Icon Visibility"
+msgstr "「お買い物カゴ」アイコンの表示"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-layout-customizer.php:57
+msgid "Enable Cross-sells"
+msgstr "クロスセルを有効化"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:66
+msgid "Checkout Button"
+msgstr "購入手続きボタン"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:46
+msgid "Cart Buttons"
+msgstr "「お買い物カゴ」ボタン"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:70
+msgid "Product Elements"
+msgstr "商品要素"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:70
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:62
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:82
+msgid "Button Hover Text"
+msgstr "ボタンボタンマウスオーバー時のテキスト色"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:66
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:58
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:78
+msgid "Button Hover"
+msgstr "ボタンマウスオーバー"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:62
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:54
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:74
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:54
+msgid "Add To Cart Buttons"
+msgstr "「お買い物カゴに追加」ボタン"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:50
+msgid "Price Color"
+msgstr "価格の色"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:46
+msgid "Rating Color"
+msgstr "評価の色"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-panel.php:58
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-panel.php:59
+msgid "Cart Options"
+msgstr "お買い物カゴ設定"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-panel.php:50
+msgid "Single Product Options"
+msgstr "個別商品設定"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-panel.php:49
+msgid "Product Options"
+msgstr "商品設定"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-panel.php:41
+msgid "Shop Options"
+msgstr "ショップ設定"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-panel.php:40
+msgid "Product Catalog Options"
+msgstr "商品カタログ設定"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:112
+msgid "Shop Elements"
+msgstr "ショップ要素"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:82
+msgid "Content Aligmnment"
+msgstr "コンテンツ配置"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:74
+msgid "Catalog View"
+msgstr "カタログビュー"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:70
+msgid "Shop Product"
+msgstr "ショップ商品"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:46
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-layout-customizer.php:47
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:39
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:46
+msgid "Layouts"
+msgstr "レイアウト"
+
+#: core/includes/compatibility/woocommerce/woocommerce-helper.php:170
+msgid " / "
+msgstr " / "
+
+#: core/includes/compatibility/woocommerce/woocommerce-helper.php:165
+msgid "Cart"
+msgstr "お買い物カゴ"
+
+#: core/includes/classes/class-responsive-admin-settings.php:395
+msgid "Submit Review &raquo;"
+msgstr "レビューを投稿 &raquo;"
+
+#: core/includes/classes/class-responsive-admin-settings.php:277
+msgid "Request Support &raquo;"
+msgstr "サポート依頼 &raquo;"
+
+#: core/includes/classes/class-responsive-admin-settings.php:242
+msgid "Learn More &raquo;"
+msgstr "詳細を読む &raquo;"
+
+#: core/includes/customizer/helper.php:766
+msgid "Read more &raquo;"
+msgstr "続きを読む &raquo;"
+
+#: partials/header/main-navigation.php:15
+#: core/includes/customizer/helper.php:174
+msgid "Main Navigation"
+msgstr "メインナビゲーション"
+
+#: core/includes/customizer/helper.php:173
+msgid "Site Branding"
+msgstr "サイトのブランディング"
+
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:69
+msgid "Inherit"
+msgstr "継承"
+
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:72
+msgid "Sidebar Menu Alignment"
+msgstr "サイドバーメニューの配置"
+
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:59
+msgid "Breakpoint"
+msgstr "ブレークポイント"
+
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:55
+msgid "Enable Mobile Menu"
+msgstr "モバイルメニューを有効化"
+
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:51
+msgid "Full Width Main Navigation"
+msgstr "全幅メインナビゲーション"
+
+#: core/includes/customizer/settings/class-responsive-content-header-typography-customizer.php:59
+msgid "Breadcrumb"
+msgstr "パンくずリスト"
+
+#: core/includes/customizer/settings/class-responsive-content-header-typography-customizer.php:53
+msgid "Description"
+msgstr "説明"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:676
+msgid "Contact Section"
+msgstr "お問い合わせセクション"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:556
+msgid "Team Section"
+msgstr "チームセクション"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:494
+msgid "Testimonial Section"
+msgstr "お客様の声セクション"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:397
+msgid "Feature Section"
+msgstr "特集セクション"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:287
+msgid "About Section"
+msgstr "「About」セクション"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:93
+msgid "Hero Area"
+msgstr "ヒーローエリア"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:69
+msgid "Custom Home Page"
+msgstr "カスタムホームページ"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:170
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:91
+msgid "Menu Toggle Color"
+msgstr "メニューの切り替え色"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:166
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:87
+msgid "Menu Toggle Background Color"
+msgstr "メニューの切り替え背景色"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:146
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:67
+msgid "Menu Item Link Color"
+msgstr "メニュー項目のリンク色"
+
+#: core/includes/customizer/settings/class-responsive-content-header-colors-customizer.php:55
+msgid "Breadcrumb Color"
+msgstr "パンくずの色"
+
+#: core/includes/customizer/settings/class-responsive-content-header-colors-customizer.php:51
+msgid "Description Color"
+msgstr "説明文の色"
+
+#: core/includes/customizer/settings/class-responsive-content-header-colors-customizer.php:46
+msgid "Title Color"
+msgstr "タイトルの色"
+
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:138
+msgid "Page Content"
+msgstr "ページコンテンツ"
+
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:82
+msgid "Page Featured Image"
+msgstr "固定ページのアイキャッチ画像"
+
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:51
+msgid "Page Elements"
+msgstr "固定ページ要素"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:50
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:70
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:258
+msgid "Button"
+msgstr "ボタン"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:257
+msgid "Link"
+msgstr "リンク"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:255
+msgid "Read More Type"
+msgstr "「続きを読む」のタイプ"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:221
+msgid "Content Type"
+msgstr "コンテンツタイプ"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:217
+msgid "Entry Content"
+msgstr "投稿コンテンツ"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:140
+msgid "Entry Meta"
+msgstr "投稿メタ情報"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:117
+msgid "Entry Title"
+msgstr "投稿タイトル"
+
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:56
+msgid "Enable Masonry Layout"
+msgstr "Masonry レイアウトを有効化"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:220
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:229
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:142
+msgid "Content Alignment"
+msgstr "コンテンツの配置"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:198
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:199
+msgid "Meta Alignment"
+msgstr "メタ情報の配置"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:117
+msgid "Post Title"
+msgstr "投稿タイトル"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:94
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:95
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:93
+msgid "Stretched"
+msgstr "ストレッチ"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:83
+msgid "Post Featured Image"
+msgstr "注目画像を投稿"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:143
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:151
+msgid "Space Around"
+msgstr "周囲の余白"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:92
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:103
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:109
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:125
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:131
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:202
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:208
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:103
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:109
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:125
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:132
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:203
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:209
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:102
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:108
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:124
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:130
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:100
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:142
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:150
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:84
+msgid "center"
+msgstr "中央"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:139
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:147
+msgid "Spread"
+msgstr "スプレッド"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:137
+msgid "Widgets Alignment"
+msgstr "ウィジェットの配置"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:131
+msgid "In Header"
+msgstr "ヘッダー内"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:128
+msgid "Widgets Position"
+msgstr "ウィジェットの位置"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:124
+msgid "Enable Header Widgets"
+msgstr "ヘッダーウィジェットを有効化"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:97
+msgid "Disable on Pages?"
+msgstr "固定ページで無効化しますか ?"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:91
+msgid "Disable on Blog page?"
+msgstr "ブログページで無効化しますか ?"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:88
+msgid "Disable on 404, Search & Archives?"
+msgstr "404、検索、アーカイブで無効化しますか ?"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:53
+msgid "Enable on Complete Website"
+msgstr "完成したサイトで有効化"
+
+#: core/includes/page-custom-meta.php:109
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:39
+msgid "Transparent Header"
+msgstr "透明ヘッダー"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:89
+msgid "Header Alignment"
+msgstr "ヘッダー配置"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:71
+msgid "Header Elements"
+msgstr "ヘッダー要素"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:51
+msgid "Inline logo & Site Title"
+msgstr "インラインロゴとサイトタイトル"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:47
+msgid "Full Width Header"
+msgstr "全幅ヘッダー"
+
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:91
+msgid "Input Fields"
+msgstr "入力フィールド"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:132
+msgid "Social Links"
+msgstr "ソーシャルリンク"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:66
+msgid "Footer Bar"
+msgstr "フッターバー"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:57
+msgid "Number of Columns"
+msgstr "列数"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:47
+msgid "Full Width Footer"
+msgstr "全幅フッター"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-checkout-customizer.php:46
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:50
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-layout-customizer.php:54
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:50
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:49
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:50
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:50
+msgid "Main Content Width (%)"
+msgstr "メインコンテンツの幅 (%)"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:127
+msgid "Form Inputs"
+msgstr "フォーム入力"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:123
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:139
+msgid "Border Width (px)"
+msgstr "ボーダー幅 (px)"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:119
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:135
+msgid "Radius (px)"
+msgstr "半径 (px)"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:107
+msgid "Box Radius (px)"
+msgstr "ボックス半径 (px)"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:103
+msgid "Box Padding (px)"
+msgstr "ボックス余白 (px)"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:91
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:63
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:92
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:94
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:90
+msgid "Style"
+msgstr "スタイル"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:82
+msgid "Width"
+msgstr "幅"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:174
+msgid "Labels"
+msgstr "ラベル"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:157
+msgid "Inputs"
+msgstr "入力"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:137
+msgid "Hover Color"
+msgstr "ホバーの色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:132
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:161
+msgid "Color"
+msgstr "色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:105
+msgid "Heading 6 (H6) Color"
+msgstr "見出し6 (H6) の色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:101
+msgid "Heading 5 (H5) Color"
+msgstr "見出し5 (H5) の色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:97
+msgid "Heading 4 (H4) Color"
+msgstr "見出し4 (H4) の色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:93
+msgid "Heading 3 (H3) Color"
+msgstr "見出し3 (H3) の色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:89
+msgid "Heading 2 (H2) Color"
+msgstr "見出し2 (H2) の色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:85
+msgid "Heading 1 (H1) Color"
+msgstr "見出し1 (H1) の色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:76
+msgid "Body Text Color"
+msgstr "本文テキストの色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:72
+msgid "General Text"
+msgstr "一般テキスト"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:68
+msgid "Alternate Background Color"
+msgstr "代替背景色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:59
+msgid "Backgrounds"
+msgstr "背景"
+
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:64
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:176
+msgid "Header Widget"
+msgstr "ヘッダーウィジェット"
+
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:58
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:121
+msgid "Site Tagline Color"
+msgstr "サイトキャッチフレーズの色"
+
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:55
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:118
+msgid "Site Title Hover Color"
+msgstr "マウスオーバー時のサイトタイトル色"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:99
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:121
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:99
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:121
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:98
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:120
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:73
+msgid "Alignment"
+msgstr "配置"
+
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:68
+msgid "After Heading"
+msgstr "見出しの後"
+
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:67
+msgid "Before Heading"
+msgstr "見出しの前"
+
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:65
+msgid "Breadcrumb Position"
+msgstr "パンくずリストの位置"
+
+#: core/includes/customizer/settings/class-responsive-footer-colors-customizer.php:59
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:85
+#: core/includes/customizer/settings/class-responsive-sidebar-colors-customizer.php:62
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:197
+msgid "Links Hover Color"
+msgstr "リンクホバー色"
+
+#: core/includes/customizer/settings/class-responsive-footer-colors-customizer.php:55
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:81
+#: core/includes/customizer/settings/class-responsive-sidebar-colors-customizer.php:58
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:193
+msgid "Links Color"
+msgstr "リンク色"
+
+#: core/includes/customizer/settings/class-responsive-footer-colors-customizer.php:51
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:68
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:141
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:166
+#: core/includes/customizer/settings/class-responsive-sidebar-colors-customizer.php:54
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:180
+msgid "Text Color"
+msgstr "文字色"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:104
+msgid "Single Blog Post"
+msgstr "個別ブログ投稿"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:103
+msgid "Blog Post"
+msgstr "ブログ投稿"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:95
+msgid "Blog Options"
+msgstr "ブログ設定"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:94
+msgid "Blog / Archive"
+msgstr "ブログ / アーカイブ"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:85
+#: core/includes/customizer/settings/class-responsive-panel.php:86
+#: core/includes/customizer/settings/class-responsive-blog-content-header-customizer.php:43
+msgid "Content Header"
+msgstr "コンテンツヘッダ"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:77
+msgid "Footer Options"
+msgstr "フッター設定"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:68
+msgid "Sidebar Options"
+msgstr "サイドバー設定"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:59
+msgid "Header Menu Options"
+msgstr "ヘッダーメニュー設定"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:41
+#: core/includes/customizer/settings/class-responsive-panel.php:50
+msgid "Header Options"
+msgstr "ヘッダーオプション"
+
+#: core/includes/functions-admin.php:82
+msgid "I already did"
+msgstr "すでにしました"
+
+#: core/includes/functions-admin.php:81
+msgid "Nope, maybe later"
+msgstr "結構です。後で検討するかもしれません"
+
+#: core/includes/functions-admin.php:80
+msgid "Ok, you deserve it"
+msgstr "了解です。"
+
+#: core/includes/functions.php:728
+msgid "Posted on"
+msgstr "投稿日:"
+
+#: core/includes/functions.php:423
+msgid "Team Section Options"
+msgstr "チームセクション設定"
+
+#: partials/single/layout.php:84
+msgid "Next Post is"
+msgstr "次の投稿:"
+
+#: partials/single/layout.php:83
+msgid "Previous Post is "
+msgstr "前の投稿:"
+
+#: partials/footer/copy-right.php:45
+msgid " | Powered by Responsive Theme"
+msgstr " | Powered by Responsive Theme"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:85
+msgid "Full Width"
+msgstr "全幅"
+
+#: partials/footer/copy-right.php:20
+msgid " &copy; "
+msgstr " &copy; "
+
+#. translators: %s: category list
+#: partials/entry/meta.php:104 partials/single/meta.php:96
+#: core/includes/functions.php:758
+msgid ", "
+msgstr "、"
+
+#. translators: 1: class, 2: date
+#: partials/entry/meta.php:69 partials/single/meta.php:63
+msgid "Posted on "
+msgstr "公開日:"
+
+#: functions.php:607
+msgid "#"
+msgstr "#"
+
+#: admin/templates/free-vs-pro.php:55
+msgid "Exclusive Widgets"
+msgstr "特別ウィジェット"
+
+#: admin/templates/free-vs-pro.php:39
+msgid "Fully Customizable"
+msgstr "完全にカスタマイズ可能"
+
+#: admin/templates/free-vs-pro.php:31
+msgid "Blazing Fast Speed"
+msgstr "非常に高速"
+
+#: admin/templates/free-vs-pro.php:23
+msgid "Mobile Friendly"
+msgstr "モバイル対応"
+
+#: admin/templates/free-vs-pro.php:17
+msgid "Pro"
+msgstr "プロ版"
+
+#: admin/templates/free-vs-pro.php:16
+msgid "Free"
+msgstr "無料"
+
+#: admin/class-responsive-plugin-install-helper.php:93
+msgid "Install and activate &raquo;"
+msgstr "インストールして有効化"
+
+#: admin/admin-functions.php:28
+msgid "Uncaught Error"
+msgstr "キャッチされないエラー"
+
+#: admin/admin-functions.php:22
+msgid "Not connect. Verify Network."
+msgstr "接続されていません。ネットワークを確認してください。"
+
+#: admin/admin-functions.php:23
+msgid "Requested page not found. [404]"
+msgstr "要求されたページが見つかりません。[404]"
+
+#: admin/admin-functions.php:24
+msgid "Internal Server Error [500]"
+msgstr "内部サーバーエラー [500]"
+
+#: admin/admin-functions.php:25
+msgid "Requested JSON parse failed"
+msgstr "要求された JSON 解析に失敗しました"
+
+#: admin/admin-functions.php:26
+msgid "Time out error"
+msgstr "タイムアウトエラー"
+
+#: admin/admin-functions.php:27
+msgid "Ajax request aborted"
+msgstr "Ajax リクエストが中止されました"
+
+#: core/includes/classes/class-responsive-admin-settings.php:421
+msgid "Blazing Fast, mobile-friendly, fully-customizable WordPress theme."
+msgstr "高速、モバイルフ対応、完全にカスタマイズ可能な WordPress テーマ。"
+
+#: core/includes/classes/class-responsive-admin-settings.php:387
+msgid "Feedback"
+msgstr "フィードバック"
+
+#: core/includes/classes/class-responsive-admin-settings.php:365
+msgid "Community"
+msgstr "コミュニティ"
+
+#: core/includes/classes/class-responsive-admin-settings.php:346
+msgid "Quick Start:"
+msgstr "クイックスタート:"
+
+#: core/includes/classes/class-responsive-admin-settings.php:338
+msgid "Update page layout"
+msgstr "固定ページレイアウトを更新"
+
+#: core/includes/classes/class-responsive-admin-settings.php:333
+msgid "Update blog layout"
+msgstr "ブログレイアウトを更新"
+
+#: core/includes/classes/class-responsive-admin-settings.php:328
+msgid "Customize footer options"
+msgstr "フッター設定のカスタマイズ"
+
+#: core/includes/classes/class-responsive-admin-settings.php:323
+msgid "Customize header options"
+msgstr "ヘッダー設定のカスタマイズ"
+
+#: core/includes/classes/class-responsive-admin-settings.php:318
+msgid "Add/edit navigation menu"
+msgstr "ナビゲーションメニューの追加/編集"
+
+#: core/includes/classes/class-responsive-admin-settings.php:313
+msgid "Upload logo & site icon"
+msgstr "ロゴとサイトのアイコンをアップロード"
+
+#: core/includes/classes/class-responsive-admin-settings.php:308
+msgid "Customize fonts/typography"
+msgstr "フォント/タイポグラフィのカスタマイズ"
+
+#: core/includes/classes/class-responsive-admin-settings.php:303
+msgid "Change site layout"
+msgstr "サイトレイアウトの変更"
+
+#: core/includes/classes/class-responsive-admin-settings.php:269
+msgid "Support"
+msgstr "サポート"
+
+#: core/includes/classes/class-responsive-admin-settings.php:231
+msgid "Import a website template(FREE)"
+msgstr "サイトテンプレートをインポート (無料)"
+
+#: core/includes/classes/class-responsive-admin-settings.php:196
+msgid "Free Vs Pro "
+msgstr "無料版とプロ版の違い"
+
+#: functions.php:233
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "超特大"
+
+#: functions.php:232
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "特大"
+
+#: functions.php:227
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "大"
+
+#: functions.php:226
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "大"
+
+#: functions.php:221
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "中"
+
+#: functions.php:220
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "通常"
+
+#: functions.php:215
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "小"
+
+#: functions.php:214
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "小"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:189
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:190
+msgid "Meta Separator"
+msgstr "メタ情報の区切り"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-header-customizer.php:59
+msgid "Enable Blog Page Title"
+msgstr "ブログページのタイトルを有効化"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-header-customizer.php:78
+msgid "Blog Page Title"
+msgstr "ブログのページタイトル"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:132
+msgid "Below Header"
+msgstr "ヘッダーの下"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:130
+msgid "Above Header"
+msgstr "ヘッダーの上"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:153
+msgid "Hover Border Color"
+msgstr "マウスオーバー時の枠線色"
+
+#: core/includes/page-custom-meta.php:75
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:97
+msgid "Content Boxed"
+msgstr "ボックスコンテンツ"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:84
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:224
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:232
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:234
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:241
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:147
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:154
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:91
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:75
+msgid "Center"
+msgstr "中央"
+
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:116
+msgid "Page Title"
+msgstr "ページタイトル"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:196
+#: core/includes/customizer/settings/class-responsive-header-typography-customizer.php:54
+msgid "Site Tagline"
+msgstr "サイトのキャッチフレーズ"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:184
+#: core/includes/customizer/settings/class-responsive-header-typography-customizer.php:48
+msgid "Site Title"
+msgstr "サイトのタイトル"
+
+#: core/includes/page-custom-meta.php:74
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:96
+msgid "Boxed"
+msgstr "ボックス"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:77
+msgid "List View"
+msgstr "リスト表示"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:76
+msgid "Grid View"
+msgstr "グリッド表示"
+
+#: core/includes/functions-sidebar.php:146
+msgid "Area 15 - sidebar-footer.php"
+msgstr "エリア15 - sidebar-footer.php"
+
+#: core/includes/functions-sidebar.php:145
+msgid "Footer Widgets 4"
+msgstr "フッターウィジェット4"
+
+#: core/includes/functions-sidebar.php:135
+msgid "Area 14 - sidebar-footer.php"
+msgstr "エリア14 - sidebar-footer.php"
+
+#: core/includes/functions-sidebar.php:134
+msgid "Footer Widgets 3"
+msgstr "フッターウィジェット3"
+
+#: core/includes/functions-sidebar.php:124
+msgid "Area 13 - sidebar-footer.php"
+msgstr "エリア13 - sidebar-footer.php"
+
+#: core/includes/functions-sidebar.php:123
+msgid "Footer Widgets 2"
+msgstr "フッターウィジェット2"
+
+#: core/includes/functions-sidebar.php:113
+msgid "Area 12 - sidebar-footer.php"
+msgstr "エリア12 - sidebar-footer.php"
+
+#: core/includes/functions-sidebar.php:112
+msgid "Footer Widgets 1"
+msgstr "フッターウィジェット1"
+
+#: core/includes/functions-sidebar.php:100
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:208
+#: core/includes/customizer/settings/class-responsive-header-typography-customizer.php:60
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:120
+msgid "Header Widgets"
+msgstr "ヘッダーウィジェット"
+
+#: core/gutenberg/gutenberg-support.php:53
+msgid "Text color"
+msgstr "テキスト色"
+
+#: partials/entry/layout.php:69 partials/page/layout.php:53
+#: partials/single/layout.php:73 gutenberg-fullwidth.php:57 image.php:87
+msgid "<span class=\"post-edit\">Edit</span>"
+msgstr "<span class=\"post-edit\">編集</span>"
+
+#: partials/entry/meta.php:90 partials/single/meta.php:84 image.php:46
+msgid "No Comments"
+msgstr "コメントはまだありません"
+
+#: core/includes/compatibility/woocommerce/class-responsive-woocommerce.php:369
+msgid "This sidebar will be used on Product archive, Cart, Checkout and My Account pages."
+msgstr "このサイドバーは、製品アーカイブ、お買い物カゴ、購入手続き、マイアカウントページで使用されます。"
+
+#: core/includes/compatibility/woocommerce/class-responsive-woocommerce.php:367
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce サイドバー"
+
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:49
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:77
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:149
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:170
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:112
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:138
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:189
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:59
+msgid "Border Color"
+msgstr "枠線の色"
+
+#: core/gutenberg/gutenberg-support.php:60
+msgid "Container Background Color"
+msgstr "コンテナ背景色"
+
+#: core/gutenberg/gutenberg-support.php:41
+msgid "Button Hover Text Color"
+msgstr "ボタンマウスオーバー時のテキスト色"
+
+#: core/gutenberg/gutenberg-support.php:36
+msgid "Button Hover Color"
+msgstr "ボタンのホバー色"
+
+#: core/includes/customizer/controls/upsell/class-responsive-upsell-manager.php:68
+msgid "Get the PRO version!"
+msgstr "プロ版を入手"
+
+#: core/includes/customizer/controls/upsell/class-responsive-upsell-manager.php:63
+msgid "Pricing Tables"
+msgstr "価格表"
+
+#: core/includes/customizer/controls/upsell/class-responsive-upsell-manager.php:61
+msgid "Form Builder"
+msgstr "フォームビルダー"
+
+#: core/includes/customizer/controls/upsell/class-responsive-upsell-manager.php:44
+msgid "View PRO Features"
+msgstr "プロ版の機能を表示"
+
+#: core/includes/customizer/controls/upsell/class-responsive-control-upsell.php:72
+#: core/includes/customizer/controls/upsell/class-responsive-section-upsell.php:88
+msgid "PRO"
+msgstr "PRO"
+
+#: core/includes/customizer/settings/class-responsive-customizer-notices.php:158
+msgid "Recommended Plugins"
+msgstr "おすすめプラグイン"
+
+#: core/includes/customizer/settings/class-responsive-customizer-notices.php:114
+msgid "WooCommerce plugin"
+msgstr "WooCommerce プラグイン"
+
+#. translators: %1$s is Plugin Name
+#: core/includes/customizer/settings/class-responsive-customizer-notices.php:113
+msgid "To have access to a shop section please install and configure %1$s."
+msgstr "ショップのセクションにアクセスするには、%1$sをインストールして設定してください。"
+
+#: core/includes/customizer/settings/class-responsive-customizer-notices.php:79
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: partials/header/main-navigation.php:14
+#: core/includes/customizer/settings/class-responsive-panel.php:58
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:139
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:79
+msgid "Heading 6 (H6)"
+msgstr "見出し6 (H6)"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:127
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:75
+msgid "Heading 5 (H5)"
+msgstr "見出し5 (H5)"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:115
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:71
+msgid "Heading 4 (H4)"
+msgstr "見出し4 (H4)"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:103
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:67
+msgid "Heading 3 (H3)"
+msgstr "見出し3 (H3)"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:91
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:63
+msgid "Heading 2 (H2)"
+msgstr "見出し2 (H2)"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:79
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:59
+msgid "Heading 1 (H1)"
+msgstr "見出し1 (H1)"
+
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:66
+msgid "FullScreen"
+msgstr "全画面"
+
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:65
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: partials/entry/content.php:17 core/includes/customizer/helper.php:806
+#: core/includes/customizer/helper.php:827
+msgid "Read More &raquo;"
+msgstr "続きを読む &raquo;"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:152
+msgid "Border Radius (%)"
+msgstr "枠線の角丸 (%)"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:124
+msgid "Icon Size (px)"
+msgstr "アイコンサイズ (px)"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:100
+msgid "Position"
+msgstr "位置"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:85
+msgid "Desktop + Mobile"
+msgstr "デスクトップ + モバイル"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:84
+msgid "Mobile"
+msgstr "モバイル"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:83
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:78
+msgid "Display On"
+msgstr "表示:"
+
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:60
+msgid "Enable Scroll To Top"
+msgstr "「先頭にスクロール」を有効化"
+
+#: footer.php:89
+msgid "Scroll to Top"
+msgstr "先頭にスクロール"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:251
+msgid "Read More Text"
+msgstr "「続きを読む」テキスト"
+
+#: core/includes/compatibility/sensei/customizer/settings/class-responsive-sensei-content-customizer.php:58
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:247
+msgid "Excerpt Length"
+msgstr "概要の長さ"
+
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:224
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:216
+msgid "Post Content"
+msgstr "投稿コンテンツ"
+
+#: home.php:70
+msgid "Next"
+msgstr "次"
+
+#: home.php:69
+msgid "Previous"
+msgstr "前"
+
+#: functions.php:556
+msgid "Thanks :)"
+msgstr "ありがとうございます :)"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:145
+msgid "Hover Text Color"
+msgstr "マウスオーバー時のテキスト色"
+
+#: admin/class-responsive-plugin-install-helper.php:117
+msgid "Jetpack Portfolio"
+msgstr "Jetpack ポートフォリオ"
+
+#: admin/class-responsive-plugin-install-helper.php:112
+msgid "Deactivate"
+msgstr "無効化"
+
+#: admin/admin-functions.php:21
+#: admin/class-responsive-plugin-install-helper.php:157
+msgid "Activating "
+msgstr "有効化中 "
+
+#: core/includes/classes/class-responsive-admin-settings.php:194
+msgid "Get Started"
+msgstr "始めてみよう"
+
+#: core/includes/classes/class-responsive-admin-settings.php:91
+msgid "Responsive Options"
+msgstr "レスポンシブ設定"
+
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:52
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:115
+msgid "Site Title Color"
+msgstr "サイトタイトルの色"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:339
+msgid "General Typography"
+msgstr "一般タイポグラフィ"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:49
+msgid "Header"
+msgstr "ヘッダー"
+
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:81
+msgid "Header Layout"
+msgstr "ヘッダーレイアウト"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:85
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:90
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:101
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:108
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:123
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:130
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:200
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:207
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:222
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:231
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:74
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:101
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:108
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:123
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:131
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:201
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:208
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:232
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:240
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:100
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:107
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:122
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:129
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:145
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:153
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:106
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:92
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:99
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:140
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:149
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:76
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:83
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:194
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:198
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:202
+msgid "Left"
+msgstr "左"
+
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:193
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:197
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:201
+msgid "Bottom"
+msgstr "下"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:86
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:91
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:102
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:107
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:124
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:129
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:201
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:206
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:223
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:230
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:75
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:102
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:107
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:124
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:130
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:202
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:207
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:233
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:239
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:101
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:106
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:123
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:128
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:146
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:152
+#: core/includes/customizer/settings/class-responsive-scroll-to-top-customizer.php:105
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:93
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:98
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:141
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:148
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:77
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:82
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:192
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:196
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:200
+msgid "Right"
+msgstr "右"
+
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:191
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:195
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:199
+#: footer.php:89
+msgid "Top"
+msgstr "上"
+
+#: core/includes/customizer/controls/dimensions/class-responsive-customizer-dimensions-control.php:66
+msgid "Link values together"
+msgstr "値をまとめてリンク"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:109
+msgid "Meta Text Color"
+msgstr "メタ情報のテキスト色"
+
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:154
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:75
+msgid "Sub Menu Background Color"
+msgstr "サブメニュー背景色"
+
+#: partials/header/main-navigation.php:17
+msgid "Menu"
+msgstr "メニュー"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:115
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:131
+msgid "Padding (px)"
+msgstr "パディング (px)"
+
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:67
+#: core/includes/customizer/settings/class-responsive-panel.php:67
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: core/includes/customizer/helper.php:277
+msgid "Ratings"
+msgstr "評価"
+
+#: core/includes/customizer/helper.php:275
+msgid "Category"
+msgstr "カテゴリー"
+
+#: core/includes/customizer/helper.php:251
+#: core/includes/customizer/helper.php:279
+msgid "Add to Cart"
+msgstr "お買い物カゴに追加"
+
+#: core/includes/customizer/helper.php:250
+#: core/includes/customizer/helper.php:278
+msgid "Short Description"
+msgstr "簡潔な説明"
+
+#: core/includes/customizer/helper.php:248
+msgid "Rating"
+msgstr "評価"
+
+#: core/includes/post-custom-meta.php:142
+msgid "Blog 4 Column"
+msgstr "ブログ4カラム"
+
+#: core/includes/post-custom-meta.php:140
+msgid "Blog 2 Column"
+msgstr "ブログ2カラム"
+
+#: core/includes/compatibility/woocommerce/class-responsive-woocommerce.php:278
+msgid "Sale!"
+msgstr "セール中 !"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:39
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-cart-colors-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-footer-colors-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:44
+#: core/includes/customizer/settings/class-responsive-content-header-colors-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-sidebar-colors-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:44
+msgid "Colors"
+msgstr "色"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:139
+msgid "Square Outline"
+msgstr "四角アウトライン"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:138
+msgid "Square"
+msgstr "正方形"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:137
+msgid "Circle Outline"
+msgstr "円アウトライン"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:136
+msgid "Circle"
+msgstr "円"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:125
+msgid "Custom String"
+msgstr "カスタム文字列"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:123
+msgid "None"
+msgstr "なし"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:121
+msgid "Sale Notification"
+msgstr "販売通知"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:95
+msgid "Single Product Structure"
+msgstr "個別商品構造"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:77
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:121
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:83
+msgid "Horizontal"
+msgstr "水平"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:76
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:122
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:84
+msgid "Vertical"
+msgstr "垂直"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:74
+msgid "Gallery Layout"
+msgstr "ギャラリーレイアウト"
+
+#: core/includes/page-custom-meta.php:38 core/includes/page-custom-meta.php:45
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:58
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:64
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:58
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:64
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:64
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:70
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:58
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:64
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:58
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:64
+msgid "No Sidebar"
+msgstr "サイドバーなし"
+
+#: core/includes/customizer/settings/class-responsive-footer-colors-customizer.php:46
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:46
+#: core/includes/customizer/settings/class-responsive-header-colors-customizer.php:73
+#: core/includes/customizer/settings/class-responsive-sidebar-colors-customizer.php:50
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:131
+#: core/includes/customizer/settings/class-responsive-header-transparent-customizer.php:185
+#: core/includes/customizer/settings/class-responsive-header-menu-colors-customizer.php:51
+msgid "Background Color"
+msgstr "背景色"
+
+#: core/includes/compatibility/sensei/customizer/settings/class-responsive-sensei-content-customizer.php:47
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:43
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:43
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:223
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:43
+#: core/includes/customizer/helper.php:38
+#: core/includes/customizer/helper.php:121
+#: core/includes/customizer/helper.php:226
+msgid "Content"
+msgstr "内容"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:150
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:83
+#: core/includes/customizer/helper.php:37
+#: core/includes/customizer/helper.php:120
+#: core/includes/customizer/helper.php:252
+msgid "Meta"
+msgstr "メタ情報"
+
+#: core/includes/customizer/settings/class-responsive-content-header-typography-customizer.php:48
+#: core/includes/customizer/helper.php:35
+#: core/includes/customizer/helper.php:118
+#: core/includes/customizer/helper.php:224
+#: core/includes/customizer/helper.php:247
+#: core/includes/customizer/helper.php:274
+msgid "Title"
+msgstr "タイトル"
+
+#: core/includes/customizer/helper.php:36
+#: core/includes/customizer/helper.php:119
+#: core/includes/customizer/helper.php:225
+msgid "Featured Image"
+msgstr "アイキャッチ画像"
+
+#: core/includes/customizer/controls/text/class-responsive-customizer-text-control.php:122
+#: core/includes/customizer/controls/text/class-responsive-customizer-text-control.php:127
+#: core/includes/customizer/controls/text/class-responsive-customizer-text-control.php:133
+msgid "px - em - rem"
+msgstr "px - em - rem"
+
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:258
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:244
+msgid "Standard Fonts"
+msgstr "標準フォント"
+
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:227
+msgid "Custom Fonts"
+msgstr "カスタムフォント"
+
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:220
+msgid "Arial, Helvetica, sans-serif"
+msgstr "Arial, Helvetica, sans-serif"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:76
+msgid "Footer"
+msgstr "フッター"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:56
+msgid "Hide Tagline"
+msgstr "キャッチフレーズを非表示"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:53
+msgid "Hide Site Title"
+msgstr "サイトタイトルを非表示"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:112
+msgid "Page"
+msgstr "固定ページ"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:139
+msgid "Post Meta"
+msgstr "投稿メタ"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:169
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:170
+msgid "Comments"
+msgstr "コメント"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:167
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:168
+msgid "Date"
+msgstr "日付"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:166
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:167
+msgid "Author"
+msgstr "投稿者"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:159
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:160
+msgid "Meta Elements"
+msgstr "メタ要素"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:51
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:71
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:70
+msgid "Post Elements"
+msgstr "投稿の要素"
+
+#: core/includes/page-custom-meta.php:51
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:54
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:54
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:60
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:54
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:54
+msgid "Sidebar Position"
+msgstr "サイドバー配置"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:90
+msgid "Container Width (px)"
+msgstr "コンテナの幅 (px)"
+
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:84
+msgid "Contained"
+msgstr "含まれる"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:128
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:111
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:87
+msgid "Buttons"
+msgstr "ボタン"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:178
+msgid "Label Color"
+msgstr "ラベル色"
+
+#: core/gutenberg/gutenberg-support.php:46
+msgid "Button Text Color"
+msgstr "ボタンの文字色"
+
+#: core/gutenberg/gutenberg-support.php:31
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-colors-customizer.php:58
+msgid "Button Color"
+msgstr "ボタンの色"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:715
+msgid "Font Color"
+msgstr "Font Color"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:677
+msgid "Letter Spacing (px)"
+msgstr "文字間隔 (px)"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:641
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:588
+msgid "You can add: px-em-%"
+msgstr "追加可能: px-em-%"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:587
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:543
+msgid "Uppercase"
+msgstr "大文字"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:542
+msgid "Lowercase"
+msgstr "小文字"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:541
+msgid "Capitalize"
+msgstr "先頭大文字"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:533
+msgid "Text Transform"
+msgstr "文字の変形"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:508
+msgid "Italic"
+msgstr "イタリック"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:507
+msgid "Normal"
+msgstr "通常"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:500
+msgid "Font Style"
+msgstr "フォントスタイル"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:475
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:80
+msgid "Black: 900"
+msgstr "Black: 900"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:474
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:79
+msgid "Extra Bold: 800"
+msgstr "Extra Bold: 800"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:473
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:78
+msgid "Bold: 700"
+msgstr "Bold: 700"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:472
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:77
+msgid "Semibold: 600"
+msgstr "Semibold: 600"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:471
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:76
+msgid "Medium: 500"
+msgstr "Medium: 500"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:470
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:75
+msgid "Normal: 400"
+msgstr "Normal: 400"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:469
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:74
+msgid "Book: 300"
+msgstr "Book: 300"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:468
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:73
+msgid "Light: 200"
+msgstr "Light: 200"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:467
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:72
+msgid "Thin: 100"
+msgstr "Thin: 100"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:456
+msgid "Important: Not all fonts support every font-weight."
+msgstr "重要: すべてのフォントがすべての太さに対応しているわけではありません。"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:455
+msgid "Font Weight"
+msgstr "フォントの太さ"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:420
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:218
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:230
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:240
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:251
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:262
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:273
+#: core/includes/customizer/settings/class-responsive-content-header-typography-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-header-typography-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:44
+msgid "Typography"
+msgstr "タイポグラフィ"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:67
+msgid "All Headings"
+msgstr "すべての見出し"
+
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:53
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:162
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:173
+#: core/includes/customizer/settings/class-responsive-site-typography-customizer.php:51
+msgid "Body"
+msgstr "本文"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:114
+msgid "Links"
+msgstr "リンク"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:123
+msgid "Link Hover Color"
+msgstr "リンクのホバー色"
+
+#: core/includes/customizer/settings/class-responsive-site-colors-customizer.php:118
+msgid "Link Color"
+msgstr "リンク色"
+
+#. translators: %s Name of current post. Only visible to screen readers
+#: partials/single/content.php:22
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s\" の</span>続きを読む"
+
+#: partials/entry/meta.php:90 partials/entry/thumbnail-style/comments.php:16
+#: partials/single/meta.php:84 image.php:46
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: partials/entry/meta.php:90 partials/entry/thumbnail-style/comments.php:16
+#: partials/single/meta.php:84 image.php:46
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: partials/entry/thumbnail-style/comments.php:16
+msgid "0 Comments"
+msgstr "0件のコメント"
+
+#: core/includes/functions.php:775
+msgid "Upgrade To Pro"
+msgstr "プロ版にアップグレード"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:50
+#: core/includes/customizer/settings/class-responsive-theme-options-customizer.php:47
+msgid "Choose Category"
+msgstr "カテゴリーを選択"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:377
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: core/includes/post-custom-meta.php:141
+msgid "Blog 3 Column"
+msgstr "ブログ3カラム"
+
+#: core/includes/customizer/helper.php:249
+#: core/includes/customizer/helper.php:276
+msgid "Price"
+msgstr "金額"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:808
+msgid "You can put Contact Form 7 shortcode here."
+msgstr "Contact Form 7ショートコードをこちらに入力できます。"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:805
+msgid "Contact form shortcode"
+msgstr "お問い合わせフォームのショートコード"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:786
+msgid "Phone no"
+msgstr "電話番号"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:767
+#: core/includes/functions-extensions.php:361
+msgid "Email"
+msgstr "メール"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:748
+msgid "Address"
+msgstr "住所"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:729
+msgid "Contact section Subtitle"
+msgstr "連絡先セクションのサブタイトル"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:722
+msgid "Contact subtitle"
+msgstr "連絡先のサブタイトル"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:709
+msgid "Contact section Title"
+msgstr "連絡先セクションのタイトル"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:702
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:689
+msgid "Enable Contact Section"
+msgstr "連絡先セクションを有効化"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:381
+msgid "Enter url as http://www.example.com"
+msgstr "URL を http://www.example.com 形式で入力"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:339
+msgid "About Text"
+msgstr "「このサイトについて」テキスト"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:320
+msgid "About Title"
+msgstr "「このサイトについて」タイトル"
+
+#: partials/custom-home/featured-area.php:114
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:313
+msgid "About Box Title"
+msgstr "「このサイトについて」ボックスタイトル"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:300
+msgid "Enable About Section"
+msgstr "このサイトについてセクションを有効にする"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:482
+msgid "Select post for feature 3"
+msgstr "特集3の投稿を選択"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:462
+msgid "Select post for feature 2"
+msgstr "特集2の投稿を選択"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:442
+msgid "Select post for feature 1"
+msgstr "特集1の投稿を選択"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:424
+msgid "Feature Title"
+msgstr "特集のタイトル"
+
+#: partials/custom-home/featured-area.php:144
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:417
+#: admin/templates/free-vs-pro.php:15
+msgid "Features"
+msgstr "機能"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:403
+msgid "Enable Feature Section"
+msgstr "特集セクションを有効化"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:569
+msgid "Enable Team Section"
+msgstr "チームセクションを有効化"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:582
+msgid "team"
+msgstr "チーム"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:589
+msgid "Team Title"
+msgstr "チームタイトル"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:607
+msgid "Select post for team member1"
+msgstr "チームメンバー1の投稿を選択"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:610
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:630
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:650
+msgid "The featured image, title and content from the posts will be used to display the team member. Recommended image size for the featured images: 178 x 178px"
+msgstr "投稿のアイキャッチ画像、タイトル、コンテンツがチームメンバーを表示するために使われます。アイキャッチ画像の推奨画像サイズ: 178×178px"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:627
+msgid "Select post for team member2"
+msgstr "チームメンバー2の投稿を選択"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:647
+msgid "Select post for team member3"
+msgstr "チームメンバー3の投稿を選択"
+
+#: core/includes/functions.php:437
+msgid "To use this post for front page's team section, please enter below details:"
+msgstr "この投稿をフロントページのチームセクションで使用する場合は、以下の詳細を入力してください:"
+
+#: core/includes/functions.php:444
+msgid "Facebook Link"
+msgstr "Facebook リンク"
+
+#: core/includes/functions.php:448
+msgid "Twitter Link"
+msgstr "Twitter リンク"
+
+#: core/includes/functions.php:452
+msgid "GooglePlus Link"
+msgstr "Google+ リンク"
+
+#: core/includes/functions.php:456
+msgid "LinkedIn Link"
+msgstr "LinkedIn リンク"
+
+#: partials/custom-home/featured-area.php:272
+msgid "Team"
+msgstr "チーム"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:545
+msgid "Select Post"
+msgstr "投稿を選択"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:527
+msgid "Testimonial Title"
+msgstr "お客様の声タイトル"
+
+#: partials/custom-home/featured-area.php:232
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:520
+msgid "Testimonial"
+msgstr "推薦文"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:507
+msgid "Enable Testimonial Section"
+msgstr "推薦文セクションを有効化"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:63
+#: core/includes/customizer/customizer.php:119
+msgid "Choose Post"
+msgstr "投稿を選択"
+
+#: functions.php:490
+msgid "Permalink to %s"
+msgstr "%s へのパーマリンク"
+
+#: core/includes/page-custom-meta.php:76
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:236
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:98
+#: core/includes/customizer/customizer.php:86
+msgid "Flat"
+msgstr "フラット"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:235
+#: core/includes/customizer/customizer.php:85
+msgid "Gradient"
+msgstr "グラデーション"
+
+#: sidebar-home.php:87
+msgid "Interdum"
+msgstr "Interdum"
+
+#: sidebar-home.php:59
+msgid "Elementum"
+msgstr "Elementum"
+
+#: sidebar-home.php:33
+msgid "Fermentum"
+msgstr "Fermentum"
+
+#: core/includes/functions.php:93
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:124
+#: functions.php:598
+msgid "IS A WARM CUP"
+msgstr "IS A WARM CUP"
+
+#: core/includes/functions.php:92
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:105
+#: functions.php:595
+msgid "HAPPINESS"
+msgstr "HAPPINESS"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:87
+msgid "Copyright text"
+msgstr "著作権テキスト"
+
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:168
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:169
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: partials/single/layout.php:51
+msgid "About"
+msgstr "紹介"
+
+#: sidebar-home.php:94
+msgid "This is your third home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well."
+msgstr "3つ目のホームウィジェットボックスです。編集するには、「外観 > ウィジェット」画面で上から8つめにある「ホームウィジェット 3」（エリア 8）を選んでください。このウィジェット内でタイトルも指定できます。"
+
+#: sidebar-home.php:68
+msgid "This is your second home widget box. To edit please go to Appearance > Widgets and choose 7th widget from the top in area 7 called Home Widget 2. Title is also manageable from widgets as well."
+msgstr "2つ目のホームウィジェットボックスです。編集するには、「外観 > ウィジェット」画面で上から7つめにある「ホームウィジェット 2」（エリア 7）を選んでください。このウィジェット内でタイトルも指定できます。"
+
+#: sidebar-home.php:40
+msgid "This is your first home widget box. To edit please go to Appearance > Widgets and choose 6th widget from the top in area 6 called Home Widget 1. Title is also manageable from widgets as well."
+msgstr "1つ目のホームウィジェットボックスです。編集するには、「外観 > ウィジェット」画面で上から6つめにある「ホームウィジェット 1」（エリア 6）を選んでください。このウィジェット内でタイトルも指定できます。"
+
+#: sidebar-gallery.php:68
+msgid "Camera:"
+msgstr "カメラ:"
+
+#: sidebar-gallery.php:56 sidebar-gallery.php:58 sidebar-gallery.php:61
+msgid "sec"
+msgstr "秒"
+
+#: sidebar-gallery.php:51
+msgid "Shutter:"
+msgstr "シャッター:"
+
+#: sidebar-gallery.php:47
+msgid "ISO:"
+msgstr "ISO:"
+
+#: sidebar-gallery.php:43
+msgid "mm"
+msgstr "mm"
+
+#: sidebar-gallery.php:43
+msgid "Focal Length:"
+msgstr "焦点距離:"
+
+#: sidebar-gallery.php:38
+msgid "Aperture: f&#47;"
+msgstr "絞り: f&#47;"
+
+#: sidebar-gallery.php:32
+msgid "Full Size:"
+msgstr "フルサイズ:"
+
+#: sidebar-gallery.php:25
+msgid "Image Information"
+msgstr "画像情報"
+
+#: searchform.php:23
+msgid "Search here &hellip;"
+msgstr "ここで検索&hellip;"
+
+#: searchform.php:22
+msgid "Search for:"
+msgstr "検索対象:"
+
+#: loop-no-posts.php:43
+msgid "&larr; Home"
+msgstr "&larr; ホーム"
+
+#: loop-no-posts.php:32
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "落ち着いてください、大丈夫です。他のオプションを一緒に考えてみましょう。"
+
+#. translators: %s search term
+#: loop-no-posts.php:26
+msgid "404 &#8212; Fancy meeting you here!"
+msgstr "404 &#8212; お探しのページが見つかりません。"
+
+#. translators: %s search term
+#: loop-no-posts.php:26
+msgid "Your search for %s did not match any entries."
+msgstr "「%s」に一致する検索結果が見つかりませんでした。"
+
+#. translators: %s: category list
+#. translators: %s posted in categories
+#: partials/entry/meta.php:104 partials/single/meta.php:96
+#: core/includes/functions.php:758 image.php:82
+msgid "Posted in %s"
+msgstr "カテゴリー: %s"
+
+#: partials/entry/layout.php:65 partials/single/layout.php:69 image.php:79
+msgid "Tagged with:"
+msgstr "タグ:"
+
+#: image.php:37
+msgid "&#8249; Return to"
+msgstr "&#8249; 戻る:"
+
+#: header.php:36
+msgid "&darr; Skip to Main Content"
+msgstr "&darr; メインコンテンツへスキップ"
+
+#: core/includes/functions.php:95 functions.php:604
+msgid "Call to Action"
+msgstr "行動喚起"
+
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-header-menu-layouts-customizer.php:44
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:119
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:43
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:43
+#: core/includes/customizer/settings/class-responsive-site-layouts-customizer.php:44
+#: core/includes/customizer/settings/class-responsive-header-layout-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:43
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:39
+#: core/includes/post-custom-meta.php:163
+msgid "Layout"
+msgstr "レイアウト"
+
+#: partials/footer/footer-menu.php:10 partials/footer/footer-menu.php:11
+#: core/includes/functions.php:249
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: core/includes/functions.php:248
+msgid "Header Menu"
+msgstr "ヘッダーメニュー"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:53
+msgid "Footer Widgets"
+msgstr "フッターウィジェット"
+
+#: core/includes/functions-sidebar.php:101
+msgid "Area 11 - sidebar-top.php - Displays on the right of the header"
+msgstr "エリア11 - sidebar-top.php - ヘッダーの右側に表示"
+
+#: core/includes/functions-sidebar.php:89
+msgid "Area 10 - sidebar-colophon.php, 100% width Footer widgets"
+msgstr "エリア10 - sidebar-colophon.php - 全幅フッターウィジェット"
+
+#: core/includes/functions-sidebar.php:88
+msgid "Colophon Widget"
+msgstr "サイト情報ウィジェット"
+
+#: core/includes/functions-sidebar.php:77
+msgid "Area 9 - sidebar-gallery.php - Displays on the page after an image has been clicked in a Gallery"
+msgstr "エリア9 - sidebar-gallery.php - ギャラリー内の画像をクリックした際に移動するページに表示"
+
+#: core/includes/functions-sidebar.php:76
+msgid "Gallery Sidebar"
+msgstr "ギャラリーサイドバー"
+
+#: core/includes/functions-sidebar.php:65
+msgid "Area 8 - sidebar-home.php - Displays on the Home Page"
+msgstr "エリア8 - sidebar-home.php - ホーム画面に表示"
+
+#: core/includes/functions-sidebar.php:64
+msgid "Home Widget 3"
+msgstr "ホームウィジェット 3"
+
+#: core/includes/functions-sidebar.php:53
+msgid "Area 7 - sidebar-home.php - Displays on the Home Page"
+msgstr "エリア7 - sidebar-home.php - ホーム画面に表示"
+
+#: core/includes/functions-sidebar.php:52
+msgid "Home Widget 2"
+msgstr "ホームウィジェット 2"
+
+#: core/includes/functions-sidebar.php:41
+msgid "Area 6 - sidebar-home.php - Displays on the Home Page"
+msgstr "エリア6 - sidebar-home.php - ホーム画面に表示"
+
+#: core/includes/functions-sidebar.php:40
+msgid "Home Widget 1"
+msgstr "ホームウィジェット 1"
+
+#: core/includes/page-custom-meta.php:37 core/includes/page-custom-meta.php:43
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:57
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:62
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:57
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:62
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:63
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:68
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:57
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:62
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:57
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:62
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: core/includes/page-custom-meta.php:36 core/includes/page-custom-meta.php:44
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:56
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:63
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:56
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-single-product-layout-customizer.php:63
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:62
+#: core/includes/customizer/settings/class-responsive-blog-layout-customizer.php:69
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:56
+#: core/includes/customizer/settings/class-responsive-page-layout-customizer.php:63
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:56
+#: core/includes/customizer/settings/class-responsive-single-blog-layout-customizer.php:63
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: core/includes/functions-sidebar.php:29
+msgid "Area 1 - sidebar.php - Displays on Default, Blog, Blog Excerpt page templates"
+msgstr "エリア1 - sidebar.php - デフォルト・ブログ・ブログ抜粋ページテンプレートに表示"
+
+#: core/includes/functions-sidebar.php:28
+msgid "Main Sidebar"
+msgstr "メインサイドバー"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:40
+msgid "Theme Options"
+msgstr "テーマ設定"
+
+#: core/includes/functions-extensions.php:360
+msgid "foursquare"
+msgstr "foursquare"
+
+#: core/includes/functions-extensions.php:358
+msgid "Yelp!"
+msgstr "Yelp!"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:211
+#: core/includes/functions-extensions.php:353
+msgid "YouTube"
+msgstr "YouTube"
+
+#: core/includes/functions-extras.php:203
+msgid "Page %s"
+msgstr "ページ %s"
+
+#. translators: view all posts by author
+#. translators: %s view posts by
+#. translators: %s: view post by
+#: partials/entry/meta.php:54 partials/single/meta.php:49
+#: core/includes/functions.php:747
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#. translators: %s is for search query.
+#: loop-header.php:33
+msgid "Search results for: %s"
+msgstr "検索結果: %s"
+
+#: core/includes/starter-content.php:35 loop-no-posts.php:42
+msgid "Home"
+msgstr "ホーム"
+
+#: core/includes/customizer/settings/class-responsive-footer-scripts-customizer.php:57
+msgid "Embeds to footer.php"
+msgstr "footer.php への埋め込み"
+
+#: core/includes/customizer/settings/class-responsive-header-scripts-customizer.php:54
+msgid "Embeds to header.php"
+msgstr "header.php への埋め込み"
+
+#: core/includes/customizer/settings/class-responsive-header-scripts-customizer.php:39
+#: core/includes/customizer/settings/class-responsive-footer-scripts-customizer.php:39
+msgid "Scripts"
+msgstr "スクリプト"
+
+#: core/includes/customizer/customizer.php:65
+msgid "Custom CSS Styles"
+msgstr "カスタム CSS スタイル"
+
+#: core/includes/customizer/customizer.php:51
+msgid "CSS Styles"
+msgstr "CSS スタイル"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:358
+msgid "Foursquare"
+msgstr "FourSquare"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:337
+msgid "Yelp"
+msgstr "Yelp"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:316
+#: core/includes/functions-extensions.php:359
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:295
+#: core/includes/functions-extensions.php:354
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:274
+#: core/includes/functions-extensions.php:357
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:253
+#: core/includes/functions-extensions.php:356
+msgid "Instagram"
+msgstr "Instagram"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:232
+#: core/includes/functions-extensions.php:355
+msgid "RSS Feed"
+msgstr "RSS"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:190
+#: core/includes/functions-extensions.php:352
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:169
+#: core/includes/functions-extensions.php:351
+msgid "Facebook"
+msgstr "Facebook"
+
+#: core/includes/customizer/settings/class-responsive-footer-layout-customizer.php:148
+#: core/includes/functions-extensions.php:350
+msgid "Twitter"
+msgstr "Twitter"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:280
+msgid "Paste your shortcode, video or image source"
+msgstr "ショートコード、動画または画像のソース URL を入力してください"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:276
+msgid "Featured Content"
+msgstr "おすすめコンテンツ"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:206
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:359
+msgid "Call to Action (Text)"
+msgstr "アクション喚起ボタン (テキスト)"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:186
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:379
+msgid "Call to Action (URL)"
+msgstr "アクション喚起ボタン (URL)"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:150
+msgid "Content Area"
+msgstr "コンテンツエリア"
+
+#: core/includes/functions.php:94
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:142
+#: functions.php:601
+msgid "Your title, subtitle and this very content is editable from Theme Option. Call to Action button and its destination link as well. Image on your right can be an image or even YouTube video if you like."
+msgstr "タイトル、サブタイトル、このコンテンツはテーマ設定から編集できます。アクション喚起ボタンとリンク先も同様です。右側の画像は、お好みの画像や YouTube などの動画を指定できます。"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:131
+msgid "Subheadline"
+msgstr "サブヘッドライン"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:112
+msgid "Headline"
+msgstr "見出し"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:88
+msgid "Overrides the WordPress front page option"
+msgstr "WordPress のフロントページ設定を上書き"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:83
+msgid "Enable Custom Front Page"
+msgstr "カスタムフロントページを有効化"
+
+#: core/includes/customizer/settings/class-responsive-home-page-customizer.php:167
+msgid "Disable Call to Action Button?"
+msgstr "アクション喚起ボタンを非表示にしますか ?"
+
+#: core/includes/customizer/settings/class-responsive-content-header-layout-customizer.php:56
+msgid "Disable breadcrumb list?"
+msgstr "パンくずリストを無効化しますか ?"
+
+#: admin/class-responsive-plugin-install-helper.php:97
+#: admin/class-responsive-plugin-install-helper.php:117
+msgid "Activate"
+msgstr "有効化"
+
+#. Template Name of the theme
+#: core/includes/post-custom-meta.php:139
+msgid "Full Width Page (no sidebar)"
+msgstr "全幅ページ (サイドバーなし)"
+
+#: core/includes/post-custom-meta.php:138
+msgid "Sidebar/Content"
+msgstr "サイドバー/コンテンツ"
+
+#: core/includes/post-custom-meta.php:137
+msgid "Content/Sidebar"
+msgstr "コンテンツ/サイドバー"
+
+#: core/includes/page-custom-meta.php:35 core/includes/page-custom-meta.php:42
+#: core/includes/page-custom-meta.php:73 core/includes/page-custom-meta.php:102
+#: core/includes/compatibility/woocommerce/customizer/settings/class-responsive-woocommerce-shop-layout-customizer.php:124
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:427
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:460
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:466
+#: core/includes/customizer/settings/class-responsive-typography-customizer.php:540
+#: core/includes/customizer/settings/class-responsive-single-blog-content-customizer.php:93
+#: core/includes/customizer/settings/class-responsive-blog-content-customizer.php:94
+#: core/includes/customizer/settings/class-responsive-page-content-customizer.php:92
+#: core/includes/customizer/controls/typography/class-responsive-customizer-typography-control.php:71
+#: core/includes/post-custom-meta.php:136
+msgid "Default"
+msgstr "デフォルト"
+
+#: core/includes/customizer/settings/class-responsive-panel.php:113
+msgid "Page Options"
+msgstr "ページオプション"
+
+#: comments.php:112
+msgid "Website"
+msgstr "サイト"
+
+#: comments.php:110
+msgid "E-mail"
+msgstr "メールアドレス"
+
+#: comments.php:108
+msgid "Name"
+msgstr "名前"
+
+#: comments.php:89
+msgid "Pings&#47;Trackbacks"
+msgstr "Ping&#47;トラックバック"
+
+#: comments.php:64 comments.php:77
+msgid "Newer comments &#8250;"
+msgstr "新しいコメント &#8250;"
+
+#: comments.php:62 comments.php:75
+msgid "&#8249; Older comments"
+msgstr "&#8249; 古いコメント "
+
+#. translators: 1: title.
+#: comments.php:46
+msgid "One Comment on &ldquo;%1$s&rdquo;"
+msgstr "「%1$s」への1件のコメント"
+
+#: comments.php:31
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "この投稿はパスワードで保護されています。コメントを表示するにはパスワードを入力してください。"
+
+#: partials/page/content.php:15 core/includes/functions-extras.php:132
+#: gutenberg-fullwidth.php:46 image.php:59
+msgid "Read more &#8250;"
+msgstr "続きを読む &#8250;"
+
+#: loop-nav.php:29
+msgid "Newer posts &#8250;"
+msgstr "新しい投稿 &#8250;"
+
+#: loop-nav.php:28
+msgid "&#8249; Older posts"
+msgstr "&#8249; 古い投稿"
+
+#: partials/entry/layout.php:55 partials/page/layout.php:45
+#: partials/single/content.php:38 partials/single/layout.php:60
+#: gutenberg-fullwidth.php:49 image.php:63
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#. Author of the theme
+msgid "CyberChimps"
+msgstr "CyberChimps"
+
+#. Author URI of the theme
+msgid "https://cyberchimps.com"
+msgstr "https://cyberchimps.com"
+
+#. Theme URI of the theme
+msgid "https://cyberchimps.com/responsive/"
+msgstr "https://cyberchimps.com/responsive/"

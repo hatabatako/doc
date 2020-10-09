@@ -1,0 +1,1704 @@
+# Translation of Themes - Cenote in Japanese
+# This file is distributed under the same license as the Themes - Cenote package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-07 06:20:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Cenote\n"
+
+#. Theme Name of the theme
+#: inc/demo-config.php:25
+msgid "Cenote"
+msgstr "Cenote"
+
+#. Translators: 1: Plugin name
+#: inc/admin/tdi-notice.php:53
+msgid "Also, if the purpose of importing the demo via \"%1$s\" plugin is fulfilled, you can simply delete this plugin now."
+msgstr "また、\"%1$s\" プラグインを使用してデモをインポートできた場合は、このプラグインを削除するだけでOKです。"
+
+#: inc/admin/tdi-notice.php:47
+msgid "Update Now"
+msgstr "今すぐ更新"
+
+#: inc/admin/tdi-notice.php:41
+msgid "Action Required"
+msgstr "アクションが必要"
+
+#. Translators: 1: Notice text 2: Plugin Name 3. CTA
+#: inc/admin/tdi-notice.php:40
+msgid "%1$s: Please update \"%2$s\" plugin to latest version to make sure your site is all secure. We released a security patch in the latest version of this plugin. %3$s"
+msgstr "%1$s: 更新してください \"%2$s\" プラグインを最新バージョンにして、サイトのセキュリティを万全にしてください。このプラグインの最新バージョンでは、セキュリティパッチをリリースしました。 %3$s"
+
+#: inc/admin/class-cenote-theme-review-notice.php:108
+msgid "Got theme support question?"
+msgstr "テーマサポートの質問がありますか ?"
+
+#: inc/admin/class-cenote-theme-review-notice.php:102
+msgid "I already did"
+msgstr "レビュー済みです"
+
+#: inc/admin/class-cenote-theme-review-notice.php:97
+msgid "Maybe later"
+msgstr "たぶん後で"
+
+#: inc/admin/class-cenote-theme-review-notice.php:92
+msgid "Sure"
+msgstr "もちろんです"
+
+#. Translators: %1$s current user display name.
+#: inc/admin/class-cenote-theme-review-notice.php:79
+msgid "Howdy, %1$s! It seems that you have been using this theme for more than 15 days. We hope you are happy with everything that the theme has to offer. If you can spare a minute, please help us by leaving a 5-star review on WordPress.org.  By spreading the love, we can continue to develop new amazing features in the future, for free!"
+msgstr "ありがとう、%1$s ! あなたは15日以上このテーマを使っているようです。 あなたがテーマのすべてに満足しているなら幸いです。 もし時間があるのなら、WordPress.org に5つ星のレビューを投稿してください。 愛を広めることによって、私たちは将来も無料で新しい驚くべき機能を開発することができます !"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr "デフォルトブラウザーのフォントファミリー"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr "CSS デフォルト"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:100
+msgid "Download font-family to server instead of using the Google CDN."
+msgstr "Google CDN を使用する代わりに、font-family をサーバーにダウンロードしてください。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:85
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:365
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ推奨プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:79
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:359
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ必須プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:73
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:353
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "利用可能な更新があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:67
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:347
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "このテーマとの最大限の互換性を確保するため、以下のプラグインを最新バージョンに更新する必要があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:61
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:341
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは以下のプラグインを推奨しています: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:55
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマには以下のプラグインが必要です: %1$s。"
+
+#: inc/customizer.php:39
+msgid "View PRO version"
+msgstr "有料版を見る"
+
+#: inc/demo-config.php:33
+msgid "Cenote Tech"
+msgstr "Cenote Tech"
+
+#: inc/customizer/options/options-post-slider.php:30
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer/options/options-post-slider.php:29
+msgid "Latest Post"
+msgstr "最近の投稿"
+
+#: inc/customizer/options/options-post-slider.php:25
+msgid "Category select"
+msgstr "カテゴリーを選択"
+
+#: inc/customizer/options/options-post-slider.php:13
+msgid "Enable post slider"
+msgstr "投稿スライダーを有効化"
+
+#: inc/customizer/options/options-post-ribbon.php:44
+msgid " Display All Category"
+msgstr "すべてのカテゴリーを表示する"
+
+#: inc/customizer/options/options-post-ribbon.php:29
+msgid "Latest"
+msgstr "最新"
+
+#: inc/customizer/options/options-post-ribbon.php:24
+msgid "Category Select"
+msgstr "カテゴリーを選択"
+
+#: inc/customizer/options/options-post-ribbon.php:13
+msgid "Enable Post Ribbon"
+msgstr "投稿リボンを有効化"
+
+#: inc/customizer/kirki-customizer.php:138
+msgid "Post Ribbon"
+msgstr "投稿リボン"
+
+#: inc/customizer/kirki-customizer.php:75
+msgid "Post Slider"
+msgstr "投稿スライダー"
+
+#: inc/customizer/options/options-single.php:41
+#: inc/customizer/options/options-archive.php:52
+msgid "Makes the first letter of the content bigger"
+msgstr "コンテンツの最初の文字を大きく"
+
+#: inc/customizer/options/options-header.php:80
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: inc/customizer/options/options-header.php:50
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: inc/customizer/options/options-header.php:33
+msgid "Contact Info"
+msgstr "連絡先情報"
+
+#: template-parts/related/related-post.php:35
+msgid "Related Posts"
+msgstr "関連投稿"
+
+#: template-parts/pagination/pagination.php:29
+msgid "Previous"
+msgstr "前"
+
+#: template-parts/pagination/pagination.php:28
+msgid "Next"
+msgstr "次"
+
+#: template-parts/pagination/pagination.php:17
+msgid "Posts Navigation"
+msgstr "投稿ナビゲーション"
+
+#: template-parts/footer/search-form.php:14
+msgid "Begin typing your search term above and press enter to search. Press ESC to cancel."
+msgstr "検索語を上に入力し、 Enter キーを押して検索します。キャンセルするには ESC を押してください。"
+
+#. translators: 1: Current Year, 2: Blog Name 3: Theme Developer 4: WordPress.
+#: template-parts/footer/footer-info.php:12
+msgid "Copyright %1$s %2$s All Right Reserved. Theme By %3$s. Proudly powered by %4$s"
+msgstr "Copyright %1$s %2$s All Right Reserved. Theme By %3$s. Proudly powered by %4$s"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:52
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s\" の</span>続きを読む"
+
+#: template-parts/content-single-video.php:48
+#: template-parts/content-single-audio.php:48
+#: template-parts/content-single-link.php:43
+#: template-parts/content-single.php:54
+#: template-parts/content-single-quote.php:21
+#: template-parts/content-single-cover.php:48
+#: template-parts/content-single-gallery.php:64
+#: template-parts/content-page.php:32
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: template-parts/content-none.php:47
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: template-parts/content-link.php:28 template-parts/content-gallery.php:53
+#: template-parts/content.php:68 template-parts/content-audio.php:35
+#: template-parts/content-video.php:35 template-parts/content-quote.php:29
+#: template-parts/content-search.php:34
+msgid "Read More"
+msgstr "続きを読む"
+
+#: template-parts/author/author-box.php:47
+msgid "Posts created"
+msgstr "投稿を作成しました"
+
+#: template-parts/author/author-box.php:40
+msgid "Website"
+msgstr "サイト"
+
+#: single.php:23 template-parts/content-single-cover.php:63
+msgid "Next Article"
+msgstr "次の記事"
+
+#: single.php:22 template-parts/content-single-cover.php:62
+msgid "Previous Article"
+msgstr "前の記事"
+
+#. translators: %s: search query.
+#: search.php:23
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:133
+msgid "Display post date?"
+msgstr "投稿日を表示しますか ?"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:127
+msgid "Number of posts to show:"
+msgstr "表示する投稿数:"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:122
+msgid "Title:"
+msgstr "タイトル:"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:75
+msgid "(no title)"
+msgstr "(タイトルなし)"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:40
+msgid "Recent Posts"
+msgstr "最近の投稿"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:24
+msgid "TG: Recent Posts"
+msgstr "TG: 最新の投稿"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:21
+msgid "Shows recent posts with an image"
+msgstr "画像がある最近の投稿を表示"
+
+#: inc/admin/tdi-notice.php:42 inc/admin/tdi-notice.php:54
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:22
+msgid "ThemeGrill Demo Importer"
+msgstr "ThemeGrill デモインポーター"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3589
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン %1$s をインストール中 (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3587
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+msgid "%1$s installed successfully."
+msgstr "%1$s のインストールを完了しました。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3584
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "更新プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3581
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインをインストール、有効化中 (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3579
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3578
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3578
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3578
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s のインストールと有効化が完了しました。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3576
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールと有効化プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3572
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3570
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "<strong>%2$s</strong>%1$s のインストール中にエラーが発生しました。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3567
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインを更新中 (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3222
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2992
+msgid "No plugins are available to be activated at this time."
+msgstr "現時点で有効化できるプラグインはありません。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2966
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2860
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新できるプラグインはありません。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2858
+msgid "No plugins are available to be installed at this time."
+msgstr "現在インストールできるプラグインはありません。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2817
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2815
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "インストールするプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2784
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2781
+msgid "Update"
+msgstr "更新"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2775
+msgid "Install"
+msgstr "インストール"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2742
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からの更新メッセージ:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2670
+msgid "Activate %2$s"
+msgstr "%2$s 有効化"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2664
+msgid "Update %2$s"
+msgstr "%2$s 更新"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2659
+msgid "Install %2$s"
+msgstr "%2$s インストール"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2609
+msgid "Status"
+msgstr "ステータス"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Version"
+msgstr "バージョン"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2604
+msgid "Type"
+msgstr "タイプ"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Source"
+msgstr "ソース"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2602
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2588
+msgid "No plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能なプラグインがありません。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2565
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Minimum required version:"
+msgstr "最低必須バージョン:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2545
+msgid "Installed version:"
+msgstr "インストール済みバージョン:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2537
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2451
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "未有効化 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2447
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "利用可能な更新 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2443
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "未インストール <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2439
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s、%2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2383
+msgid "Update recommended"
+msgstr "更新が推奨されています"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2380
+msgid "Requires Update"
+msgstr "更新が必要です"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2377
+msgid "Required Update not Available"
+msgstr "必要な更新が利用できません"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2371
+msgid "Active"
+msgstr "有効"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2369
+msgid "Installed But Not Activated"
+msgstr "インストール済み、停止中"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2365
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2347
+msgid "Pre-Packaged"
+msgstr "パッケージ化済み"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2344
+msgid "External Source"
+msgstr "外部ソース"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2341
+msgid "WordPress Repository"
+msgstr "WordPress リポジトリ"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2324
+msgid "Recommended"
+msgstr "推奨"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Required"
+msgstr "必須"
+
+#. translators: %s: version number
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2025
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1138
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3006
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:950
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "リモートプラグインパッケージは複数のファイルで構成されていますが、ファイルが1つのフォルダー内にパッケージされていません。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:944
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:950
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "プラグイン開発者に連絡し、WordPress のガイドラインに従ってプラグインをパッケージ化するように依頼してください。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:944
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "リモートプラグインパッケージには指定されたスラッグのフォルダーがないため、名前の変更ができませんでした。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:531
+msgid "Update Required"
+msgstr "更新が必要です"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:530
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "使用中のテーマとの互換性を保つため、このプラグインを更新する必要があります。"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:117
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:116
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能な必須・推奨プラグインがあります。"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:115
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+msgid "Dismiss this notice"
+msgstr "この通知を非表示"
+
+#. translators: 1: dashboard link.
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:114
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインをインストールし、有効化しました。%1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:112
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "プラグインを有効化できませんでした。このテーマには上位バージョンの %s が必要です。プラグインを更新してください。"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:110
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:391
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効です。"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:108
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:389
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3010
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下のプラグインを有効化しました:"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:107
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3223
+msgid "Plugin activated successfully."
+msgstr "プラグインを有効化しました。"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:836
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2588
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3649
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:106
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインのインストール画面に戻る"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:101
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:96
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:91
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:54
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:53
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新中: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:51
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:331
+msgid "Installing Plugin: %s"
+msgstr "プラグインをインストール中: %s"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:49
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:329
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:48
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+msgid "Install Required Plugins"
+msgstr "必須プラグインをインストール"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:97 template-parts/content-page.php:47
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "編集 <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: post title
+#: inc/template-tags.php:80
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "コメントをどうぞ<span class=\"screen-reader-text\"> (%s)</span>"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:70
+msgid "Tagged: %1$s"
+msgstr "タグ : %1$s"
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:64
+msgid "Category: %1$s"
+msgstr "カテゴリー: %1$s"
+
+#: inc/template-functions.php:91
+msgid "Back To Top"
+msgstr "トップに戻る"
+
+#: inc/meta-boxes.php:36
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: inc/meta-boxes.php:35
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: inc/meta-boxes.php:34
+msgid "Full Width"
+msgstr "全幅"
+
+#: inc/meta-boxes.php:12
+msgid "Choose Layout"
+msgstr "レイアウトを選択"
+
+#: inc/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "重要な更新のお知らせ:"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:231
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:229
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:230
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:228
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:226
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:227
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:225
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:224
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:223
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:221
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:222
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:218
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:216
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:215
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Book 300"
+msgstr "Book 300"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Light 200"
+msgstr "Light 200"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:209
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:210
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#. translators: The title.
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:63
+msgid "Customizing &#9656; %s"
+msgstr "&#9656;「%s」をカスタマイズ中"
+
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:60
+msgid "Customizing"
+msgstr "カスタマイズ中"
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is
+#. buttonset/image.
+#: inc/kirki/field/class-kirki-field-radio.php:37
+msgid "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki v0.8. Use the \"radio-%2$s\" type instead."
+msgstr "%1$s フィールドにエラー。\"mode\" 引数は Kirki v0.8 以降、非推奨となりました。代替として、\"radio-%2$s\" を使用してください。"
+
+#: inc/kirki/field/class-kirki-field-color.php:52
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr "色コントロールのために \"alpha\" を引数として使用しないで下さい。代替として、\"choices[alpha]\" を使用してください。"
+
+#: inc/kirki/deprecated/functions.php:19
+msgid "%1$s or %2$s"
+msgstr "%1$s または %2$s"
+
+#: inc/kirki/core/class-kirki.php:237
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "customize_register にKirki のフィールドを追加しないでください。直接追加するか、または「 init 」に追加してください。"
+
+#: inc/kirki/core/class-kirki-init.php:276
+msgid "We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::get_variables() instead."
+msgstr "Kirki_Init::get_variables() の使用が検出されました。代わりに、Kirki_Util::get_variables() を使用してください。"
+
+#. translators: The field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:498
+#: inc/kirki/core/class-kirki-field.php:509
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "%s フィールドの \"output\" が不正なフォーマットになっています。\"output\" 引数は配列の配列として定義してください。"
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:375
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "%s フィールドの \"partial_refresh\"  が不正な入力となっています。"
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: inc/kirki/core/class-kirki-field.php:257
+#: inc/kirki/core/class-kirki-field.php:267
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "%1$s フィールドの設定が定義されていません。追加方法の詳細は %2$s を参照してください。"
+
+#. translators: %s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:248
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "%s フィールドのタイプミス - settings ではなく setting"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:219
+msgid "Margin Bottom"
+msgstr "下マージン"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:211
+msgid "Margin Top"
+msgstr "マージントップ"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:201
+msgid "Line-Through"
+msgstr "打ち消し線"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:200
+msgid "Overline"
+msgstr "上線"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:199
+msgid "Underline"
+msgstr "下線"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Text Decoration"
+msgstr "テキスト装飾"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:186
+#: inc/kirki/controls/php/class-kirki-control-typography.php:202
+msgid "Initial"
+msgstr "初期設定"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:185
+msgid "Lowercase"
+msgstr "小文字"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:184
+msgid "Uppercase"
+msgstr "大文字"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:183
+msgid "Capitalize"
+msgstr "先頭大文字"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:182
+#: inc/kirki/controls/php/class-kirki-control-typography.php:198
+msgid "None"
+msgstr "なし"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Text Transform"
+msgstr "文字の変形"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:169
+msgid "Justify"
+msgstr "両端揃え"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:145
+#: inc/kirki/controls/php/class-kirki-control-typography.php:187
+#: inc/kirki/controls/php/class-kirki-control-typography.php:203
+msgid "Inherit"
+msgstr "継承"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:140
+msgid "Text Align"
+msgstr "テキストの配置"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr "バリエーション"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr "バックアップフォント"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:83
+#: inc/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr "フォントファミリーを選択"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:56
+#: inc/kirki/field/class-kirki-field-switch.php:40
+msgid "Off"
+msgstr "オフ"
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:52
+#: inc/kirki/field/class-kirki-field-switch.php:39
+msgid "On"
+msgstr "オン"
+
+#: inc/kirki/controls/php/class-kirki-control-slider.php:66
+msgid "Reset"
+msgstr "リセット"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:421
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Change File"
+msgstr "ファイルを変更"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:421
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:425
+msgid "Add File"
+msgstr "ファイルを追加"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:389
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Change Image"
+msgstr "画像の変更"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:389
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:393
+msgid "Add Image"
+msgstr "画像を追加"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:378
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:383
+msgid "No Image Selected"
+msgstr "画像が選択されていません"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:363
+msgid "Hex Value"
+msgstr "16進値"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:229
+msgid "Limit: %s rows"
+msgstr "上限: %s行"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:123
+msgid "Select a Page"
+msgstr "ページを選択"
+
+#. translators: %s represents the label of the row.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:86
+msgid "Add new %s"
+msgstr "新規%sを追加"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr "行"
+
+#: inc/kirki/controls/views/image.php:40
+#: inc/kirki/field/class-kirki-field-image.php:53
+msgid "Choose image"
+msgstr "画像を選択"
+
+#: inc/kirki/controls/views/image.php:38
+#: inc/kirki/field/class-kirki-field-image.php:51
+msgid "No image selected"
+msgstr "画像が選択されていません"
+
+#: inc/kirki/controls/views/image.php:35
+#: inc/kirki/field/class-kirki-field-image.php:48
+msgid "Change image"
+msgstr "画像を変更"
+
+#: inc/kirki/controls/views/image.php:34 inc/kirki/controls/views/image.php:39
+#: inc/kirki/field/class-kirki-field-image.php:47
+#: inc/kirki/field/class-kirki-field-image.php:52
+msgid "Select image"
+msgstr "画像を選択"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr "幅"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr "間隔"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr "高さ"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr "サイズ"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:157
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:133
+msgid "Center"
+msgstr "中央"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:163
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: inc/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr "右"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:151
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: inc/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr "左"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: inc/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr "下"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: inc/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr "上"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:132
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:128
+msgid "Word Spacing"
+msgstr "単語間隔"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:124
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:127
+msgid "Letter Spacing"
+msgstr "文字間隔"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr "フォントスタイル"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:116
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:125
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr "フォントの太さ"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:108
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:123
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: inc/kirki/controls/php/class-kirki-control-dimension.php:39
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr "無効な値"
+
+#: inc/kirki/controls/php/class-kirki-control-code.php:39
+msgid "Please update your WordPress installation to a version newer than 4.9 to access the code control."
+msgstr "コードコントロールにアクセスするには WordPress のバージョンを 4.9 以上のものにアップデートしてください。"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr "標準フォント"
+
+#: inc/meta-boxes.php:37
+#: inc/kirki/controls/php/class-kirki-control-base.php:134
+#: inc/kirki/controls/views/image.php:36
+#: inc/kirki/field/class-kirki-field-image.php:49
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr "固定"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr "スクロール"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr "背景スクロール"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr "自動"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr "画像全体を表示"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr "カバー"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr "背景のサイズ"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:91
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr "中央下"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:90
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr "中央/中央"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:89
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr "中央上"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:88
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr "右下"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:87
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr "右中央"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:86
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr "右上"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:85
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr "左下"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:84
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr "左中央"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:83
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr "左上"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr "背景の位置"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr "縦に繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr "水平方向に繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr "すべて繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr "繰り返しなし"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr "背景の繰り返し"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:63
+#: inc/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr "ファイルを選択"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:62
+#: inc/kirki/controls/php/class-kirki-control-base.php:133
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:388
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:445
+#: inc/kirki/controls/views/image.php:37
+#: inc/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr "削除"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:59
+#: inc/kirki/controls/php/class-kirki-control-base.php:132
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:410
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:415
+msgid "No File Selected"
+msgstr "ファイルが選択されていません"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr "背景画像"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr "背景色"
+
+#: inc/demo-config.php:29
+msgid "Cenote Fashion"
+msgstr "Cenote Fashion"
+
+#: inc/customizer/options/options-typography.php:44
+msgid "Heading"
+msgstr "見出し"
+
+#: inc/customizer/options/options-typography.php:13
+msgid "Body"
+msgstr "本文"
+
+#: inc/customizer/options/options-social.php:58
+msgid "Social Link URL"
+msgstr "ソーシャルリンク URL"
+
+#: inc/customizer/options/options-social.php:53
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer/options/options-social.php:52
+msgid "Yelp"
+msgstr "Yelp"
+
+#: inc/customizer/options/options-social.php:51
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer/options/options-social.php:50
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/options/options-social.php:49
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer/options/options-social.php:48
+msgid "Quora"
+msgstr "Quora"
+
+#: inc/customizer/options/options-social.php:47
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/options/options-social.php:46
+msgid "Medium"
+msgstr "中"
+
+#: inc/customizer/options/options-social.php:45
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer/options/options-social.php:44
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer/options/options-social.php:43
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/customizer/options/options-social.php:42
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/options/options-social.php:41
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/customizer/options/options-social.php:40
+msgid "DeviantArt"
+msgstr "DeviantArt"
+
+#: inc/customizer/options/options-social.php:39
+msgid "Delicious"
+msgstr "Delicious"
+
+#: inc/customizer/options/options-social.php:38
+msgid "CodePen"
+msgstr "CodePen"
+
+#: inc/customizer/options/options-social.php:37
+msgid "Blogger"
+msgstr "Blogger"
+
+#: inc/customizer/options/options-social.php:36
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/customizer/options/options-social.php:32
+msgid "Social Icon"
+msgstr "ソーシャルアイコン"
+
+#: inc/customizer/options/options-social.php:17
+msgid "Social Profile"
+msgstr "ソーシャルプロフィール"
+
+#: inc/customizer/options/options-social.php:11
+msgid "Add Social Profile"
+msgstr "ソーシャルプロフィールを追加"
+
+#: inc/customizer/options/options-single.php:63
+msgid "Enable Related Posts"
+msgstr "関連する投稿を有効化"
+
+#: inc/customizer/options/options-single.php:52
+msgid "Enable Author Box"
+msgstr "著者ボックスを有効化"
+
+#: inc/customizer/options/options-post-ribbon.php:28
+#: inc/customizer/options/options-post-ribbon.php:53
+#: inc/customizer/options/options-single.php:26
+#: inc/customizer/options/options-post-slider.php:52
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: inc/customizer/options/options-single.php:13
+msgid "Single Post Content Order"
+msgstr "個別投稿のコンテンツ順"
+
+#: inc/customizer/options/options-page.php:13
+msgid "Page Content Order"
+msgstr "ページのコンテンツ順"
+
+#: inc/customizer/options/options-layout.php:62
+msgid "Page Layout"
+msgstr "固定ページレイアウト"
+
+#: inc/customizer/options/options-layout.php:45
+msgid "Single Post Layout"
+msgstr "個別投稿のレイアウト"
+
+#: inc/customizer/options/options-layout.php:28
+msgid "Archive/Blog Layout"
+msgstr "アーカイブ / ブログレイアウト"
+
+#: inc/customizer/options/options-layout.php:13
+msgid "Site Layout"
+msgstr "サイト配置"
+
+#: inc/customizer/options/options-header.php:137
+msgid "Enable Search Icon"
+msgstr "検索アイコンを有効化"
+
+#: inc/customizer/options/options-header.php:121
+msgid "Header Layout"
+msgstr "ヘッダーレイアウト"
+
+#: inc/customizer/options/options-header.php:110
+msgid "Enable Sticky Header"
+msgstr "上部固定のヘッダーを有効化"
+
+#: inc/customizer/options/options-header.php:32
+msgid "Menu"
+msgstr "メニュー"
+
+#: inc/customizer/options/options-header.php:24
+msgid "Header Top Item Order"
+msgstr "ヘッダートップの項目順"
+
+#: inc/customizer/options/options-header.php:13
+msgid "Enable Header Top Bar"
+msgstr "ヘッダートップバーを有効化"
+
+#: inc/customizer/options/options-header-media.php:114
+msgid "Button URL"
+msgstr "ボタン URL"
+
+#: inc/customizer/options/options-header-media.php:89
+msgid "Button Text"
+msgstr "ボタンテキスト"
+
+#: inc/customizer/options/options-header-media.php:64
+msgid "Text"
+msgstr "テキスト"
+
+#: inc/customizer/options/options-header-media.php:24
+msgid "Header Media Layout"
+msgstr "ヘッダーメディアレイアウト"
+
+#: inc/customizer/options/options-header-media.php:13
+msgid "Enable media info box"
+msgstr "メディア情報のボックスを有効化"
+
+#: inc/customizer/options/options-footer.php:28
+msgid "Enable Back To Top"
+msgstr "「トップに戻る」を有効化"
+
+#: inc/customizer/options/options-footer.php:13
+msgid "Footer Style"
+msgstr "フッタースタイル"
+
+#: inc/customizer/options/options-color.php:13
+msgid "Primary Color"
+msgstr "メインカラー"
+
+#: inc/customizer/options/options-breadcrumb.php:13
+msgid "Enable Breadcrumbs"
+msgstr "パンくずリストを有効化"
+
+#: inc/customizer/options/options-single.php:29
+#: inc/customizer/options/options-archive.php:78
+#: inc/customizer/options/options-page.php:25
+msgid "Content"
+msgstr "内容"
+
+#: inc/customizer/options/options-single.php:27
+#: inc/customizer/options/options-archive.php:77
+#: inc/customizer/options/options-header-media.php:39
+#: inc/customizer/options/options-page.php:23
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/customizer/options/options-single.php:28
+#: inc/customizer/options/options-archive.php:76
+msgid "Meta Tags"
+msgstr "メタタグ"
+
+#: inc/customizer/options/options-single.php:25
+#: inc/customizer/options/options-archive.php:75
+#: inc/customizer/options/options-page.php:24
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: inc/customizer/options/options-single.php:14
+#: inc/customizer/options/options-social.php:12
+#: inc/customizer/options/options-archive.php:65
+#: inc/customizer/options/options-header.php:25
+#: inc/customizer/options/options-page.php:14
+msgid "Drag & Drop items to re-arrange the order"
+msgstr "項目のドラッグ & ドロップで順番を並べ替える"
+
+#: inc/customizer/options/options-archive.php:64
+msgid "Post Content Order"
+msgstr "投稿コンテンツ順"
+
+#: inc/customizer/options/options-single.php:40
+#: inc/customizer/options/options-archive.php:51
+msgid "Enable Drop Cap"
+msgstr "下付きキャプションを有効化"
+
+#: inc/customizer/options/options-archive.php:34
+msgid "3"
+msgstr "3"
+
+#: inc/customizer/options/options-archive.php:33
+msgid "2"
+msgstr "2"
+
+#: inc/customizer/options/options-archive.php:29
+msgid "Post Column"
+msgstr "投稿カラム"
+
+#: inc/customizer/options/options-archive.php:13
+msgid "Archive/Blog Style"
+msgstr "アーカイブ / ブログスタイル"
+
+#: inc/customizer/kirki-customizer.php:147
+#: inc/customizer/options/options-single.php:30
+#: inc/customizer/options/options-archive.php:79
+#: inc/customizer/options/options-page.php:26
+msgid "Footer"
+msgstr "フッター"
+
+#: inc/customizer/kirki-customizer.php:129
+msgid "Single Post"
+msgstr "個別投稿"
+
+#: inc/customizer/kirki-customizer.php:120
+#: template-parts/pagination/pagination.php:27
+msgid "Page"
+msgstr "固定ページ"
+
+#: inc/customizer/kirki-customizer.php:111
+msgid "Archive/Blog"
+msgstr "アーカイブ / ブログ"
+
+#: inc/customizer/kirki-customizer.php:102
+msgid "Typography"
+msgstr "タイポグラフィ"
+
+#: inc/customizer/kirki-customizer.php:93
+msgid "Layout"
+msgstr "レイアウト"
+
+#: inc/customizer/kirki-customizer.php:84
+msgid "Breadcrumbs"
+msgstr "パンくずリスト"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:227
+#: inc/customizer/kirki-customizer.php:66
+msgid "Color"
+msgstr "色"
+
+#: inc/customizer/kirki-customizer.php:57
+msgid "Header"
+msgstr "ヘッダー"
+
+#: inc/customizer/kirki-customizer.php:48
+msgid "Top Header Bar"
+msgstr "トップヘッダーバー"
+
+#: inc/customizer/kirki-customizer.php:39
+msgid "Social"
+msgstr "ソーシャル"
+
+#: inc/customizer/kirki-customizer.php:32
+msgid "Theme Options"
+msgstr "テーマ設定"
+
+#: inc/compatibility/class-breadcrumb-trail.php:804
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: inc/compatibility/class-breadcrumb-trail.php:776
+#: inc/compatibility/class-breadcrumb-trail.php:1216
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j日"
+
+#: inc/compatibility/class-breadcrumb-trail.php:775
+#: inc/compatibility/class-breadcrumb-trail.php:843
+#: inc/compatibility/class-breadcrumb-trail.php:1214
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "n月"
+
+#: inc/compatibility/class-breadcrumb-trail.php:774
+#: inc/compatibility/class-breadcrumb-trail.php:803
+#: inc/compatibility/class-breadcrumb-trail.php:842
+#: inc/compatibility/class-breadcrumb-trail.php:869
+#: inc/compatibility/class-breadcrumb-trail.php:1212
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: inc/compatibility/class-breadcrumb-trail.php:757
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: inc/compatibility/class-breadcrumb-trail.php:739
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/compatibility/class-breadcrumb-trail.php:721
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/compatibility/class-breadcrumb-trail.php:278
+msgid "Week %s"
+msgstr "%s週"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/compatibility/class-breadcrumb-trail.php:276
+msgid "Minute %s"
+msgstr "%s分"
+
+#. Translators: %s is the page number.
+#: inc/compatibility/class-breadcrumb-trail.php:274
+msgid "Comment Page %s"
+msgstr "コメントページ %s"
+
+#. Translators: %s is the page number.
+#: inc/compatibility/class-breadcrumb-trail.php:272
+msgid "Page %s"
+msgstr "ページ %s"
+
+#. Translators: %s is the search query.
+#: inc/compatibility/class-breadcrumb-trail.php:270
+msgid "Search results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/compatibility/class-breadcrumb-trail.php:268
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: inc/compatibility/class-breadcrumb-trail.php:267
+msgid "404 Not Found"
+msgstr "404: 見つかりませんでした"
+
+#: inc/compatibility/class-breadcrumb-trail.php:266
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/compatibility/class-breadcrumb-trail.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "パンくずリスト"
+
+#: inc/compatibility/class-breadcrumb-trail.php:264
+msgid "Browse:"
+msgstr "続きを読む:"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: functions.php:217
+msgid "Add widgets here to show on footer 4."
+msgstr "ウィジェットを追加してフッター4で表示する"
+
+#: functions.php:215
+msgid "Footer 4"
+msgstr "フッター4"
+
+#: functions.php:207
+msgid "Add widgets here to show on footer 3."
+msgstr "ウィジェットを追加してフッター3で表示する"
+
+#: functions.php:205
+msgid "Footer 3"
+msgstr "フッター3"
+
+#: functions.php:197
+msgid "Add widgets here to show on footer 2."
+msgstr "ウィジェットを追加してフッター2で表示する"
+
+#: functions.php:195
+msgid "Footer 2"
+msgstr "フッター2"
+
+#: functions.php:187
+msgid "Add widgets here to show on footer 1."
+msgstr "ウィジェットを追加してフッター1で表示する"
+
+#: functions.php:185
+msgid "Footer 1"
+msgstr "フッター1"
+
+#: functions.php:177
+msgid "Add widgets here."
+msgstr "ここにウィジェットを追加。"
+
+#: functions.php:175
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:55
+msgid "Header Top"
+msgstr "ヘッダー上"
+
+#: functions.php:54
+msgid "Primary"
+msgstr "メイン"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "「%1$s」への1件のフィードバック"
+
+#: 404.php:22
+msgid "Go back to Home"
+msgstr "ホームに戻る"
+
+#: 404.php:22
+msgid "Try searching or "
+msgstr "検索を試すか、"
+
+#: 404.php:18
+msgid "Sorry, but nothing exists here."
+msgstr "何も見つかりませんでした。"

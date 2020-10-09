@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- 表示サイズ -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CountTimer</title>
+</head>
+<body>
+
+	<div id="app">
+		<p>{{ test }}</p> <!-- HTMLでVueを呼び出したい場合、中括弧2つで呼び出し可能 -->
+		<p>{{ count }}</p>
+		<button v-on:click="countUp()">カウントアップ</button>
+		<button v-on:click="countDown()">カウントダウン</button>
+<!-- 		<button v-on:click="switchFlg()">切り替え</button> -->
+		<button @click="switchFlg()">切り替え</button>
+		<div v-if="flg">
+			<h1>メイン</h1>
+		</div>
+		<div v-if="!flg">
+<!-- 		<div v-else> -->
+			<h1>サブ</h1>			
+		</div>
+	</div>
+
+
+	<!-- Vue.js 導入部 -->
+	<!-- IE対応 -->
+	<script src="https://unpkg.com/es6-promise"></script>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="https://unpkg.com/http-vue-loader"></script>
+
+	<script type="text/javascript">
+		// 変数は、機能名にしてあげるとよいかも
+		var CountTimer = new Vue({ //Vue呼び出し
+			el:'#app', //el:どの要素にVueを適用するか。idを指定するとよい。
+			data:{ //data:HTML側とVue側で共通する変数を指定。キー：Value
+				test:'テスト',
+				count:0,
+				flg:true,
+			},
+			methods:{//methods:関数を作る場所
+				countUp(){
+					this.count++; //グローバル変数のときは、thisをつける
+				},
+				countDown(){
+					this.count--;
+				},
+				switchFlg(){
+					if(this.flg){
+						this.flg = false;
+					}else{
+						this.flg = true;
+					}
+					// this.flg = (this.flg) ? false : true;
+				}
+			},
+		});
+
+
+	</script>
+</body>
+</html>
